@@ -1,0 +1,51 @@
+.bubble_tittle {
+  margin-bottom: 10rem;
+}
+.bubbles {
+  background: url("../../public/images/preventa/bubbbles_background.png")
+    no-repeat;
+  background-size: cover;
+  box-shadow: 0 -10px 20px 1px rgba(0, 0, 0, 0.2);
+  height: 12rem;
+}
+.bubbles_card {
+  position: relative;
+  top: -4.3rem;
+}
+.bubble_text {
+  height: 5rem;
+}
+.bubble_2 {
+  margin-top: 8rem !important;
+}
+
+@media screen and (max-width: 992px) {
+  .hero::after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .bubbles_card {
+    top: -5.9rem;
+  }
+}
+@media screen and (max-width: 768px){
+  .bubble_tittle {
+    margin-bottom: 5rem !important;
+  }
+  .bubbles {
+    height: auto;
+  }
+  .bubble_2 {
+    margin-top: 5rem !important;
+  }
+  .bubbles_card {
+    top: 0;
+  }
+}

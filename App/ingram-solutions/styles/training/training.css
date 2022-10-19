@@ -1,0 +1,57 @@
+.banner_Sec {
+  background-image: url("../../public/images/training/banner_sec.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+.training_bubbles {
+  background: url("../../public/images/preventa/bubbbles_background.png")
+    no-repeat;
+  background-size: cover;
+  box-shadow: 0 -10px 20px 1px rgba(0, 0, 0, 0.2);
+  height: auto;
+  margin-top: 8rem !important;
+}
+.training_bubbles_card {
+  position: relative;
+  top: -4.8rem;
+}
+.training_bubbles_text {
+  height: 10rem;
+}
+@media screen and (max-width: 992px) {
+    .training_bubbles_card {
+      top: -7.8rem;
+    }
+  }
+@media screen and (max-width: 768px) {
+  .banner_Sec {
+    padding: 1rem;
+  }
+  .banner_Sec::after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .banner_Sec p {
+    text-align: center;
+  }
+  .training_bubbles {
+    margin-top: 2rem !important;
+  }
+  .training_bubbles_card {
+    top: 0;
+  }
+  .training_bubbles_text {
+    height: auto;
+  }
+  .training .button_orange button{
+    color: #fff !important;
+  }
+}

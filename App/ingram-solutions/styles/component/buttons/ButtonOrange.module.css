@@ -1,0 +1,14 @@
+.button_orange button {
+  background: transparent !important;
+  border: 2px solid #ff8303 !important;
+}
+.button_orange {
+  color: #212529;
+}
+.button_orange:hover button {
+  background: #ff8303 !important;
+  border: 2px solid #000 !important;
+}
+.button_orange:hover {
+  color: #fff !important;
+}

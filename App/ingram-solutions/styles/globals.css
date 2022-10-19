@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import "./navBar/NavBar.css";
+@import "./home/home.css";
+@import "./footer/footer.css";
+@import "./preventa/preventa.css";
+@import "./training//training.css";
+@import "./financiamiento/financiamiento.css";
+@import "./SolutionCenter/SolutionCenter.css";
+@import "./Iot/Iot.css";
+@import "./serviciosProfecionales/serviciosProfecionales.css";
+:root {
+  --bg-blue: #2276ba;
+  --text-blue: #2276ba;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+.text-blue {
+  color: var(--text-blue) !important;
+}
+.text-white{
+  color: #fff;
+}
+.text-orange {
+  color: #ff8303;
+}
+.text-lightBlue {
+  color: #06baec;
+}
+.text-green {
+  color: #24b115;
+}
+.text-blue {
+  color: #2276ba;
+}
+.bg-violet{
+  background-color: #7359a2;
+}
+.bg-celeste {
+  background: #06baec;
+}
+.bg-orange {
+  background: #ff8303;
+}
+.bg-green {
+  background: #24b115;
+}
+.bg-lightBlue{
+  background: #06baec;
+}
+@media screen and (max-width: 992px) {
+  .text-lg-white {
+    color: #fff !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .text-md-white {
+    color: #fff !important;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.max-width {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    color-scheme: light;
+  }
+  body {
+    color: black;
+    background: white;
+  }
+}

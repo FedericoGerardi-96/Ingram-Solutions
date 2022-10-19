@@ -1,0 +1,59 @@
+.banner_knownSolutions{
+    background-image: url("../../public/images/servicios_profesionales/banner_sec_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.consultative_process{
+    background-image: url("../../public/images/servicios_profesionales/fondo_grafico.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.ProfesionalServices_bubble_tittle {
+    margin-bottom: 10rem;
+  }
+  .ProfesionalServices_bubbles {
+    background: url("../../public/images/solution_center/bg_modal_solutioncenter.png")
+      no-repeat;
+    background-size: cover;
+    box-shadow: 0 -10px 20px 1px rgba(0, 0, 0, 0.2);
+    height: 12rem;
+  }
+  .ProfesionalServices_bubbles_card {
+    position: relative;
+    top: -5.2rem;
+  }
+  .ProfesionalServices_bubble_text {
+    height: 5rem;
+  }
+  .ProfesionalServices_bubble_2 {
+    margin-top: 8rem !important;
+  }
+@media screen and (max-width: 992px) {
+    .banner_knownSolutions::after {
+      background-color: #000;
+      content: "";
+      height: 100%;
+      left: 0;
+      opacity: 0.8;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+    }
+    .ProfesionalServices_bubbles_card {
+        top: -5.9rem;
+      }
+      .ProfesionalServices_bubble_tittle {
+        margin-bottom: 5rem !important;
+      }
+      .ProfesionalServices_bubbles {
+        height: auto;
+      }
+      .ProfesionalServices_bubble_2 {
+        margin-top: 5rem !important;
+      }
+      .ProfesionalServices_bubbles_card {
+        top: 0;
+      }
+
+  }

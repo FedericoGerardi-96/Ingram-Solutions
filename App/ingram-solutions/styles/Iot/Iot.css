@@ -1,0 +1,87 @@
+.iot .button_orange button {
+  font-size: 1rem !important;
+}
+
+.iot_bubble_tittle {
+  margin-bottom: 10rem;
+}
+.iot_bubbles {
+  background: url("../../public/images/solution_center/bg_modal_solutioncenter.png")
+    no-repeat;
+  background-size: cover;
+  box-shadow: 0 -10px 20px 1px rgba(0, 0, 0, 0.2);
+  height: 12rem;
+}
+.iot_bubbles_card {
+  position: relative;
+  top: -4.6rem;
+}
+.iot_bubble_text {
+  height: 5rem;
+}
+.iot_bubble_2 {
+  margin-top: 8rem !important;
+}
+.fondo-gradient {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 60%,
+    rgba(223, 235, 239, 1) 100%
+  );
+}
+.boton-celeste {
+  background: transparent !important;
+  border: 2px solid #0d6efd !important;
+}
+.boton-celeste a{
+  color: #212529;
+}
+.boton-celeste:hover {
+  background: #0d6efd !important;
+  border: 2px solid #000 !important;
+}
+.boton-celeste:hover a{
+  color: #fff !important;
+}
+.boton-naranja {
+  background: transparent !important;
+  border: 2px solid #ff8303 !important;
+}
+.boton-naranja a{
+  color: #212529;
+}
+.boton-naranja:hover {
+  background: #ff8303 !important;
+  border: 2px solid #000 !important;
+}
+.boton-naranja:hover a{
+  color: #fff !important;
+}
+
+.boton-verde {
+  background: transparent !important;
+  border: 2px solid #33b083 !important;
+  color: #212529 !important;
+}
+.boton-verde:hover {
+  background: #33b083 !important;
+  border: 2px solid #000 !important;
+  color: #fff !important;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .iot_bubble_tittle {
+    margin-bottom: 5rem !important;
+  }
+  .iot_bubbles {
+    height: auto;
+  }
+  .iot_bubble_2 {
+    margin-top: 5rem !important;
+  }
+  .iot_bubbles_card {
+    top: 0;
+  }
+}

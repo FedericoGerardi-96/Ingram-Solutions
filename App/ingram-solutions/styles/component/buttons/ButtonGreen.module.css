@@ -1,0 +1,14 @@
+.button_green button {
+  background: transparent !important;
+  border: 2px solid #24b115 !important;
+}
+.button_green {
+  color: #212529;
+}
+.button_green:hover button {
+  background: #24b115 !important;
+  border: 2px solid #000 !important;
+}
+.button_green:hover {
+  color: #fff !important;
+}

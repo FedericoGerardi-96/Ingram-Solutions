@@ -1,0 +1,64 @@
+.SolutionCenter_banner_Sec {
+  background-image: url("../../public/images/solution_center/banner_sec.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+.SolutionsCenter_bubble_tittle {
+  margin-bottom: 10rem;
+}
+.SolutionsCenter_bubbles {
+  background: url("../../public/images/solution_center/bg_modal_solutioncenter.png")
+    no-repeat;
+  background-size: cover;
+  box-shadow: 0 -10px 20px 1px rgba(0, 0, 0, 0.2);
+  height: 12rem;
+}
+.SolutionsCenter_bubbles_card {
+  position: relative;
+  top: -4.4rem;
+}
+.SolutionsCenter_bubble_text {
+  height: 5rem;
+}
+.SolutionsCenter_bubble_2 {
+  margin-top: 8rem !important;
+}
+
+@media screen and (max-width: 992px) {
+  .SolutionsCenter_bubbles_card {
+    top: -5.9rem;
+  }
+  .SolutionsCenter_bubble_tittle {
+    margin-bottom: 5rem !important;
+  }
+  .SolutionsCenter_bubbles {
+    height: auto;
+  }
+  .SolutionsCenter_bubble_2 {
+    margin-top: 5rem !important;
+  }
+  .SolutionsCenter_bubbles_card {
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .SolutionCenter_banner_Sec {
+    padding: 2rem !important;
+  }
+  .SolutionCenter_banner_Sec::after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .solutionCenter .button_orange button{
+    color: #fff !important;
+  }
+}

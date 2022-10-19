@@ -1,0 +1,45 @@
+.financiamiento_banner_Sec{
+  background-image: url("../../public/images/servicios_financieros/banner_sec_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+.bg-tabla-sf {
+  background: url("../../public/images/servicios_financieros/bg_tabla.jpg")
+    no-repeat;
+  background-size: auto;
+  background-size: cover;
+  box-shadow: 0 -10px 20px 1px rgba(0, 0, 0, 0.2);
+}
+.icon_container{
+    top: -4.7rem;
+}
+.financiamiento_banner_Sec4{
+  background-image: url("../../public/images/servicios_financieros/banner-sec-4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+@media screen and (max-width: 768px){
+  .financiamiento_banner_Sec{
+    padding: 2rem !important;
+  }
+  .financiamiento_banner_Sec::after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .financiamiento_banner_Sec4{
+    background-image: none;
+    background-color: #fff !important;
+  }  
+  .financiamiento .button_orange button{
+    color: #fff !important;
+  }
+}

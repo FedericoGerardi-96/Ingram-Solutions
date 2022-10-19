@@ -1,0 +1,49 @@
+.carousel-item span {
+  width: 100vw !important;
+}
+.banner-buttom {
+  background-image: url("../../public/images/banner_bottom_v2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.specialist_solutions {
+  color: #0e2e44;
+  text-align: end;
+  z-index: 99;
+}
+.specialist_orange {
+  color: #ff8303;
+}
+.solutions_blue {
+  color: #2276ba;
+}
+.button-green {
+  color: #212529;
+  background: transparent !important;
+  border: 2px solid #24b115 !important;
+}
+.button-green:hover {
+  color: #fff !important;
+  background: #24b115 !important;
+  border: 2px solid #000 !important;
+}
+@media screen and (max-width: 768px) {
+  .banner-buttom::after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .specialist_solutions {
+    text-align: center;
+  }
+  .home .button_orange button {
+    color: #fff !important;
+  }
+
+}
