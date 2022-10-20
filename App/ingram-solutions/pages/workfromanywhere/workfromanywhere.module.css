@@ -1,0 +1,23 @@
+.wfa_banner_sec {
+  background-image: url("../../public//images/wfa/banner-sec.jpg");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text_bannersec {
+}
+
+@media screen and (max-width: 992px) {
+  .wfa_banner_sec::after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+}

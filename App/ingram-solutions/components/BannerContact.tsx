@@ -1,4 +1,4 @@
-import style from "../styles/component/BannerContact.module.css";
+import style from "../styles/component/BannerContact.module.css"
 
 export const BannerContact = () => {
   return (
@@ -11,7 +11,9 @@ export const BannerContact = () => {
               <h1 className="text-center fw-normal text-lg-white">
                 Acércate a nuestros{" "}
               </h1>
-              <h1 className="text-center fw-bold text-blue mb-4">especialistas</h1>
+              <h1 className="text-center fw-bold text-blue mb-4">
+                especialistas
+              </h1>
               <div className="row mt-3">
                 <div className="col-md-6 col-12  d-flex flex-column justify-content-start align-items-center">
                   <h3 className="text-lg-white fs-5 text-center fw-bold">
@@ -42,5 +44,5 @@ export const BannerContact = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
