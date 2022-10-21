@@ -45,7 +45,7 @@ import {
 } from "../../services/Image-Iot/Image";
 
 const Iot = () => {
-  const herochildren = () => {
+  const Herochildren = () => {
     return (
       <>
         <h5 className="mt-4">
@@ -81,11 +81,9 @@ const Iot = () => {
 
   return (
     <>
-      <Hero
-        children={herochildren()}
-        logo={logo_iot}
-        backgroundUrl={banner_top}
-      />
+      <Hero logo={logo_iot} backgroundUrl={banner_top}>
+        <Herochildren />
+      </Hero>
       <section id="iot__bubbles">
         <div className="mt-5">
           <div className="iot_bubble_tittle">
@@ -521,6 +519,7 @@ const Iot = () => {
                         className="text-decoration-none"
                         href="https://images.LatAm.ingrammicro.com/Web/IngramMicroLATAM/{7716094e-bae9-4d41-bd20-2d4634dcde24}_RealWear_Solutions_Summary.pdf?elqTrackId=5d7d394b474d4bf59ad2da93ad045aeb&amp;elqaid=866&amp;elqat=2"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Descarga PDF RealWear Summary
                       </a>
@@ -623,6 +622,7 @@ const Iot = () => {
                         className="text-decoration-none"
                         href="https://images.LatAm.ingrammicro.com/Web/IngramMicroLATAM/{bcf3b4d8-324c-4e41-ba87-e5b0336b1160}_Why_Partner_with_Cradlepoint.pdf?elqTrackId=872b438c2395489281e6a33de6d08519&elqaid=866&elqat=2"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Descarga PDF Why Partner Cradlepoint
                       </a>
@@ -710,6 +710,7 @@ const Iot = () => {
                         className="text-decoration-none"
                         href="https://images.LatAm.ingrammicro.com/Web/IngramMicroLATAM/{2b7b3176-b257-44d7-81c8-6f89e000327a}_Titan_Digital.pdf?elqTrackId=8d873c7ad9a547569f1174124d0c5d1c&elqaid=866&elqat=2"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Descarga PDF TITAN
                       </a>
@@ -826,6 +827,7 @@ const Iot = () => {
                     className="m-1"
                     href="https://lenovopress.com/lp1069-introducing-the-thinksystem-se350?elqTrackId=397789dd83e6400b812f25047ffd4d0c&amp;elqaid=866&amp;elqat=2"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button className="btn boton-verde-3">Info general</button>
                   </a>{" "}
@@ -833,6 +835,7 @@ const Iot = () => {
                     className="m-1"
                     href="https://www.lenovo.com/us/en/resources/data-center-solutions/case-studies/addfor/?elqTrackId=1e67c4083b854542a04bd474eea799e9&amp;elqaid=866&amp;elqat=2"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button className="btn boton-verde">
                       Casos de estudio
@@ -842,6 +845,7 @@ const Iot = () => {
                     className="m-1"
                     href="https://lenovopress.com/lp1213-thinksystem-se350-video-walkthrough?elqTrackId=9fce4e0d2aca47f08c865137636095a2&amp;elqaid=866&amp;elqat=2"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button className="btn boton-verde">
                       Video (unboxing)
@@ -851,6 +855,7 @@ const Iot = () => {
                     className="m-1"
                     href="https://lenovopress.com/lp1212-3d-tour-thinksystem-se350?elqTrackId=b8d581c42c2c460585e45494a432fd5b&amp;elqaid=866&amp;elqat=2"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button className="btn boton-verde">Tour 3d</button>
                   </a>{" "}
@@ -858,6 +863,7 @@ const Iot = () => {
                     className="m-1"
                     href="https://lenovopress.com/datasheet/ds0088-thinksystem-se350?elqTrackId=3360fa1678db46a68d979a38384736c9&amp;elqaid=866&amp;elqat=2"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button className="btn boton-verde">PDF en español</button>{" "}
                   </a>{" "}
@@ -865,6 +871,7 @@ const Iot = () => {
                     className="m-1"
                     href="https://lenovopress.com/lp1384-lenovo-thinkagile-hx1021-certified-node?elqTrackId=cc573ec4294447a2812a231b43ede846&amp;elqaid=866&amp;elqat=2"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button className="btn boton-verde">
                       Soluciones de HCI con Nutanix

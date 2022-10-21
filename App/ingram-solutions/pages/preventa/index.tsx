@@ -34,7 +34,7 @@ import {
 } from "../../services/images-preventa/images";
 
 const Preventa = () => {
-  const herochildren = () => {
+  const Herochildren = () => {
     return (
       <>
         <h6 className="fs-5 pb-5">
@@ -54,11 +54,9 @@ const Preventa = () => {
 
   return (
     <>
-      <Hero
-        children={herochildren()}
-        logo={logo_preventa}
-        backgroundUrl={banner_top}
-      />
+      <Hero logo={logo_preventa} backgroundUrl={banner_top}>
+        <Herochildren />
+      </Hero>
       <section id="preventa_bubbles">
         <div className="mt-5">
           <div className="bubble_tittle">

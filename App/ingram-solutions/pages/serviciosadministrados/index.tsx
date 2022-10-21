@@ -1,52 +1,53 @@
-import React from "react"
-import { ButtonOrange } from "../../components/buttons/ButtonOrange"
-import { Hero } from "../../components/Hero"
-import styles from "./servicios.module.css"
-import Image from "next/image"
-import logoservicios from "../../public/images/servicios-administrados/logo-servicios-administrados.png"
-import banner_top from "../../public/images/servicios-administrados/banner-top_v2.jpg"
+import React from "react";
+import { ButtonOrange } from "../../components/buttons/ButtonOrange";
+import { Hero } from "../../components/Hero";
+import styles from "./servicios.module.css";
+import Image from "next/image";
+import logoservicios from "../../public/images/servicios-administrados/logo-servicios-administrados.png";
+import banner_top from "../../public/images/servicios-administrados/banner-top_v2.jpg";
 
-import burbuja_1 from "../../public/images/servicios-administrados/burbuja-1.png"
-import burbuja_2 from "../../public/images/servicios-administrados/burbuja-2.png"
-import burbuja_3 from "../../public/images/servicios-administrados/burbuja-3.png"
-import burbuja_4 from "../../public/images/servicios-administrados/burbuja-4.png"
-import burbuja_5 from "../../public/images/servicios-administrados/burbuja-5.png"
-import burbuja_6 from "../../public/images/servicios-administrados/burbuja-6_v2.png"
+import burbuja_1 from "../../public/images/servicios-administrados/burbuja-1.png";
+import burbuja_2 from "../../public/images/servicios-administrados/burbuja-2.png";
+import burbuja_3 from "../../public/images/servicios-administrados/burbuja-3.png";
+import burbuja_4 from "../../public/images/servicios-administrados/burbuja-4.png";
+import burbuja_5 from "../../public/images/servicios-administrados/burbuja-5.png";
+import burbuja_6 from "../../public/images/servicios-administrados/burbuja-6_v2.png";
 
-import titulo_1 from "../../public/images/servicios-administrados/titulo-1.png"
-import titulo_2 from "../../public/images/servicios-administrados/titulo-2_v2.png"
-import titulo_3 from "../../public/images/servicios-administrados/titulo-3.png"
-import titulo_4 from "../../public/images/servicios-administrados/titulo-4.png"
+import titulo_1 from "../../public/images/servicios-administrados/titulo-1.png";
+import titulo_2 from "../../public/images/servicios-administrados/titulo-2_v2.png";
+import titulo_3 from "../../public/images/servicios-administrados/titulo-3.png";
+import titulo_4 from "../../public/images/servicios-administrados/titulo-4.png";
 
-import modal_impresion from "../../public/images/Ultimas/servicios-administrados/impresion.jpg"
-import cibereye from "../../public/images/servicios-administrados/ciber_eye.jpg"
-import cibereye2 from "../../public/images/servicios-administrados/cibereye2.jpg"
-import cibereye3 from "../../public/images/servicios-administrados/cibereye3.jpg"
-import iso from "../../public/images/servicios-administrados/iso.jpg"
+import modal_impresion from "../../public/images/Ultimas/servicios-administrados/impresion.jpg";
+import cibereye from "../../public/images/servicios-administrados/ciber_eye.jpg";
+import cibereye2 from "../../public/images/servicios-administrados/cibereye2.jpg";
+import cibereye3 from "../../public/images/servicios-administrados/cibereye3.jpg";
+import iso from "../../public/images/servicios-administrados/iso.jpg";
 
-import bubble_1 from "../../public/images/servicios-administrados/servicebubble1.png"
-import bubble_2 from "../../public/images/servicios-administrados/servicebubble2.png"
-import bubble_3 from "../../public/images/servicios-administrados/servicebubble3.png"
-import bubble_4 from "../../public/images/servicios-administrados/servicebubble4.png"
-import bubble_5 from "../../public/images/servicios-administrados/servicebubble5.png"
+import bubble_1 from "../../public/images/servicios-administrados/servicebubble1.png";
+import bubble_2 from "../../public/images/servicios-administrados/servicebubble2.png";
+import bubble_3 from "../../public/images/servicios-administrados/servicebubble3.png";
+import bubble_4 from "../../public/images/servicios-administrados/servicebubble4.png";
+import bubble_5 from "../../public/images/servicios-administrados/servicebubble5.png";
 
-import beneficiosingram from "../../public/images/servicios-administrados/beneficiosingram.png"
+import beneficiosingram from "../../public/images/servicios-administrados/beneficiosingram.png";
 
-import beneficiosbubble1 from "../../public/images/servicios-administrados/beneficiosbubble1.png"
-import beneficiosbubble2 from "../../public/images/servicios-administrados/beneficiosbubble2.png"
-import beneficiosbubble3 from "../../public/images/servicios-administrados/beneficiosbubble3.png"
-import beneficiosbubble4 from "../../public/images/servicios-administrados/beneficiosbubble4.png"
-import beneficiosbubble5 from "../../public/images/servicios-administrados/beneficiosbubble5.png"
+import beneficiosbubble1 from "../../public/images/servicios-administrados/beneficiosbubble1.png";
+import beneficiosbubble2 from "../../public/images/servicios-administrados/beneficiosbubble2.png";
+import beneficiosbubble3 from "../../public/images/servicios-administrados/beneficiosbubble3.png";
+import beneficiosbubble4 from "../../public/images/servicios-administrados/beneficiosbubble4.png";
+import beneficiosbubble5 from "../../public/images/servicios-administrados/beneficiosbubble5.png";
 
-import paquetes1 from "../../public/images/servicios-administrados/paquetesimg1.png"
-import paquetes2 from "../../public/images/servicios-administrados/paquetesimg2.png"
-import paquetes3 from "../../public/images/servicios-administrados/paquetesimg3.png"
+import paquetes1 from "../../public/images/servicios-administrados/paquetesimg1.png";
+import paquetes2 from "../../public/images/servicios-administrados/paquetesimg2.png";
+import paquetes3 from "../../public/images/servicios-administrados/paquetesimg3.png";
 
-import modalpaquete1 from "../../public/images/servicios-administrados/modalpaquete1.jpg"
-import modalpaquete2 from "../../public/images/servicios-administrados/modalpaquete2.jpg"
-import modalpaquete3 from "../../public/images/servicios-administrados/modalpaquete3.jpg"
+import modalpaquete1 from "../../public/images/servicios-administrados/modalpaquete1.jpg";
+import modalpaquete2 from "../../public/images/servicios-administrados/modalpaquete2.jpg";
+import modalpaquete3 from "../../public/images/servicios-administrados/modalpaquete3.jpg";
 
-import { BannerContact } from "../../components/BannerContact"
+import { BannerContact } from "../../components/BannerContact";
+import Link from "next/link";
 
 const index = () => {
   return (
@@ -99,10 +100,10 @@ const index = () => {
       <SectionCatalogo />
       <BannerFooter />
     </div>
-  )
-}
+  );
+};
 
-export default index
+export default index;
 
 const Seccion2 = () => {
   return (
@@ -134,13 +135,15 @@ const Seccion2 = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 const Portafolio = () => {
   return (
     <>
-      <div className="bubbles row justify-content-center align-items-center py-lg-0 py-4 px-2 mt-4">
+      <div
+        className={`${styles.bubbles_SerAdm} row justify-content-center align-items-center py-lg-0 py-4 px-2 mt-4`}
+      >
         <div
           className={` bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center mt-3`}
         >
@@ -212,7 +215,7 @@ const Portafolio = () => {
       </div>
 
       <div
-        className="bubbles row justify-content-center align-items-center py-lg-0 py-4 px-2 mt-4"
+        className={`${styles.bubbles_SerAdm_2} row justify-content-center align-items-center py-lg-0 py-4 px-2 mt-4`}
         mt-3
       >
         <div className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center mt-3">
@@ -271,8 +274,8 @@ const Portafolio = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 const Title1 = () => {
   return (
@@ -340,8 +343,8 @@ const Title1 = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 const Title2 = () => {
   return (
     <div className="col-12 ">
@@ -448,13 +451,15 @@ const Title2 = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 const NuestrosServicios = () => {
   return (
     <>
-      <div className="bubbles row justify-content-center align-items-center py-lg-0 py-4 px-2 mt-4">
+      <div
+        className={`${styles.bubbles_SerAdm} row justify-content-center align-items-center py-lg-0 py-4 px-2 mt-4`}
+      >
         <div className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center mt-2 ">
           <Image
             src={bubble_1}
@@ -502,7 +507,9 @@ const NuestrosServicios = () => {
         </div>
       </div>
 
-      <div className="bubbles row justify-content-center align-items-center py-lg-0 py-4 px-2 mt-4">
+      <div
+        className={`${styles.bubbles_SerAdm_2} row justify-content-center align-items-center py-lg-0 py-4 px-2`}
+      >
         <div className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center mt-2">
           <Image
             src={bubble_4}
@@ -534,8 +541,8 @@ const NuestrosServicios = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 const BeneficiosIngram = () => {
   return (
@@ -753,8 +760,8 @@ const BeneficiosIngram = () => {
         </div>
       </article>
     </section>
-  )
-}
+  );
+};
 
 const SectionCatalogo = () => {
   return (
@@ -784,8 +791,8 @@ const SectionCatalogo = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 const BannerFooter = () => {
   return (
@@ -814,22 +821,20 @@ const BannerFooter = () => {
                 <h5 className="fw-bold">
                   Da click para saber más <br /> sobre nuestras soluciones de:
                 </h5>
-                <a
-                  href="https://latam.ingrammicro.com/soluciones-im_ciberseguridad?elqTrackId=a1db98685dde4c139d4dd8683793d71c&amp;elq=00000000000000000000000000000000&amp;elqaid=909&amp;elqat=2&amp;elqCampaignId="
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <button
-                    className={`${styles.button_contact} button-green btn  px-4 fs-3 py-2 mt-3 border border-success text-md-white mb-md-3`}
-                  >
-                    CIBERSEGURIDAD
-                  </button>
-                </a>
+                <Link href="/ciberseguridad">
+                  <a target={"_blank"} rel="noreferrer">
+                    <button
+                      className={`${styles.button_contact} button-green btn  px-4 fs-3 py-2 mt-3 border border-success text-md-white mb-md-3`}
+                    >
+                      CIBERSEGURIDAD
+                    </button>
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
         </div>
       </article>
     </section>
-  )
-}
+  );
+};

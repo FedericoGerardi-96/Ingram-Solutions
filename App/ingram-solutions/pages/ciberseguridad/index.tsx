@@ -81,7 +81,7 @@ const Ciberseguridad = () => {
     sponsor_18,
     sponsor_19,
   ];
-  const herochildren = () => {
+  const Herochildren = () => {
     return (
       <>
         <h2 className="mt-4 ">
@@ -99,11 +99,9 @@ const Ciberseguridad = () => {
   };
   return (
     <>
-      <Hero
-        children={herochildren()}
-        logo={logo_ciber}
-        backgroundUrl={banner_top}
-      />
+      <Hero logo={logo_ciber} backgroundUrl={banner_top}>
+        <Herochildren />
+      </Hero>
       <section className="seccion-segunda">
         <article className="container-fluid my-5">
           <div className="row bg-sec2-ciber shadow">
@@ -687,6 +685,7 @@ const Ciberseguridad = () => {
               <a
                 href="https://latam.ingrammicro.com/LineCard?elqTrackId=d78ee12041584d66831a13ac0bcfd61b&amp;elq=00000000000000000000000000000000&amp;elqaid=901&amp;elqat=2&amp;elqCampaignId="
                 target="_blank"
+                rel="noreferrer"
                 style={{ textDecoration: "none", color: "#333" }}
               >
                 <h2>
@@ -757,6 +756,7 @@ const Ciberseguridad = () => {
                   </h5>
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://solutionsprogram.com.mx?elqTrackId=0965ed9e48f346a486ef297eea430d75&amp;elqaid=901&amp;elqat=2"
                   >
                     <button
@@ -774,9 +774,9 @@ const Ciberseguridad = () => {
       </section>
       <BannerContact
         text="Expande tus oportunidades en Ciberseguridad con Ingram Micro:"
-        href_Button="mailto:videovigilancia.controldeacceso.mx@ingrammicro.com"
-        url="mailto:videovigilancia.controldeacceso.mx@ingrammicro.com"
-        url_Text="videovigilancia.controldeacceso.mx@ingrammicro.com"
+        href_Button="mailto:ciberseguridad.mx@ingrammicro.com"
+        url="mailto:ciberseguridad.mx@ingrammicro.com"
+        url_Text="ciberseguridad.mx@ingrammicro.com"
       />
 
       <section className="pt-5">
@@ -787,6 +787,7 @@ const Ciberseguridad = () => {
             <a
               href="https://www.nist.gov/cyberframework/resources?elqTrackId=a933772744ba424eb5e42ef74148f5d7&amp;elqaid=901&amp;elqat=2"
               target="_blank"
+              rel="noreferrer"
             >
               https://www.nist.gov/cyberframework/resources
             </a>

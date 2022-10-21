@@ -27,7 +27,7 @@ import {
   table,
 } from "../../services/Image-Nube/Image";
 const Nube = () => {
-  const herochildren = () => {
+  const Herochildren = () => {
     return (
       <>
         <h2 className="mt-4">
@@ -46,11 +46,9 @@ const Nube = () => {
   };
   return (
     <>
-      <Hero
-        children={herochildren()}
-        logo={logo_nube}
-        backgroundUrl={bg_topnube}
-      />
+      <Hero logo={logo_nube} backgroundUrl={bg_topnube}>
+        <Herochildren />
+      </Hero>
       <section id="nube_bannerSec">
         <div className="container my-5">
           <div className="row bannerSec_Nube position-relative p-4">
@@ -91,6 +89,7 @@ const Nube = () => {
               <a
                 href="https://app.latam.ingrammicro.com/e/er?s=1099016198&amp;lid=8920&amp;elqTrackId=9ee37dee64e44c87a4113da810a74cdd&amp;elq=00000000000000000000000000000000&amp;elqaid=885&amp;elqat=2"
                 target="_blank"
+                rel="noreferrer"
               >
                 <Image
                   src={solucion_nube_1}
@@ -106,6 +105,7 @@ const Nube = () => {
               <a
                 href="https://images.LatAm.ingrammicro.com/Web/IngramMicroLATAM/{15ce7588-2f1c-4f30-bd80-2f15a6dd5fc8}_soluciones_promoAzure_jun.pdf?elqTrackId=003ada3f81934f91ac529c905af7bad5&amp;elqaid=885&amp;elqat=2"
                 target="_blank"
+                rel="noreferrer"
               >
                 <Image
                   src={solucion_nube_2}

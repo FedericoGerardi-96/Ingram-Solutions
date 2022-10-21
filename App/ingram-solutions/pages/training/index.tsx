@@ -46,7 +46,7 @@ import {
 } from "../../services/Image-training/Image";
 
 const index = () => {
-  const herochildren = () => {
+  const Herochildren = () => {
     return (
       <h1 className="display-3 fw-bold text-blue pb-5">
         Servicios de Entrenamiento
@@ -55,11 +55,9 @@ const index = () => {
   };
   return (
     <>
-      <Hero
-        children={herochildren()}
-        logo={logo_training}
-        backgroundUrl={banner_top}
-      />
+      <Hero logo={logo_training} backgroundUrl={banner_top}>
+        <Herochildren />
+      </Hero>
       <section id="training_ingramMicro_services_banner">
         <div className="container my-5">
           <div className="banner_Sec py-4 position-relative">
@@ -560,6 +558,7 @@ const index = () => {
                 href="https://www.ingrammicrotraining.com/pages/latin-america?elqTrackId=a0b23cdab44e47459b90c6fd89776bb7&amp;elqaid=911&amp;elqat=2"
                 className="text-blue fw-bold"
                 target="_blank"
+                rel="noreferrer"
               >
                 https://www.ingrammicrotraining.com/pages/latin-america
               </a>{" "}

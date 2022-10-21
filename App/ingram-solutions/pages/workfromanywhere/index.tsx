@@ -785,11 +785,11 @@ const Title8 = () => {
                     <tr>
                       <th scope="row">91400XO</th>
                       <td className="text-start">939-001796</td>
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         Logitech TAP para Zoom Room con Lenovo Tiny M920Q
                         <br /> INTELCI7-9700T 8GB 128GB SSD W10 IOT 3YR PREMIER
                       </td>
-                      <td rowSpan="2" className="verde fs-5 fw-bold">
+                      <td rowSpan={2} className="verde fs-5 fw-bold">
                         $41,698.00{" "}
                       </td>
                     </tr>
@@ -823,12 +823,12 @@ const Title8 = () => {
                     <tr>
                       <th scope="row">942028E</th>
                       <td className="text-start">10V50002LS</td>
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         Solución para sala Lenovo ThinkSmart Hub 500
                         <br /> I5-4GB-128G, Windows 10 LOT enterprise 3WY y
                         cámara 4K brio Logitech
                       </td>
-                      <td rowSpan="2" className="verde fs-5 fw-bold">
+                      <td rowSpan={2} className="verde fs-5 fw-bold">
                         $35,423.60
                       </td>
                     </tr>
@@ -862,13 +862,13 @@ const Title8 = () => {
                     <tr>
                       <th scope="row">942028E</th>
                       <td className="text-start">10V50002LS</td>
-                      <td rowSpan="2" className="text-break">
+                      <td rowSpan={2} className="text-break">
                         Solución para sala de 10 personas con Lenovo ThinkSmart
                         Hub 500 I5-4GB-128G, Windows 10 LOT enterprise 3WY y
                         Logitech Rally Solution 1 cámara 4K, 1 bocina, 1
                         micrófono y 2 hubs de conexión.
                       </td>
-                      <td rowSpan="2" className="verde fs-5 fw-bold">
+                      <td rowSpan={2} className="verde fs-5 fw-bold">
                         $68,763.60
                       </td>
                     </tr>
@@ -902,13 +902,13 @@ const Title8 = () => {
                     <tr>
                       <th scope="row">942028E</th>
                       <td className="text-start">10V50002LS</td>
-                      <td rowSpan="2" class="text-break">
+                      <td rowSpan={2} className="text-break">
                         Solución para sala de 16 personas con Lenovo ThinkSmart
                         Hub 500 I5-4GB-128G, Windows 10 LOT enterprise 3WY y
                         Logitech Rally Solution 1 cámara 4K, 2 bocinas, 2
                         micrófono y 2 hubs de conexión.
                       </td>
-                      <td rowSpan="2" class="verde fs-5 fw-bold">
+                      <td rowSpan={2} className="verde fs-5 fw-bold">
                         $79,755.60
                       </td>
                     </tr>
@@ -1213,7 +1213,7 @@ const Title13 = () => {
                     <tr>
                       <th scope="row">A5200QJ</th>
                       <td className="text-start">MYFM2LZ/A</td>
-                      <td rowspan="2">
+                      <td rowSpan={2}>
                         iPad Air Wi‑Fi de 10,9 pulgadas 4a Generación y 64 GB -
                         Gris espacial
                       </td>

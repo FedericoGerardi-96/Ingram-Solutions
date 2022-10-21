@@ -137,7 +137,7 @@ const ServiciosProfesionales = () => {
     sponsor_54,
     sponsor_55,
   ];
-  const herochildren = () => {
+  const Herochildren = () => {
     return (
       <>
         <h5 className="mt-4">
@@ -162,11 +162,9 @@ const ServiciosProfesionales = () => {
   };
   return (
     <>
-      <Hero
-        children={herochildren()}
-        logo={logo_serprof}
-        backgroundUrl={banner_top}
-      />
+      <Hero logo={logo_serprof} backgroundUrl={banner_top}>
+        <Herochildren />
+      </Hero>
       <section id="known_solutions">
         <div className="container my-5">
           <div className="banner_knownSolutions position-relative p-4">
@@ -766,7 +764,7 @@ const ServiciosProfesionales = () => {
                 <br />
                 <b>•</b>Sistemas de respaldo &nbsp; <b>•</b>Sistemas Microsoft
                 &nbsp; <b>•</b>Virtualización &nbsp; <b>•</b>Sistemas
-                hiperconvergentes &nbsp; <b>•</b>DRP's &nbsp; <b>•</b>
+                hiperconvergentes &nbsp; <b>•</b>DRP`&apos;`s &nbsp; <b>•</b>
                 Escritorios virtuales &nbsp; <b>•</b>Sistemas de energía UPS
                 &nbsp; <b>•</b>Aire acondicionado &nbsp; <b>•</b>Mesa de ayuda
                 &nbsp; <b>•</b>Creación de máquinas virtuales &nbsp; <b>•</b>
@@ -797,11 +795,11 @@ const ServiciosProfesionales = () => {
                 <span className="text-orange fw-bold">Networking</span>
                 <br />
                 <b>•</b>Configuración de equipos de red &nbsp; <b>•</b>
-                Creaciones VPN's y gateway &nbsp; <b>•</b>Monitoreo de red
+                Creaciones VPN`&apos;`s y gateway &nbsp; <b>•</b>Monitoreo de red
                 &nbsp; <b>•</b>Site Survey WiFi &nbsp; <b>•</b>Servicios
                 administrados &nbsp; <b>•</b>Mesa de ayuda &nbsp; <b>•</b>
                 Implementación de infraestructura de red &nbsp; <b>•</b>
-                Implementación firewall y UTM's &nbsp; <b>•</b>Configuración MDM
+                Implementación firewall y UTM`&apos;`s &nbsp; <b>•</b>Configuración MDM
                 Meraki &nbsp; <b>•</b>Configuración remota de equipos de red
               </div>
             </div>
@@ -884,7 +882,7 @@ const ServiciosProfesionales = () => {
               <div className="modal-body text-center">
                 <span className="text-violet fw-bold">Ciberseguridad</span>
                 <br />
-                <b>•</b>Configuración &nbsp; <b>•</b>Protección perimetral UTM's
+                <b>•</b>Configuración &nbsp; <b>•</b>Protección perimetral UTM`&apos;`s
                 / firewall &nbsp; <b>•</b>Consolas de gestión central &nbsp;{" "}
                 <b>•</b>End Point &nbsp; <b>•</b>Creación de políticas y reglas
                 &nbsp; <b>•</b>Análisis de vulnerabilidades &nbsp; <b>•</b>

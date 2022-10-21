@@ -14,7 +14,7 @@ import {
 } from "../../services/Image-Financiamiento/Image";
 
 const Financiamiento = () => {
-  const herochildren = () => {
+  const Herochildren = () => {
     return (
       <>
         <h1 className="text-blue fs-3 fw-bold"> Soluciones financieras</h1>
@@ -25,11 +25,9 @@ const Financiamiento = () => {
 
   return (
     <>
-      <Hero
-        children={herochildren()}
-        logo={logo_soluciones_financieras}
-        backgroundUrl={banner_top}
-      />
+      <Hero logo={logo_soluciones_financieras} backgroundUrl={banner_top}>
+        <Herochildren />
+      </Hero>
       <section id="financiamiento_ingramMicro_solutions_banner">
         <div className="container my-5">
           <div className="financiamiento_banner_Sec py-4 position-relative">
@@ -239,6 +237,7 @@ const Financiamiento = () => {
                   <a
                     href="https://ingram.fundary.com/?elqTrackId=025707b89a75499caa92127559a91039&amp;elqaid=872&amp;elqat=2"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <span className="text-blue">FUNDARY</span>
                   </a>

@@ -24,6 +24,7 @@ export const ButtonGreenBlank = ({ text, href = "" }: Props) => {
     <a
       className={`${style.button_green} button_green text-decoration-none`}
       target="_blank"
+      rel="noreferrer"
       href={href}
     >
       <button

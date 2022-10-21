@@ -18,6 +18,7 @@ const Home: NextPage = () => {
             <a
               style={{ cursor: "pointer" }}
               target="_blank"
+              rel="noreferrer" 
               href="https://mx.ingrammicro.com/site/cms?page=2022/IM/IM-220318&elqTrackId=a697ce955fc440658ae22054b098fb97&elqaid=864&elqat=2"
             >
               <Image

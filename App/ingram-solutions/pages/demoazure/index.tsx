@@ -8,7 +8,7 @@ import {
 } from "../../services/Image-demoazure/Image";
 
 const DemoAzure = () => {
-  const herochildren = () => {
+  const Herochildren = () => {
     return (
       <>
         <h2 className="mt-4">
@@ -24,11 +24,9 @@ const DemoAzure = () => {
   };
   return (
     <div>
-      <Hero
-        children={herochildren()}
-        logo={logo_nube}
-        backgroundUrl={banner_top}
-      />
+      <Hero logo={logo_nube} backgroundUrl={banner_top}>
+        <Herochildren />
+      </Hero>
       <section className="seccion-videos">
         <article className="container mt-5">
           <div className="row justify-content-around text-center">
@@ -39,6 +37,7 @@ const DemoAzure = () => {
                   <a
                     href="https://youtu.be/CbbKOHnk2Ow?elqTrackId=7f82cc4a64ed49cbbbd82f9e0e6d89f4&amp;elqaid=896&amp;elqat=2"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <Image
                       src={boton_play}
@@ -59,6 +58,7 @@ const DemoAzure = () => {
                   <a
                     href="https://youtu.be/TABZzf_KPfU?elqTrackId=22b18e1b3bd843819014414f93412af4&amp;elqaid=896&amp;elqat=2"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <Image
                       src={boton_play}
@@ -81,6 +81,7 @@ const DemoAzure = () => {
                   <a
                     href="https://youtu.be/NjkUICXtbfI?elqTrackId=128f2b6b0be34b4b8fbb602087e48c41&amp;elqaid=896&amp;elqat=2"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <Image
                       src={boton_play}
@@ -100,6 +101,7 @@ const DemoAzure = () => {
                   <a
                     href="https://youtu.be/UoUFaugkeQQ?elqTrackId=dd8993bbf24144e9bc3398e037d5b8a0&amp;elqaid=896&amp;elqat=2"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <Image
                       src={boton_play}
@@ -122,6 +124,7 @@ const DemoAzure = () => {
                   <a
                     href="https://youtu.be/MjvpwYV02d4?elqTrackId=ee7d7f4e6e824395b27c75139d1ffe75&amp;elqaid=896&amp;elqat=2"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <Image
                       src={boton_play}

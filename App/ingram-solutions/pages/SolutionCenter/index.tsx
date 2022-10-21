@@ -76,7 +76,7 @@ import {
 } from "../../services/Image-Solution-Center/Image";
 
 const Solution_Center = () => {
-  const herochildren = () => {
+  const Herochildren = () => {
     return (
       <>
         <h1 className="display-4 mt-4 fw-bold text-blue">Solution</h1>
@@ -87,11 +87,9 @@ const Solution_Center = () => {
 
   return (
     <>
-      <Hero
-        children={herochildren()}
-        logo={logo_solutioncenter}
-        backgroundUrl={banner_top}
-      />
+      <Hero logo={logo_solutioncenter} backgroundUrl={banner_top}>
+        <Herochildren />
+      </Hero>
       <section id="SolutionCenter_ingramMicro_solutions_banner">
         <div className="container my-5">
           <div className="SolutionCenter_banner_Sec py-4 position-relative">

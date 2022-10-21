@@ -68,7 +68,7 @@ const DataCenter = () => {
     sponsor_14,
     sponsor_15,
   ];
-  const herochildren = () => {
+  const Herochildren = () => {
     return (
       <>
         <h2 className="mt-5 pb-5">
@@ -80,11 +80,9 @@ const DataCenter = () => {
   };
   return (
     <>
-      <Hero
-        children={herochildren()}
-        logo={logo_datacenter}
-        backgroundUrl={banner_top}
-      />
+      <Hero logo={logo_datacenter} backgroundUrl={banner_top}>
+        <Herochildren />
+      </Hero>
       <section className="dataCenter-banner-2">
         <div className="container position-relative dataCenter_banner_2 py-5 my-5">
           <div className="row">
@@ -828,6 +826,7 @@ const DataCenter = () => {
                   <a
                     href="https://dcsc.lenovo.com/?elqTrackId=5688dc4bf0fc4462ae4db848e3c1fc0c&amp;elqaid=903&amp;elqat=2#/categories/STG%40ON%20DEMAND%20Solutions%40Pivot3"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button className="btn button-orange">
                       Ir a la página

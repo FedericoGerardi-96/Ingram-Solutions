@@ -20,6 +20,7 @@ export const ButtonOrange = ({ text, href = "" }: Props) => {
           <a
             className={`${style.button_orange} button_orange text-decoration-none`}
             target="_blank"
+            rel="noreferrer"
             href={href}
           >
             <button className={`btn fw-bold px-4 fs-3 py-2 mt-3`}>{text}</button>

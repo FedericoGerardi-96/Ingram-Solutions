@@ -58,7 +58,7 @@ const Videovigilancia = () => {
     sponsor_16,
     sponsor_17,
   ];
-  const herochildren = () => {
+  const Herochildren = () => {
     return (
       <>
         <h2 className="mt-4">
@@ -78,10 +78,11 @@ const Videovigilancia = () => {
   return (
     <>
       <Hero
-        children={herochildren()}
         logo={logo_video}
         backgroundUrl={banner_top}
-      />
+      >
+        <Herochildren/>
+      </Hero>
       <section id="videoVigilancia_bannerSec">
         <div className="container my-5">
           <div className="row bannerSec_videoVigilancia position-relative p-4">

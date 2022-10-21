@@ -58,7 +58,7 @@ const DataCapture = () => {
     sponsor_13,
     sponsor_14,
   ];
-  const herochildren = () => {
+  const Herochildren = () => {
     return (
       <>
         <h2 className="mt-4">
@@ -70,11 +70,9 @@ const DataCapture = () => {
   };
   return (
     <>
-      <Hero
-        children={herochildren()}
-        logo={logo_datacapture}
-        backgroundUrl={banner_top}
-      />
+      <Hero logo={logo_datacapture} backgroundUrl={banner_top}>
+        <Herochildren />
+      </Hero>
       <section className="seccion-segunda">
         <article className="container my-5">
           <div className="row bg-sec2-datacapture position-relative shadow bg-sec2-datacapture p-5">
@@ -216,7 +214,7 @@ const DataCapture = () => {
                             <th scope="row">705007Z</th>
                             <td className="text-start">EC-VP-1100-I3-128</td>
                             <td className="text-start">
-                              TERMINAL TS 15" CI3 4GB HD128 SSD BEEZEL FREE WIN
+                              TERMINAL TS 15`&quot;` CI3 4GB HD128 SSD BEEZEL FREE WIN
                               IOT ENT 64
                             </td>
                             <td className="text-start">Ec Line</td>

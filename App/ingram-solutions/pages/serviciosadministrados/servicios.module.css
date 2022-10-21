@@ -40,13 +40,25 @@
   color: #2276ba !important;
 }
 
-/* .button_contact:hover {
-  background-color: #24b115;
-} */
-
+.bubbles_SerAdm_2,
+.bubbles_SerAdm {
+  background: url("../../public/images/servicios-administrados/bubbbles_background.png")
+    no-repeat;
+  background-size: auto;
+  background-size: cover;
+  box-shadow: 0 -10px 20px 1px rgba(0, 0, 0, 0.2);
+  height: auto;
+}
+.bubbles_SerAdm_2{
+  margin-top: 8rem;
+}
 @media screen and (max-width: 768px) {
   .button_contact {
     margin-bottom: 20px;
+  }
+  .bubbles_SerAdm_2{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
 }
 
