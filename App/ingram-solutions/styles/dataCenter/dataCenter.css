@@ -1,0 +1,26 @@
+.dataCenter_banner_2 {
+  background-image: url("../../public/images/datacenter/banner-sec.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+@media screen and (max-width: 768px) {
+  .dataCenter_banner_2 {
+    padding: 2rem !important;
+  }
+  .dataCenter_banner_2::after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .bg-sec2-datacapture .button_orange button{
+    color: #fff !important;
+  }
+}

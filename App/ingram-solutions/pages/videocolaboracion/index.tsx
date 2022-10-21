@@ -67,7 +67,11 @@ const Videocolaboracion = () => {
 
       <SectionSponsor />
 
-      <BannerContact />
+      <BannerContact
+        href_Button="mailto:colaboracion.mx@ingrammicro.com"
+        url="mailto:colaboracion.mx@ingrammicro.com"
+        url_Text="colaboracion.mx@ingrammicro.com"
+      />
 
       <section className="pt-5">
         <article className="container">
@@ -99,7 +103,7 @@ const SectionBannerContact = () => {
             <div className="col-0 col-lg-7"></div>
             <div
               style={{ zIndex: "99" }}
-              className="training col-12 col-lg-5 d-flex flex-column align-items-lg-start align-items-center justify-content-lg-start justify-content-center"
+              className="training position-relative col-12 col-lg-5 d-flex flex-column align-items-lg-start align-items-center justify-content-lg-start justify-content-center"
             >
               <p
                 className={`${styles.text_bannersec} fw-bold text-bold text-lg-white`}
@@ -121,7 +125,7 @@ const SectionBannerContact = () => {
                 plataformas de alta calidad, que permiten el trabajo remoto
                 desde cualquier lugar.
               </p>
-              <div className="text-center mb-4 ">
+              <div className="videoCol text-center mb-4 ">
                 <ButtonOrange
                   text={"Contáctanos"}
                   href={
@@ -361,6 +365,7 @@ const SectionSponsor = () => {
               width="150"
               height="150"
               objectFit="contain"
+              className="p-3"
               alt="sponsor"
             />
             <Image
@@ -368,6 +373,7 @@ const SectionSponsor = () => {
               width="150"
               height="150"
               objectFit="contain"
+              className="p-3"
               alt="sponsor"
             />
             <Image
@@ -375,6 +381,7 @@ const SectionSponsor = () => {
               width="150"
               height="150"
               objectFit="contain"
+              className="p-3"
               alt="sponsor"
             />
             <Image
@@ -382,6 +389,7 @@ const SectionSponsor = () => {
               width="150"
               height="150"
               objectFit="contain"
+              className="p-3"
               alt="sponsor"
             />
             <Image
@@ -389,6 +397,7 @@ const SectionSponsor = () => {
               width="150"
               height="150"
               objectFit="contain"
+              className="p-3"
               alt="sponsor"
             />
             <Image
@@ -396,6 +405,7 @@ const SectionSponsor = () => {
               width="150"
               height="150"
               objectFit="contain"
+              className="p-3"
               alt="sponsor"
             />
             <Image
@@ -403,6 +413,7 @@ const SectionSponsor = () => {
               width="150"
               height="150"
               objectFit="contain"
+              className="p-3"
               alt="sponsor"
             />
             <Image
@@ -410,6 +421,7 @@ const SectionSponsor = () => {
               width="150"
               height="150"
               objectFit="contain"
+              className="p-3"
               alt="sponsor"
             />
             <Image
@@ -417,6 +429,7 @@ const SectionSponsor = () => {
               width="150"
               height="150"
               objectFit="contain"
+              className="p-3"
               alt="sponsor"
             />
             <Image
@@ -424,6 +437,7 @@ const SectionSponsor = () => {
               width="150"
               height="150"
               objectFit="contain"
+              className="p-3"
               alt="sponsor"
             />
             <Image
@@ -431,6 +445,7 @@ const SectionSponsor = () => {
               width="150"
               height="150"
               objectFit="contain"
+              className="p-3"
               alt="sponsor"
             />
             <Image
@@ -438,6 +453,7 @@ const SectionSponsor = () => {
               width="150"
               height="150"
               objectFit="contain"
+              className="p-3"
               alt="sponsor"
             />
             <Image
@@ -445,6 +461,7 @@ const SectionSponsor = () => {
               width="150"
               height="150"
               objectFit="contain"
+              className="p-3"
               alt="sponsor"
             />
             <Image
@@ -452,6 +469,7 @@ const SectionSponsor = () => {
               width="150"
               height="150"
               objectFit="contain"
+              className="p-3"
               alt="sponsor"
             />
             <Image
@@ -459,6 +477,7 @@ const SectionSponsor = () => {
               width="150"
               height="150"
               objectFit="contain"
+              className="p-3"
               alt="sponsor"
             />
           </div>

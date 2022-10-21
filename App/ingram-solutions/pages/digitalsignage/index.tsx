@@ -1,30 +1,29 @@
-import React from "react"
-import Image from "next/image"
-import { Hero } from "../../components/Hero"
-import logodigitalsignage from "../../public/images/digitalsignage/logo-digitalsignage.png"
-import banner_top from "../../public/images/digitalsignage/banner-top.jpg"
-import { ButtonOrange } from "../../components/buttons/ButtonOrange"
+import Image from "next/image";
+import { Hero } from "../../components/Hero";
+import logodigitalsignage from "../../public/images/digitalsignage/logo-digitalsignage.png";
+import banner_top from "../../public/images/digitalsignage/banner-top.jpg";
+import { ButtonOrange } from "../../components/buttons/ButtonOrange";
 
-import tecno1 from "../../public/images/digitalsignage/tecno-1.png"
-import tecno2 from "../../public/images/digitalsignage/tecno-2.png"
-import tecno3 from "../../public/images/digitalsignage/tecno-3.png"
-import tecno4 from "../../public/images/digitalsignage/tecno-4.png"
-import tecno5 from "../../public/images/digitalsignage/tecno-5.png"
-import tecno6 from "../../public/images/digitalsignage/tecno-6.png"
+import tecno1 from "../../public/images/digitalsignage/tecno-1.png";
+import tecno2 from "../../public/images/digitalsignage/tecno-2.png";
+import tecno3 from "../../public/images/digitalsignage/tecno-3.png";
+import tecno4 from "../../public/images/digitalsignage/tecno-4.png";
+import tecno5 from "../../public/images/digitalsignage/tecno-5.png";
+import tecno6 from "../../public/images/digitalsignage/tecno-6.png";
 
-import titulo_1 from "../../public/images/digitalsignage/titulo-1.png"
-import titulo_2 from "../../public/images/Ultimas/digitalsignage/titulo-2.png"
-import titulo_3 from "../../public/images/Ultimas/digitalsignage/titulo-3.png"
-import titulo_4 from "../../public/images/Ultimas/digitalsignage/titulo-4.png"
+import titulo_1 from "../../public/images/digitalsignage/titulo-1.png";
+import titulo_2 from "../../public/images/Ultimas/digitalsignage/titulo-2.png";
+import titulo_3 from "../../public/images/Ultimas/digitalsignage/titulo-3.png";
+import titulo_4 from "../../public/images/Ultimas/digitalsignage/titulo-4.png";
 
-import sponsor_1 from "../../public/images/digitalsignage/sponsor-1.png"
-import sponsor_2 from "../../public/images/digitalsignage/sponsor-2.png"
-import sponsor_3 from "../../public/images/digitalsignage/sponsor-3.png"
-import sponsor_4 from "../../public/images/digitalsignage/sponsor-4.png"
-import sponsor_5 from "../../public/images/digitalsignage/sponsor-5.png"
-import sponsor_6 from "../../public/images/digitalsignage/sponsor-6.png"
-import sponsor_7 from "../../public/images/digitalsignage/sponsor-7.png"
-import { BannerContact } from "../../components/BannerContact"
+import sponsor_1 from "../../public/images/digitalsignage/sponsor-1.png";
+import sponsor_2 from "../../public/images/digitalsignage/sponsor-2.png";
+import sponsor_3 from "../../public/images/digitalsignage/sponsor-3.png";
+import sponsor_4 from "../../public/images/digitalsignage/sponsor-4.png";
+import sponsor_5 from "../../public/images/digitalsignage/sponsor-5.png";
+import sponsor_6 from "../../public/images/digitalsignage/sponsor-6.png";
+import sponsor_7 from "../../public/images/digitalsignage/sponsor-7.png";
+import { BannerContact } from "../../components/BannerContact";
 
 const DigitalSignage = () => {
   return (
@@ -77,7 +76,11 @@ const DigitalSignage = () => {
 
       <SectionSponsor />
 
-      <BannerContact />
+      <BannerContact
+        href_Button="mailto:digitalsignage.mx@ingrammicro.com"
+        url="mailto:digitalsignage.mx@ingrammicro.com"
+        url_Text="digitalsignage.mx@ingrammicro.com"
+      />
 
       <section className="pt-5">
         <article className="container">
@@ -95,10 +98,10 @@ const DigitalSignage = () => {
         </article>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default DigitalSignage
+export default DigitalSignage;
 
 const TecnologiesRows = () => {
   return (
@@ -132,8 +135,8 @@ const TecnologiesRows = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 const Title1 = () => {
   return (
@@ -194,8 +197,8 @@ const Title1 = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 //
 const Title2 = () => {
   return (
@@ -252,8 +255,8 @@ const Title2 = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 const Title3 = () => {
   return (
     <div className="col-12 ">
@@ -304,8 +307,8 @@ const Title3 = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 const Title4 = () => {
   return (
@@ -351,8 +354,8 @@ const Title4 = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 const SectionSponsor = () => {
   return (
@@ -418,5 +421,5 @@ const SectionSponsor = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};

@@ -110,7 +110,11 @@ const index = () => {
         </article>
       </section>
 
-      <BannerContact />
+      <BannerContact
+        href_Button="mailto:networking.mx@ingrammicro.com"
+        url="mailto:networking.mx@ingrammicro.com"
+        url_Text="networking.mx@ingrammicro.com"
+      />
 
       <section className="pt-5">
         <article className="container">

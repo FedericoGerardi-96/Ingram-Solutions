@@ -36,6 +36,20 @@
   top: 10;
 }
 
+.button_catalog:hover a {
+  color: #2276ba !important;
+}
+
+/* .button_contact:hover {
+  background-color: #24b115;
+} */
+
+@media screen and (max-width: 768px) {
+  .button_contact {
+    margin-bottom: 20px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .servicios_banner_sec::after {
     background-color: #000;

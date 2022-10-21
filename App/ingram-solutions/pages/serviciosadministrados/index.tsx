@@ -769,8 +769,13 @@ const SectionCatalogo = () => {
               </p>
             </div>
             <div className="col-sm-3 offset-sm-1">
-              <button className="btn btn-outline-light fw-bold">
-                <a href="#serviciosadministrador">
+              <button
+                className={`${styles.button_catalog} btn btn-outline-light fw-bold`}
+              >
+                <a
+                  href="#serviciosadministrador"
+                  className="text-decoration-none text-white"
+                >
                   Descargar Catálogo de Servicios Administrados
                 </a>
               </button>
@@ -784,12 +789,15 @@ const SectionCatalogo = () => {
 
 const BannerFooter = () => {
   return (
-    <section className="shadow banner-ciber p-0 d-flex align-items-center">
+    <section className="shadow banner-ciber position-relative p-0 d-flex align-items-center">
       <article className="container">
         <div className="row text-center justify-content-center align-items-start">
           <div className="col-md-8 offset-md-2">
-            <div className="row align-items-center mt-4 fw-bold celular">
-              <div className="col-md-6 mb-4">
+            <div
+              className="row align-items-center mt-4 fw-bold celular position-relative text-md-white"
+              style={{ zIndex: "99" }}
+            >
+              <div className="col-md-6 mb-4 ">
                 <h5 className="fw-bold">
                   Contáctanos para acordar <br /> el mejor plan para tu negocio:{" "}
                   <br />
@@ -811,7 +819,9 @@ const BannerFooter = () => {
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <button className="btn  px-4 fs-3 py-2 mt-3 border border-success">
+                  <button
+                    className={`${styles.button_contact} button-green btn  px-4 fs-3 py-2 mt-3 border border-success text-md-white mb-md-3`}
+                  >
                     CIBERSEGURIDAD
                   </button>
                 </a>

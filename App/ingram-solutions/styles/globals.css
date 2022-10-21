@@ -11,6 +11,11 @@
 @import "./nube/nube.css";
 @import "./videovigilancia/videovigilancia.css";
 @import "./ciberseguridad/ciberseguridad.css";
+@import "./dataCenter/dataCenter.css";
+@import "./dataCapture/dataCapture.css";
+@import "./directorio/directorio.css";
+@import "./demoAzure/demoAzure.css";
+
 :root {
   --bg-blue: #2276ba;
   --text-blue: #2276ba;
@@ -62,7 +67,7 @@ body {
   background: #06baec !important;
 }
 .bg-orange {
-  background: #ff8303 !important;
+  background: #ff8303 !important ;
   color: white !important;
 }
 .bg-green {
@@ -83,6 +88,12 @@ body {
 }
 @media screen and (max-width: 992px) {
   .text-lg-white {
+    color: #fff !important;
+  }
+  .text-lg-black {
+    color: #000 !important;
+  }
+  .contactBanner .button-green {
     color: #fff !important;
   }
 }
@@ -133,4 +144,58 @@ a {
 }
 .borde-caja-verde {
   border: 2px solid #44995d;
+}
+.button-lightblue {
+  background: transparent !important;
+  border: 2px solid #06baec !important;
+  color: #212529 !important;
+}
+.button-lightblue:hover {
+  background: #06baec !important;
+  border: 2px solid #000 !important;
+  color: #fff !important;
+}
+.button-orange {
+  background: transparent !important;
+  color: #212529;
+  border: 2px solid #ff8303 !important;
+}
+.button-orange:hover {
+  background: #ff8303 !important;
+  border: 2px solid #000 !important;
+  color: #fff !important;
+}
+.button-green {
+  background: transparent !important;
+  border: 2px solid #33b083 !important;
+  color: #212529 !important;
+}
+.button-green:hover {
+  background: #33b083 !important;
+  border: 2px solid #000 !important;
+  color: #fff !important;
+}
+.button-violet {
+  background: transparent !important;
+  border: 2px solid #7359a2 !important;
+  color: #212529 !important;
+}
+.button-violet:hover {
+  background: #7359a2 !important;
+  border: 2px solid #000 !important;
+  color: #fff !important;
+}
+.button-blue {
+  background: transparent !important;
+  border: 2px solid #2276ba !important;
+  color: #212529 !important;
+}
+.button-blue:hover {
+  background: #2276ba !important;
+  border: 2px solid #000 !important;
+  color: #fff !important;
+}
+
+.videoCol .button_orange button {
+  color: #fff !important;
 }

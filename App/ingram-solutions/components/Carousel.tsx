@@ -128,7 +128,10 @@ export const Carousel = () => {
           ></button>
         </div>
         <div className="carousel-inner">
-          <div style={{ cursor : 'pointer'}} className="carousel-item w-100 active">
+          <div
+            className="carousel-item w-100 active"
+            style={{ cursor: "pointer" }}
+          >
             <Link href="/iot">
               <Image
                 src={home_slide_1}
@@ -138,23 +141,30 @@ export const Carousel = () => {
               />
             </Link>
           </div>
-          <div className="carousel-item w-100">
-            <Image
-              src={home_slide_2}
-              objectFit="cover"
-              className="d-block w-100"
-              alt=""
-            />
+          <div className="carousel-item w-100 " style={{ cursor: "pointer" }}>
+            <Link href="/serviciosProfecionales">
+              <Image
+                src={home_slide_2}
+                objectFit="cover"
+                className="d-block w-100"
+                alt=""
+              />
+            </Link>
           </div>
-          <div className="carousel-item w-100">
-            <Image
-              src={home_slide_3}
-              objectFit="cover"
-              className="d-block w-100"
-              alt=""
-            />
+          <div className="carousel-item w-100 " style={{ cursor: "pointer" }}>
+            <Link href="/videovigilancia">
+              <Image
+                src={home_slide_3}
+                objectFit="cover"
+                className="d-block w-100"
+                alt=""
+              />
+            </Link>
           </div>
-          <div style={{ cursor : 'pointer'}} className="carousel-item w-100 active">
+          <div
+            style={{ cursor: "pointer" }}
+            className="carousel-item w-100 active"
+          >
             <Link href="/financiamiento">
               <Image
                 src={home_slide_4}
@@ -164,101 +174,125 @@ export const Carousel = () => {
               />
             </Link>
           </div>
-          <div className="carousel-item w-100">
-            <Image
-              src={home_slide_5}
-              objectFit="cover"
-              className="d-block w-100"
-              alt=""
-            />
+          <div className="carousel-item w-100 " style={{ cursor: "pointer" }}>
+            <Link href="/nube">
+              <Image
+                src={home_slide_5}
+                objectFit="cover"
+                className="d-block w-100"
+                alt=""
+              />
+            </Link>
           </div>
-          <div className="carousel-item w-100">
-            <Image
-              src={home_slide_6}
-              objectFit="cover"
-              className="d-block w-100"
-              alt=""
-            />
+          <div className="carousel-item w-100 " style={{ cursor: "pointer" }}>
+            <Link href="/ciberseguridad">
+              <Image
+                src={home_slide_6}
+                objectFit="cover"
+                className="d-block w-100"
+                alt=""
+              />
+            </Link>
           </div>
-          <div className="carousel-item w-100">
-            <Image
-              src={home_slide_7}
-              objectFit="cover"
-              className="d-block w-100"
-              alt=""
-            />
+          <div className="carousel-item w-100 " style={{ cursor: "pointer" }}>
+            <Link href="/datacenter">
+              <Image
+                src={home_slide_7}
+                objectFit="cover"
+                className="d-block w-100"
+                alt=""
+              />
+            </Link>
           </div>
-          <div className="carousel-item w-100">
-            <Image
-              src={home_slide_8}
-              objectFit="cover"
-              className="d-block w-100"
-              alt=""
-            />
+          <div className="carousel-item w-100 " style={{ cursor: "pointer" }}>
+            <Link href="/networking">
+              <Image
+                src={home_slide_8}
+                objectFit="cover"
+                className="d-block w-100"
+                alt=""
+              />
+            </Link>
           </div>
-          <div className="carousel-item w-100">
-            <Image
-              src={home_slide_9}
-              objectFit="cover"
-              className="d-block w-100"
-              alt=""
-            />
+          <div className="carousel-item w-100 " style={{ cursor: "pointer" }}>
+            <Link href="/preventa">
+              <Image
+                src={home_slide_9}
+                objectFit="cover"
+                className="d-block w-100"
+                alt=""
+              />
+            </Link>
           </div>
-          <div className="carousel-item w-100">
-            <Image
-              src={home_slide_10}
-              objectFit="cover"
-              className="d-block w-100"
-              alt=""
-            />
+          <div className="carousel-item w-100 " style={{ cursor: "pointer" }}>
+            <Link href="/SolutionCenter">
+              <Image
+                src={home_slide_10}
+                objectFit="cover"
+                className="d-block w-100"
+                alt=""
+              />
+            </Link>
           </div>
-          <div className="carousel-item w-100">
-            <Image
-              src={home_slide_11}
-              objectFit="cover"
-              className="d-block w-100"
-              alt=""
-            />
+          <div className="carousel-item w-100 " style={{ cursor: "pointer" }}>
+            <Link href="/videocolaboracion">
+              <Image
+                src={home_slide_11}
+                objectFit="cover"
+                className="d-block w-100"
+                alt=""
+              />
+            </Link>
           </div>
-          <div className="carousel-item w-100">
-            <Image
-              src={home_slide_12}
-              objectFit="cover"
-              className="d-block w-100"
-              alt=""
-            />
+          <div style={{ cursor: "pointer" }} className="carousel-item w-100">
+            <Link href="/digitalsignage">
+              <Image
+                src={home_slide_12}
+                objectFit="cover"
+                className="d-block w-100"
+                alt=""
+              />
+            </Link>
           </div>
-          <div className="carousel-item w-100">
-            <Image
-              src={home_slide_13}
-              objectFit="cover"
-              className="d-block w-100"
-              alt=""
-            />
+          <div style={{ cursor: "pointer" }} className="carousel-item w-100">
+            <Link href="#">
+              <Image
+                src={home_slide_13}
+                objectFit="cover"
+                className="d-block w-100"
+                alt=""
+              />
+            </Link>
           </div>
-          <div className="carousel-item w-100">
-            <Image
-              src={home_slide_14}
-              objectFit="cover"
-              className="d-block w-100"
-              alt=""
-            />
+          <div style={{ cursor: "pointer" }} className="carousel-item w-100">
+            <Link href="/workfromanywhere">
+              <Image
+                src={home_slide_14}
+                objectFit="cover"
+                className="d-block w-100"
+                alt=""
+              />
+            </Link>
           </div>
-          <div className="carousel-item w-100">
-            <Image
-              src={home_slide_15}
-              objectFit="cover"
-              className="d-block w-100"
-              alt=""
-            />
+          <div className="carousel-item w-100 " style={{ cursor: "pointer" }}>
+            <Link href="/serviciosadministrativos">
+              <Image
+                src={home_slide_15}
+                objectFit="cover"
+                className="d-block w-100"
+                alt=""
+              />
+            </Link>
           </div>
-          <div className="carousel-item w-100">
-            <Image
-              src={home_slide_16}
-              objectFit="cover"
-              className="d-block w-100"
-              alt=""
-            />
+          <div className="carousel-item w-100 " style={{ cursor: "pointer" }}>
+            <Link href="/serviciosProfecionales">
+              <Image
+                src={home_slide_16}
+                objectFit="cover"
+                className="d-block w-100"
+                alt=""
+              />
+            </Link>
           </div>
         </div>
         <button

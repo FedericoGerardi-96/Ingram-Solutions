@@ -5,16 +5,28 @@
   background-repeat: no-repeat;
 }
 
-.text_bannersec {
+.bubbles_Work {
+  background: url("../../public/images/preventa/bubbbles_background.png")
+    no-repeat;
+  background-size: cover;
+  box-shadow: 0 -10px 20px 1px rgba(0, 0, 0, 0.2);
+  height: auto;
+  margin-top: 10rem;
 }
-
+.bubble_work_Card{
+  position: relative;
+  top: -4.1rem;
+}
 @media screen and (max-width: 992px) {
+  .wfa_banner_sec {
+    padding: 2rem;
+  }
   .wfa_banner_sec::after {
     background-color: #000;
     content: "";
     height: 100%;
     left: 0;
-    opacity: 0.3;
+    opacity: 0.5;
     position: absolute;
     top: 0;
     width: 100%;

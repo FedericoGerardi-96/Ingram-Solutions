@@ -102,14 +102,14 @@ export const NavBar = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/videovigilancia">
+                    <Link href="/datacenter">
                       <a className="dropdown-item" href="#">
                         Datacenter
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/videovigilancia">
+                    <Link href="/datacapture">
                       <a className="dropdown-item" href="#">
                         Data Capture
                       </a>

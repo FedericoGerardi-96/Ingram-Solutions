@@ -5,8 +5,22 @@
   background-repeat: no-repeat;
 }
 
-.text_bannersec {
-}
-
-.soluciones_title {
+@media screen and (max-width: 992px){
+  .videocolab_banner_sec {
+    padding: 1rem;
+  }
+  .videocolab_banner_sec::after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .training{
+    z-index: 99;
+  }
 }

@@ -1,64 +1,64 @@
-import React from "react"
-import { Hero } from "../../components/Hero"
-import Image from "next/image"
-import logoworkanywhere from "../../public/images/wfa/logo-wfa.png"
-import titulo_1 from "../../public/images/wfa/titulo-1.png"
-import titulo_2 from "../../public/images/wfa/titulo-2.png"
-import titulo_3 from "../../public/images/Ultimas/wfa/titulo-3.png"
-import titulo_4 from "../../public/images/Ultimas/wfa/titulo-4.png"
-import titulo_5 from "../../public/images/Ultimas/wfa/titulo-5.png"
-import titulo_6 from "../../public/images/wfa/titulo-6.png"
-import titulo_7 from "../../public/images/wfa/titulo-7.png"
-import titulo_8 from "../../public/images/wfa/titulo-8.png"
-import titulo_9 from "../../public/images/wfa/titulo-9.png"
-import titulo_10 from "../../public/images/wfa/titulo-10.png"
-import titulo_11 from "../../public/images/wfa/titulo-11.png"
-import titulo_12 from "../../public/images/wfa/titulo-12.png"
-import titulo_13 from "../../public/images/Ultimas/wfa/titulo-13.png"
-import titulo_14 from "../../public/images/Ultimas/wfa/titulo-14.png"
-import titulo_15 from "../../public/images/Ultimas/wfa/titulo-15.png"
-import titulo_16 from "../../public/images/Ultimas/wfa/titulo-16.png"
-import titulo_17 from "../../public/images/Ultimas/wfa/titulo-17.png"
+import React from "react";
+import { Hero } from "../../components/Hero";
+import Image from "next/image";
+import logoworkanywhere from "../../public/images/wfa/logo-wfa.png";
+import titulo_1 from "../../public/images/wfa/titulo-1.png";
+import titulo_2 from "../../public/images/wfa/titulo-2.png";
+import titulo_3 from "../../public/images/Ultimas/wfa/titulo-3.png";
+import titulo_4 from "../../public/images/Ultimas/wfa/titulo-4.png";
+import titulo_5 from "../../public/images/Ultimas/wfa/titulo-5.png";
+import titulo_6 from "../../public/images/wfa/titulo-6.png";
+import titulo_7 from "../../public/images/wfa/titulo-7.png";
+import titulo_8 from "../../public/images/wfa/titulo-8.png";
+import titulo_9 from "../../public/images/wfa/titulo-9.png";
+import titulo_10 from "../../public/images/wfa/titulo-10.png";
+import titulo_11 from "../../public/images/wfa/titulo-11.png";
+import titulo_12 from "../../public/images/wfa/titulo-12.png";
+import titulo_13 from "../../public/images/Ultimas/wfa/titulo-13.png";
+import titulo_14 from "../../public/images/Ultimas/wfa/titulo-14.png";
+import titulo_15 from "../../public/images/Ultimas/wfa/titulo-15.png";
+import titulo_16 from "../../public/images/Ultimas/wfa/titulo-16.png";
+import titulo_17 from "../../public/images/Ultimas/wfa/titulo-17.png";
 
-import solution1 from "../../public/images/Ultimas/wfa/solucion-1.png"
-import solution2 from "../../public/images/Ultimas/wfa/solucion-2.png"
-import solution3 from "../../public/images/Ultimas/wfa/solucion-3.png"
-import solution4 from "../../public/images/Ultimas/wfa/solucion-4.png"
-import solution5 from "../../public/images/Ultimas/wfa/solucion-5.png"
-import solution6 from "../../public/images/Ultimas/wfa/solucion-6.png"
-import solution7 from "../../public/images/Ultimas/wfa/solucion-7.png"
-import solution8 from "../../public/images/Ultimas/wfa/solucion-8.png"
+import solution1 from "../../public/images/Ultimas/wfa/solucion-1.png";
+import solution2 from "../../public/images/Ultimas/wfa/solucion-2.png";
+import solution3 from "../../public/images/Ultimas/wfa/solucion-3.png";
+import solution4 from "../../public/images/Ultimas/wfa/solucion-4.png";
+import solution5 from "../../public/images/Ultimas/wfa/solucion-5.png";
+import solution6 from "../../public/images/Ultimas/wfa/solucion-6.png";
+import solution7 from "../../public/images/Ultimas/wfa/solucion-7.png";
+import solution8 from "../../public/images/Ultimas/wfa/solucion-8.png";
 
-import burbuja1 from "../../public/images/wfa/burbuja-1.png"
-import burbuja2 from "../../public/images/wfa/burbuja-2.png"
-import burbuja3 from "../../public/images/wfa/burbuja-3.png"
-import burbuja4 from "../../public/images/wfa/burbuja-4.png"
-import burbuja5 from "../../public/images/wfa/burbuja-5.png"
+import burbuja1 from "../../public/images/wfa/burbuja-1.png";
+import burbuja2 from "../../public/images/wfa/burbuja-2.png";
+import burbuja3 from "../../public/images/wfa/burbuja-3.png";
+import burbuja4 from "../../public/images/wfa/burbuja-4.png";
+import burbuja5 from "../../public/images/wfa/burbuja-5.png";
 
-import modal2 from "../../public/images/wfa/modal/modal-2.jpg"
-import modal8 from "../../public/images/wfa/modal/modal-8.jpg"
-import modal10 from "../../public/images/wfa/modal/modal-10.jpg"
-import modal12 from "../../public/images/wfa/modal/modal-12.jpg"
-import modal13 from "../../public/images/wfa/modal/modal-13.jpg"
+import modal2 from "../../public/images/wfa/modal/modal-2.jpg";
+import modal8 from "../../public/images/wfa/modal/modal-8.jpg";
+import modal10 from "../../public/images/wfa/modal/modal-10.jpg";
+import modal12 from "../../public/images/wfa/modal/modal-12.jpg";
+import modal13 from "../../public/images/wfa/modal/modal-13.jpg";
 
-import sponsor_1 from "../../public/images/wfa/sponsor-1.png"
-import sponsor_2 from "../../public/images/wfa/sponsor-2.png"
-import sponsor_3 from "../../public/images/wfa/sponsor-3.png"
-import sponsor_4 from "../../public/images/wfa/sponsor-4.png"
-import sponsor_5 from "../../public/images/wfa/sponsor-5.png"
-import sponsor_6 from "../../public/images/wfa/sponsor-6.png"
-import sponsor_7 from "../../public/images/wfa/sponsor-7.png"
-import sponsor_8 from "../../public/images/wfa/sponsor-8.png"
-import sponsor_9 from "../../public/images/wfa/sponsor-9.png"
-import sponsor_10 from "../../public/images/wfa/sponsor-10.png"
-import sponsor_11 from "../../public/images/wfa/sponsor-11.png"
-import sponsor_12 from "../../public/images/wfa/sponsor-12.png"
+import sponsor_1 from "../../public/images/wfa/sponsor-1.png";
+import sponsor_2 from "../../public/images/wfa/sponsor-2.png";
+import sponsor_3 from "../../public/images/wfa/sponsor-3.png";
+import sponsor_4 from "../../public/images/wfa/sponsor-4.png";
+import sponsor_5 from "../../public/images/wfa/sponsor-5.png";
+import sponsor_6 from "../../public/images/wfa/sponsor-6.png";
+import sponsor_7 from "../../public/images/wfa/sponsor-7.png";
+import sponsor_8 from "../../public/images/wfa/sponsor-8.png";
+import sponsor_9 from "../../public/images/wfa/sponsor-9.png";
+import sponsor_10 from "../../public/images/wfa/sponsor-10.png";
+import sponsor_11 from "../../public/images/wfa/sponsor-11.png";
+import sponsor_12 from "../../public/images/wfa/sponsor-12.png";
 
-import imagen17 from "../../public/images/Ultimas/wfa/imagen-17.jpg"
+import imagen17 from "../../public/images/Ultimas/wfa/imagen-17.jpg";
 
-import banner_top from "../../public/images/wfa/banner-top.jpg"
-import styles from "./workfromanywhere.module.css"
-import { BannerContact } from "../../components/BannerContact"
+import banner_top from "../../public/images/wfa/banner-top.jpg";
+import styles from "./workfromanywhere.module.css";
+import { BannerContact } from "../../components/BannerContact";
 
 const Waf = () => {
   return (
@@ -108,7 +108,11 @@ const Waf = () => {
 
       <SectionSponsor />
 
-      <BannerContact />
+      <BannerContact
+        href_Button="mailto:wfa.mx@ingrammicro.com"
+        url="mailto:wfa.mx@ingrammicro.com"
+        url_Text="wfa.mx@ingrammicro.com"
+      />
 
       <section className="pt-5">
         <article className="container">
@@ -126,10 +130,10 @@ const Waf = () => {
         </article>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Waf
+export default Waf;
 
 const SectionBannerContact = () => {
   return (
@@ -171,8 +175,8 @@ const SectionBannerContact = () => {
         </div>
       </article>
     </section>
-  )
-}
+  );
+};
 
 const SolutionsRows = () => {
   return (
@@ -226,13 +230,13 @@ const SolutionsRows = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 const PrincipalesBeneficiosBurbujas = () => {
   return (
     <article>
-      <div className="container">
+      <div className="">
         <div className="row text-center mb-5 py-1">
           <h3 className="text-blue fw-bold">
             Principales beneficios del trabajo remoto:
@@ -240,36 +244,44 @@ const PrincipalesBeneficiosBurbujas = () => {
           </h3>
         </div>
       </div>
-      <div className="bg-modal-preventa">
-        <div className="row wrapper justify-content-around text-center">
-          <div className="col-md-2">
+      <div className={`${styles.bubbles_Work} bg-modal-preventa`}>
+        <div className="row  wrapper justify-content-around text-center">
+          <div className={`col-lg-2 ${styles.bubble_work_Card}`}>
             <Image
               src={burbuja1}
+              width="150"
+              height="150"
               className="mb-1 img-fluid"
               alt="Comunicaciones más eficientes"
             />
             <p className="fs-5 mt-2 fw-bold ">Comunicaciones más eficientes</p>
           </div>
-          <div className="col-md-2">
+          <div className={`col-lg-2 ${styles.bubble_work_Card}`}>
             <Image
               src={burbuja2}
+              width="150"
+              height="150"
               className="mb-1 img-fluid"
               alt="Aumento en la productividad"
             />
 
             <p className="fs-5 mt-2 fw-bold ">Aumento en la productividad</p>
           </div>
-          <div className="col-md-2">
+          <div className={`col-lg-2 ${styles.bubble_work_Card}`}>
             <Image
               src={burbuja3}
+              width="150"
+              height="150"
               className="mb-1 img-fluid"
               alt="Ahorros en eventos internos"
             />
             <p className="fs-5 mt-2 fw-bold ">Ahorros en eventos internos</p>
           </div>
-          <div className="col-md-2">
+          <div className={`col-lg-2 ${styles.bubble_work_Card}`}>
             <Image
               src={burbuja4}
+              width="150"
+              height="150"
               className="mb-1 img-fluid"
               alt="Mejora en la salud y bienestar de los empleados"
             />
@@ -277,9 +289,11 @@ const PrincipalesBeneficiosBurbujas = () => {
               Mejora en la salud y bienestar de los empleados
             </p>
           </div>
-          <div className="col-md-2">
+          <div className={`col-lg-2 ${styles.bubble_work_Card}`}>
             <Image
               src={burbuja5}
+              width="150"
+              height="150"
               className="mb-1 img-fluid"
               alt=" Mayor opción para la contratación de talento."
             />
@@ -290,14 +304,14 @@ const PrincipalesBeneficiosBurbujas = () => {
           </div>
         </div>
       </div>
-      <div className="text-center mb-4 ">
+      <div className="text-center mb-4 mt-5">
         <a href="mailto:wfa.mx@ingrammicro.com">
           <button className="btn boton-naranja fs-4">Contáctanos</button>
         </a>
       </div>
     </article>
-  )
-}
+  );
+};
 
 const SectionSponsor = () => {
   return (
@@ -312,6 +326,7 @@ const SectionSponsor = () => {
           <div className="col-md-12 text-center">
             <Image
               src={sponsor_1}
+              className="p-3"
               width="150"
               height="150"
               objectFit="contain"
@@ -319,6 +334,7 @@ const SectionSponsor = () => {
             />
             <Image
               src={sponsor_2}
+              className="p-3"
               width="150"
               height="150"
               objectFit="contain"
@@ -326,6 +342,7 @@ const SectionSponsor = () => {
             />
             <Image
               src={sponsor_3}
+              className="p-3"
               width="150"
               height="150"
               objectFit="contain"
@@ -333,6 +350,7 @@ const SectionSponsor = () => {
             />
             <Image
               src={sponsor_4}
+              className="p-3"
               width="150"
               height="150"
               objectFit="contain"
@@ -340,6 +358,7 @@ const SectionSponsor = () => {
             />
             <Image
               src={sponsor_5}
+              className="p-3"
               width="150"
               height="150"
               objectFit="contain"
@@ -347,6 +366,7 @@ const SectionSponsor = () => {
             />
             <Image
               src={sponsor_6}
+              className="p-3"
               width="150"
               height="150"
               objectFit="contain"
@@ -354,6 +374,7 @@ const SectionSponsor = () => {
             />
             <Image
               src={sponsor_7}
+              className="p-3"
               width="150"
               height="150"
               objectFit="contain"
@@ -361,6 +382,7 @@ const SectionSponsor = () => {
             />
             <Image
               src={sponsor_8}
+              className="p-3"
               width="150"
               height="150"
               objectFit="contain"
@@ -368,6 +390,7 @@ const SectionSponsor = () => {
             />
             <Image
               src={sponsor_9}
+              className="p-3"
               width="150"
               height="150"
               objectFit="contain"
@@ -375,6 +398,7 @@ const SectionSponsor = () => {
             />
             <Image
               src={sponsor_10}
+              className="p-3"
               width="150"
               height="150"
               objectFit="contain"
@@ -382,6 +406,7 @@ const SectionSponsor = () => {
             />
             <Image
               src={sponsor_11}
+              className="p-3"
               width="150"
               height="150"
               objectFit="contain"
@@ -389,6 +414,7 @@ const SectionSponsor = () => {
             />
             <Image
               src={sponsor_12}
+              className="p-3"
               width="150"
               height="150"
               objectFit="contain"
@@ -398,8 +424,8 @@ const SectionSponsor = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 //
 
@@ -454,8 +480,8 @@ const Title1 = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 const Title2 = () => {
   return (
@@ -536,8 +562,8 @@ const Title2 = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 const Title3 = () => {
   return (
@@ -564,8 +590,8 @@ const Title3 = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 const Title4 = () => {
   return (
     <div className="col-12 ">
@@ -590,8 +616,8 @@ const Title4 = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 const Title5 = () => {
   return (
     <div className="col-12 ">
@@ -620,8 +646,8 @@ const Title5 = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 const Title6 = () => {
   return (
     <div className="col-12 ">
@@ -647,8 +673,8 @@ const Title6 = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 //
 const Title7 = () => {
@@ -722,8 +748,8 @@ const Title7 = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 //
 const Title8 = () => {
   return (
@@ -891,8 +917,8 @@ const Title8 = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 const Title9 = () => {
   return (
@@ -964,8 +990,8 @@ const Title9 = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 //
 
@@ -999,8 +1025,8 @@ const Title10 = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 //
 const Title11 = () => {
   return (
@@ -1074,8 +1100,8 @@ const Title11 = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 const Title12 = () => {
   return (
     <>
@@ -1148,8 +1174,8 @@ const Title12 = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 //
 const Title13 = () => {
@@ -1197,8 +1223,8 @@ const Title13 = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 //
 const Title14 = () => {
   return (
@@ -1222,8 +1248,8 @@ const Title14 = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 const Title15 = () => {
   return (
     <div className="col-12 ">
@@ -1257,8 +1283,8 @@ const Title15 = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 //
 const Title16 = () => {
@@ -1291,8 +1317,8 @@ const Title16 = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 const Title17 = () => {
   return (
     <div className="col-12 ">
@@ -1334,5 +1360,5 @@ const Title17 = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};

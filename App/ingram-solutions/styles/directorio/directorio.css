@@ -1,0 +1,21 @@
+.seccion-contacto-iot{
+    background-image: url("../../public/images/directorio/banner-contacto.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+@media screen and (max-width: 768px) {
+    .seccion-contacto-iot::after {
+      background-color: #000;
+      content: "";
+      height: 100%;
+      left: 0;
+      opacity: 0.6;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+    }
+
+  }

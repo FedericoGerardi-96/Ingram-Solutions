@@ -40,7 +40,7 @@ export const BannerContact = ({ url, href_Button, url_Text }: Props) => {
                     </a>
                   </h5>
                 </div>
-                <div className={`col-md-6 ${style.border_left}`}>
+                <div className={`contactBanner col-md-6 ${style.border_left}`}>
                   <h3 className="text-lg-white fs-5 text-center fw-bold">
                     Déjanos asesorarte y obtén una evaluación gratuita:
                   </h3>
