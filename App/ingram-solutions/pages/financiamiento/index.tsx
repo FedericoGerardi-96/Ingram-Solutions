@@ -251,6 +251,9 @@ const Financiamiento = () => {
         </div>
       </section>
       <BannerContact
+        text="Expande tus oportunidades
+      de Financiamiento con Ingram Micro:
+      "
         href_Button="mailto:serviciosfinancieros.mx@ingrammicro.com"
         url="mailto:serviciosfinancieros.mx@ingrammicro.com"
         url_Text="serviciosfinancieros.mx@ingrammicro.com"

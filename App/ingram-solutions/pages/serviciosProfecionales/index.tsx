@@ -1092,6 +1092,8 @@ const ServiciosProfesionales = () => {
         </div>
       </section>
       <BannerContact
+        text="Expande tus oportunidades
+      con Servicios Profesionales de Ingram Micro:"
         href_Button="mailto:serviciosprofesionales.mx@ingrammicro.com"
         url="mailto:serviciosprofesionales.mx@ingrammicro.com"
         url_Text="serviciosprofesionales.mx@ingrammicro.com"

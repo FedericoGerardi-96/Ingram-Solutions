@@ -109,6 +109,9 @@ const Waf = () => {
       <SectionSponsor />
 
       <BannerContact
+        text="Expande tus oportunidades de
+      Work From Anywhere con Ingram Micro:
+      "
         href_Button="mailto:wfa.mx@ingrammicro.com"
         url="mailto:wfa.mx@ingrammicro.com"
         url_Text="wfa.mx@ingrammicro.com"

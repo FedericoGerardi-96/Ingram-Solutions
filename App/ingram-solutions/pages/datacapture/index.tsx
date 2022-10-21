@@ -723,6 +723,9 @@ const DataCapture = () => {
         </article>
       </section>
       <BannerContact
+        text="Expande tus oportunidades de
+       AIDC y POS con Ingram Micro:
+       "
         href_Button="mailto:dcpos.mx@ingrammicro.com"
         url="mailto:dcpos.mx@ingrammicro.com"
         url_Text="dcpos.mx@ingrammicro.com"

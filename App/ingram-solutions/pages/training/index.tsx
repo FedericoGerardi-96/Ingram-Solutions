@@ -46,7 +46,6 @@ import {
 } from "../../services/Image-training/Image";
 
 const index = () => {
-
   const herochildren = () => {
     return (
       <h1 className="display-3 fw-bold text-blue pb-5">
@@ -677,6 +676,8 @@ const index = () => {
         </div>
       </section>
       <BannerContact
+        text="Expande tus oportunidades
+      de Servicios de Entrenamiento con Ingram Micro:"
         href_Button="mailto:coe.latam@ingrammicro.com"
         url="mailto:coe.latam@ingrammicro.com"
         url_Text="coe.latam@ingrammicro.com"

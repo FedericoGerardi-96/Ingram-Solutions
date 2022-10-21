@@ -1,27 +1,27 @@
-import React from "react"
+import React from "react";
 import {
   ButtonOrange,
   ButtonOrangeBlank,
-} from "../../components/buttons/ButtonOrange"
-import { Hero } from "../../components/Hero"
-import logonetwork from "../../public/images/networking/logo-networking.png"
-import banner_top from "../../public/images/networking/banner-top.jpg"
-import titulo_1 from "../../public/images/networking/titulo-1.png"
-import titulo_2 from "../../public/images/networking/titulo-2.png"
-import titulo_3 from "../../public/images/networking/titulo-3.png"
-import titulo_4 from "../../public/images/networking/titulo-4.png"
-import titulo_5 from "../../public/images/networking/titulo-5.png"
-import titulo_6 from "../../public/images/networking/titulo-6.png"
-import modal_3 from "../../public/images/networking/modal-3.jpg"
-import modal_4 from "../../public/images/networking/modal-4.jpg"
-import modal_5 from "../../public/images/networking/modal-5.jpg"
-import modal_6 from "../../public/images/networking/modal-6.jpg"
-import sponsor_1 from "../../public/images/networking/sponsor-1.png"
-import sponsor_2 from "../../public/images/networking/sponsor-2.png"
+} from "../../components/buttons/ButtonOrange";
+import { Hero } from "../../components/Hero";
+import logonetwork from "../../public/images/networking/logo-networking.png";
+import banner_top from "../../public/images/networking/banner-top.jpg";
+import titulo_1 from "../../public/images/networking/titulo-1.png";
+import titulo_2 from "../../public/images/networking/titulo-2.png";
+import titulo_3 from "../../public/images/networking/titulo-3.png";
+import titulo_4 from "../../public/images/networking/titulo-4.png";
+import titulo_5 from "../../public/images/networking/titulo-5.png";
+import titulo_6 from "../../public/images/networking/titulo-6.png";
+import modal_3 from "../../public/images/networking/modal-3.jpg";
+import modal_4 from "../../public/images/networking/modal-4.jpg";
+import modal_5 from "../../public/images/networking/modal-5.jpg";
+import modal_6 from "../../public/images/networking/modal-6.jpg";
+import sponsor_1 from "../../public/images/networking/sponsor-1.png";
+import sponsor_2 from "../../public/images/networking/sponsor-2.png";
 
-import styles from "./networking.module.css"
-import Image from "next/image"
-import { BannerContact } from "../../components/BannerContact"
+import styles from "./networking.module.css";
+import Image from "next/image";
+import { BannerContact } from "../../components/BannerContact";
 
 const index = () => {
   return (
@@ -111,6 +111,8 @@ const index = () => {
       </section>
 
       <BannerContact
+        text="Expande tus oportunidades de
+      Work From Anywhere con Ingram Micro:"
         href_Button="mailto:networking.mx@ingrammicro.com"
         url="mailto:networking.mx@ingrammicro.com"
         url_Text="networking.mx@ingrammicro.com"
@@ -132,8 +134,8 @@ const index = () => {
         </article>
       </section>
     </div>
-  )
-}
+  );
+};
 
 const TrabajoRemoto = () => {
   return (
@@ -213,8 +215,8 @@ const TrabajoRemoto = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 const RegresoSeguro = () => {
   return (
@@ -251,8 +253,8 @@ const RegresoSeguro = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 const MyPyme = () => {
   return (
@@ -331,8 +333,8 @@ const MyPyme = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 const WifiHogar = () => {
   return (
@@ -415,8 +417,8 @@ const WifiHogar = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 const RedNubeHogar = () => {
   return (
@@ -443,8 +445,8 @@ const RedNubeHogar = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 const WifiNegocios = () => {
   return (
@@ -515,8 +517,8 @@ const WifiNegocios = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 const RedNubeNegocios = () => {
   return (
@@ -552,8 +554,8 @@ const RedNubeNegocios = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 const WifiEnterprise = () => {
   return (
@@ -626,8 +628,8 @@ const WifiEnterprise = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 const RedNubeHogarBlue = () => {
   return (
@@ -660,7 +662,7 @@ const RedNubeHogarBlue = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default index
+export default index;

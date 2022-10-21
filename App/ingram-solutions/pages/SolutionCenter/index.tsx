@@ -1094,6 +1094,8 @@ const Solution_Center = () => {
         </div>
       </section>
       <BannerContact
+        text="Expande tus oportunidades
+      con Preventa de Ingram Micro:"
         href_Button="mailto:coe.latam@ingrammicro.com"
         url="mailto:coe.latam@ingrammicro.com"
         url_Text="coe.latam@ingrammicro.com"

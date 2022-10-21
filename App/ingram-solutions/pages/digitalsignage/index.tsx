@@ -77,6 +77,8 @@ const DigitalSignage = () => {
       <SectionSponsor />
 
       <BannerContact
+        text="Expande tus oportunidades de
+        Digital Signage con Ingram Micro:"
         href_Button="mailto:digitalsignage.mx@ingrammicro.com"
         url="mailto:digitalsignage.mx@ingrammicro.com"
         url_Text="digitalsignage.mx@ingrammicro.com"
@@ -374,6 +376,7 @@ const SectionSponsor = () => {
               height="150"
               objectFit="contain"
               alt="sponsor"
+              className="p-3"
             />
             <Image
               src={sponsor_2}
@@ -381,6 +384,7 @@ const SectionSponsor = () => {
               height="150"
               objectFit="contain"
               alt="sponsor"
+              className="p-3"
             />
             <Image
               src={sponsor_3}
@@ -388,6 +392,7 @@ const SectionSponsor = () => {
               height="150"
               objectFit="contain"
               alt="sponsor"
+              className="p-3"
             />
             <Image
               src={sponsor_4}
@@ -395,6 +400,7 @@ const SectionSponsor = () => {
               height="150"
               objectFit="contain"
               alt="sponsor"
+              className="p-3"
             />
             <Image
               src={sponsor_5}
@@ -402,6 +408,7 @@ const SectionSponsor = () => {
               height="150"
               objectFit="contain"
               alt="sponsor"
+              className="p-3"
             />
             <Image
               src={sponsor_6}
@@ -409,6 +416,7 @@ const SectionSponsor = () => {
               height="150"
               objectFit="contain"
               alt="sponsor"
+              className="p-3"
             />
             <Image
               src={sponsor_7}
@@ -416,6 +424,7 @@ const SectionSponsor = () => {
               height="150"
               objectFit="contain"
               alt="sponsor"
+              className="p-3"
             />
           </div>
         </div>

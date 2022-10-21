@@ -885,77 +885,77 @@ const Iot = () => {
           </div>
           <div className="row wrapper pb-5">
             <div className="col-md-12 text-center">
-            <Image
+              <Image
                 src={sponsor_1}
                 width="150"
                 height="150"
                 objectFit="contain"
                 alt="sponsor"
               />
-            <Image
+              <Image
                 src={sponsor_2}
                 width="150"
                 height="150"
                 objectFit="contain"
                 alt="sponsor"
               />
-            <Image
+              <Image
                 src={sponsor_3}
                 width="150"
                 height="150"
                 objectFit="contain"
                 alt="sponsor"
               />
-            <Image
+              <Image
                 src={sponsor_4}
                 width="150"
                 height="150"
                 objectFit="contain"
                 alt="sponsor"
               />
-            <Image
+              <Image
                 src={sponsor_5}
                 width="150"
                 height="150"
                 objectFit="contain"
                 alt="sponsor"
               />
-            <Image
+              <Image
                 src={sponsor_6}
                 width="150"
                 height="150"
                 objectFit="contain"
                 alt="sponsor"
               />
-            <Image
+              <Image
                 src={sponsor_7}
                 width="150"
                 height="150"
                 objectFit="contain"
                 alt="sponsor"
               />
-            <Image
+              <Image
                 src={sponsor_8}
                 width="150"
                 height="150"
                 objectFit="contain"
                 alt="sponsor"
               />
-            <Image
+              <Image
                 src={sponsor_9}
                 width="150"
                 height="150"
                 objectFit="contain"
                 alt="sponsor"
               />
-            <Image
+              <Image
                 src={sponsor_10}
                 width="150"
                 height="150"
                 objectFit="contain"
                 alt="sponsor"
               />
-            <Image
+              <Image
                 src={sponsor_11}
                 width="150"
                 height="150"
@@ -967,6 +967,8 @@ const Iot = () => {
         </div>
       </section>
       <BannerContact
+        text="Expande tus oportunidades
+      de IoT con Ingram Micro:"
         href_Button="mailto:IoT.mx@ingrammicro.com"
         url="mailto:IoT.mx@ingrammicro.com"
         url_Text="IoT.mx@ingrammicro.com"

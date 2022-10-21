@@ -1,39 +1,39 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from "react"
-import { Hero } from "../../components/Hero"
-import Image from "next/image"
+import React from "react";
+import { Hero } from "../../components/Hero";
+import Image from "next/image";
 
-import logovideocolab from "../../public/images/video-colaboracion/logo-videocolaboracion.png"
-import titulo_1 from "../../public/images/Ultimas/video-colaboracion/titulo-1.png"
-import titulo_2 from "../../public/images/Ultimas/video-colaboracion/titulo-2.png"
-import titulo_3 from "../../public/images/Ultimas/video-colaboracion/titulo-3.png"
-import titulo_4 from "../../public/images/Ultimas/video-colaboracion/titulo-4.png"
-import img1rooms from "../../public/images/Ultimas/video-colaboracion/img-1.png"
-import img12rooms from "../../public/images/Ultimas/video-colaboracion/img-1.2.png"
-import img2licencia from "../../public/images/Ultimas/video-colaboracion/img-2.jpg"
-import img3 from "../../public/images/Ultimas/video-colaboracion/img-3.jpg"
-import img4 from "../../public/images/Ultimas/video-colaboracion/img-4.png"
+import logovideocolab from "../../public/images/video-colaboracion/logo-videocolaboracion.png";
+import titulo_1 from "../../public/images/Ultimas/video-colaboracion/titulo-1.png";
+import titulo_2 from "../../public/images/Ultimas/video-colaboracion/titulo-2.png";
+import titulo_3 from "../../public/images/Ultimas/video-colaboracion/titulo-3.png";
+import titulo_4 from "../../public/images/Ultimas/video-colaboracion/titulo-4.png";
+import img1rooms from "../../public/images/Ultimas/video-colaboracion/img-1.png";
+import img12rooms from "../../public/images/Ultimas/video-colaboracion/img-1.2.png";
+import img2licencia from "../../public/images/Ultimas/video-colaboracion/img-2.jpg";
+import img3 from "../../public/images/Ultimas/video-colaboracion/img-3.jpg";
+import img4 from "../../public/images/Ultimas/video-colaboracion/img-4.png";
 
-import sponsor_1 from "../../public/images/video-colaboracion/sponsor-1.png"
-import sponsor_2 from "../../public/images/video-colaboracion/sponsor-2.png"
-import sponsor_3 from "../../public/images/video-colaboracion/sponsor-3.png"
-import sponsor_4 from "../../public/images/video-colaboracion/sponsor-4.png"
-import sponsor_5 from "../../public/images/video-colaboracion/sponsor-5.png"
-import sponsor_6 from "../../public/images/video-colaboracion/sponsor-6.png"
-import sponsor_7 from "../../public/images/video-colaboracion/sponsor-7.png"
-import sponsor_8 from "../../public/images/video-colaboracion/sponsor-8.png"
-import sponsor_9 from "../../public/images/video-colaboracion/sponsor-9.png"
-import sponsor_10 from "../../public/images/video-colaboracion/sponsor-10.png"
-import sponsor_11 from "../../public/images/video-colaboracion/sponsor-11.png"
-import sponsor_12 from "../../public/images/video-colaboracion/sponsor-12.png"
-import sponsor_13 from "../../public/images/video-colaboracion/sponsor-13.png"
-import sponsor_14 from "../../public/images/Ultimas/video-colaboracion/sponsor-14.png"
-import sponsor_15 from "../../public/images/Ultimas/video-colaboracion/sponsor-14.png"
+import sponsor_1 from "../../public/images/video-colaboracion/sponsor-1.png";
+import sponsor_2 from "../../public/images/video-colaboracion/sponsor-2.png";
+import sponsor_3 from "../../public/images/video-colaboracion/sponsor-3.png";
+import sponsor_4 from "../../public/images/video-colaboracion/sponsor-4.png";
+import sponsor_5 from "../../public/images/video-colaboracion/sponsor-5.png";
+import sponsor_6 from "../../public/images/video-colaboracion/sponsor-6.png";
+import sponsor_7 from "../../public/images/video-colaboracion/sponsor-7.png";
+import sponsor_8 from "../../public/images/video-colaboracion/sponsor-8.png";
+import sponsor_9 from "../../public/images/video-colaboracion/sponsor-9.png";
+import sponsor_10 from "../../public/images/video-colaboracion/sponsor-10.png";
+import sponsor_11 from "../../public/images/video-colaboracion/sponsor-11.png";
+import sponsor_12 from "../../public/images/video-colaboracion/sponsor-12.png";
+import sponsor_13 from "../../public/images/video-colaboracion/sponsor-13.png";
+import sponsor_14 from "../../public/images/Ultimas/video-colaboracion/sponsor-14.png";
+import sponsor_15 from "../../public/images/Ultimas/video-colaboracion/sponsor-14.png";
 
-import banner_top from "../../public/images/video-colaboracion/banner-top.jpg"
-import styles from "./videocolab.module.css"
-import { ButtonOrange } from "../../components/buttons/ButtonOrange"
-import { BannerContact } from "../../components/BannerContact"
+import banner_top from "../../public/images/video-colaboracion/banner-top.jpg";
+import styles from "./videocolab.module.css";
+import { ButtonOrange } from "../../components/buttons/ButtonOrange";
+import { BannerContact } from "../../components/BannerContact";
 
 const Videocolaboracion = () => {
   return (
@@ -68,6 +68,8 @@ const Videocolaboracion = () => {
       <SectionSponsor />
 
       <BannerContact
+        text="Expande tus oportunidades de
+      Video colaboración con Ingram Micro:"
         href_Button="mailto:colaboracion.mx@ingrammicro.com"
         url="mailto:colaboracion.mx@ingrammicro.com"
         url_Text="colaboracion.mx@ingrammicro.com"
@@ -89,8 +91,8 @@ const Videocolaboracion = () => {
         </article>
       </section>
     </>
-  )
-}
+  );
+};
 
 const SectionBannerContact = () => {
   return (
@@ -138,8 +140,8 @@ const SectionBannerContact = () => {
         </div>
       </article>
     </section>
-  )
-}
+  );
+};
 
 const RoomSolutions = () => {
   return (
@@ -206,8 +208,8 @@ const RoomSolutions = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 const LicenciaMicrosoft = () => {
   return (
@@ -254,8 +256,8 @@ const LicenciaMicrosoft = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 const Solucionclaseshibridas = () => {
   return (
@@ -299,8 +301,8 @@ const Solucionclaseshibridas = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 const SolucionInalambrica = () => {
   return (
     <div className="col-12 ">
@@ -346,8 +348,8 @@ const SolucionInalambrica = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 const SectionSponsor = () => {
   return (
@@ -484,7 +486,7 @@ const SectionSponsor = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Videocolaboracion
+export default Videocolaboracion;

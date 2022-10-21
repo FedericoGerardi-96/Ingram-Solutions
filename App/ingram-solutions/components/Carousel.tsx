@@ -255,7 +255,7 @@ export const Carousel = () => {
             </Link>
           </div>
           <div style={{ cursor: "pointer" }} className="carousel-item w-100">
-            <Link href="#">
+            <Link href="/datacapture">
               <Image
                 src={home_slide_13}
                 objectFit="cover"

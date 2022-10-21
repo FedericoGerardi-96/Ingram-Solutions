@@ -1,12 +1,13 @@
-import style from "../styles/component/BannerContact.module.css"
+import style from "../styles/component/BannerContact.module.css";
 
 interface Props {
-  url: string
-  url_Text: string
-  href_Button: string
+  url: string;
+  url_Text: string;
+  href_Button: string;
+  text: string;
 }
 
-export const BannerContact = ({ url, href_Button, url_Text }: Props) => {
+export const BannerContact = ({ url, href_Button, url_Text, text }: Props) => {
   return (
     <section id="BannerContact">
       <div className={`${style.specialist_banner} position-relative`}>
@@ -27,7 +28,7 @@ export const BannerContact = ({ url, href_Button, url_Text }: Props) => {
                   <h5
                     className={`text-lg-white fw-bold ${style.text_contact} text-break`}
                   >
-                    Expande tus oportunidades con Preventa de Ingram Micro:
+                    {text}
                     <br />
                     <br />
                     <a
@@ -56,5 +57,5 @@ export const BannerContact = ({ url, href_Button, url_Text }: Props) => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};

@@ -1,7 +1,7 @@
-import Image from "next/image"
-import { BannerContact } from "../../components/BannerContact"
-import { ButtonOrange } from "../../components/buttons/ButtonOrange"
-import { Hero } from "../../components/Hero"
+import Image from "next/image";
+import { BannerContact } from "../../components/BannerContact";
+import { ButtonOrange } from "../../components/buttons/ButtonOrange";
+import { Hero } from "../../components/Hero";
 import {
   item_4_1,
   item_4_2,
@@ -41,14 +41,14 @@ import {
   modal_geografia,
   modal_7_logo,
   modal_7_productos,
-} from "../../services/Image-DataCenter/Image"
+} from "../../services/Image-DataCenter/Image";
 
-import Modal_1 from "../../public/images/datacenter/modal_1.jpg"
-import Modal_2 from "../../public/images/datacenter/modal_2.jpg"
-import Modal_3 from "../../public/images/datacenter/modal_3.jpg"
-import Modal_5 from "../../public/images/datacenter/modal_5.jpg"
-import Modal_6 from "../../public/images/datacenter/modal_6.jpg"
-import Modal_8 from "../../public/images/datacenter/modal_8.jpg"
+import Modal_1 from "../../public/images/datacenter/modal_1.jpg";
+import Modal_2 from "../../public/images/datacenter/modal_2.jpg";
+import Modal_3 from "../../public/images/datacenter/modal_3.jpg";
+import Modal_5 from "../../public/images/datacenter/modal_5.jpg";
+import Modal_6 from "../../public/images/datacenter/modal_6.jpg";
+import Modal_8 from "../../public/images/datacenter/modal_8.jpg";
 
 const DataCenter = () => {
   const Sponsors = [
@@ -67,7 +67,7 @@ const DataCenter = () => {
     sponsor_13,
     sponsor_14,
     sponsor_15,
-  ]
+  ];
   const herochildren = () => {
     return (
       <>
@@ -76,8 +76,8 @@ const DataCenter = () => {
           <span className="fw-bold text-blue">DATA CENTER</span>
         </h2>
       </>
-    )
-  }
+    );
+  };
   return (
     <>
       <Hero
@@ -899,6 +899,8 @@ const DataCenter = () => {
         </article>
       </section>
       <BannerContact
+        text="Expande tus oportunidades de
+      Datacenter con Ingram Micro:"
         href_Button="mailto:serviciosfinancieros.mx@ingrammicro.com"
         url="mailto:serviciosfinancieros.mx@ingrammicro.com"
         url_Text="serviciosfinancieros.mx@ingrammicro.com"
@@ -923,7 +925,7 @@ const DataCenter = () => {
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default DataCenter
+export default DataCenter;

@@ -597,6 +597,9 @@ const Videovigilancia = () => {
         </div>
       </section>
       <BannerContact
+        text="Expande tus oportunidades de
+      Videovigilancia y Control de Acceso con Ingram Micro:
+      "
         href_Button="mailto:videovigilancia.controldeacceso.mx@ingrammicro.com"
         url="mailto:videovigilancia.controldeacceso.mx@ingrammicro.com"
         url_Text="videovigilancia.controldeacceso.mx@ingrammicro.com"

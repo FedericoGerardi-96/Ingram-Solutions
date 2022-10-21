@@ -773,6 +773,7 @@ const Ciberseguridad = () => {
         </article>
       </section>
       <BannerContact
+        text="Expande tus oportunidades en Ciberseguridad con Ingram Micro:"
         href_Button="mailto:videovigilancia.controldeacceso.mx@ingrammicro.com"
         url="mailto:videovigilancia.controldeacceso.mx@ingrammicro.com"
         url_Text="videovigilancia.controldeacceso.mx@ingrammicro.com"

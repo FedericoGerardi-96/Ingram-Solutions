@@ -612,6 +612,7 @@ const Nube = () => {
         </div>
       </section>
       <BannerContact
+        text="Crece tu infraestructura en la nube con Ingram Micro:"
         href_Button="mailto:IAAS.mx@ingrammicro.com"
         url="mailto:IAAS.mx@ingrammicro.com"
         url_Text="IAAS.mx@ingrammicro.com"
