@@ -106,9 +106,11 @@ export const NavBar = () => {
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Servicios Administrados
-                    </a>
+                    <Link href="/serviciosadministrados">
+                      <a className="dropdown-item" href="#">
+                        Servicios Administrados
+                      </a>
+                    </Link>
                   </li>
                   <li>
                     <Link href="/digitalsignage">

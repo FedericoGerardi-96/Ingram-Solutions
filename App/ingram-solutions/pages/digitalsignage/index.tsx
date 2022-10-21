@@ -144,6 +144,7 @@ const Title1 = () => {
           objectFit="contain"
           className="img-fluid"
           alt="sponsor"
+          layout="responsive"
         />
         <div className="card-body fondo-gradient shadow">
           <div className="px-5 py-4">
@@ -205,6 +206,7 @@ const Title2 = () => {
           objectFit="contain"
           className="img-fluid"
           alt="sponsor"
+          layout="responsive"
         />
         <div className="card-body fondo-gradient shadow">
           <div className="px-5 py-4">
@@ -261,6 +263,7 @@ const Title3 = () => {
           objectFit="contain"
           className="img-fluid"
           alt="sponsor"
+          layout="responsive"
         />
         <div className="card-body fondo-gradient shadow">
           <div className="px-5 py-4">
@@ -313,6 +316,7 @@ const Title4 = () => {
           objectFit="contain"
           className="img-fluid"
           alt="sponsor"
+          layout="responsive"
         />
         <div className="card-body fondo-gradient shadow">
           <div className="px-5 py-4">

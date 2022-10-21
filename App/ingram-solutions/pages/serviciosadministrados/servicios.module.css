@@ -1,0 +1,50 @@
+.servicios_banner_sec {
+  background-image: url("../../public//images/servicios-administrados/banner-sec_v2.jpg");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+}
+
+.text_bannersec {
+  z-index: 99;
+  position: relative;
+}
+
+.banner_doble {
+  background-image: url("../../public//images/servicios-administrados/banner-title.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner_azul {
+  background-image: url("../../public//images/servicios-administrados/bannerbottom.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner_footer {
+  background-image: url("../../public//images/servicios-administrados/bannerfooter.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 992px) {
+  .servicios_banner_sec::after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .servicios_banner_sec {
+    padding: 1rem;
+  }
+}
