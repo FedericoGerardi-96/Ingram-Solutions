@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { BannerContact } from "../../components/BannerContact";
 import {
   ButtonOrange,
@@ -129,8 +130,9 @@ const Nube = () => {
               </a>
             </div>
             <div className="col-md-6">
-              <a href="https://latam.ingrammicro.com/soluciones-im_nube_demoazure?elqTrackId=07276ad70ba14d6bbbaa5380c1f3e2e5&amp;elq=00000000000000000000000000000000&amp;elqaid=885&amp;elqat=2&amp;elqCampaignId=">
+              <Link href="/demoazure">
                 <Image
+                  style={{ cursor: "pointer" }}
                   src={solucion_nube_4}
                   width="550"
                   height="180"
@@ -138,7 +140,7 @@ const Nube = () => {
                   className="img-fluid"
                   alt="Demos Azure"
                 />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

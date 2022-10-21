@@ -1,0 +1,26 @@
+.videocolab_banner_sec {
+  background-image: url("../../public//images/video-colaboracion/banner-sec.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 992px){
+  .videocolab_banner_sec {
+    padding: 1rem;
+  }
+  .videocolab_banner_sec::after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .training{
+    z-index: 99;
+  }
+}

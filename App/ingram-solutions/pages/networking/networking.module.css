@@ -1,0 +1,38 @@
+.networking_banner_sec {
+  background-image: url("../../public//images/networking/banner-sec.png");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+}
+
+.text_bannersec {
+  z-index: 99;
+  position: relative;
+}
+
+.bg_violet {
+  background-color: #7359a2;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .networking_banner_sec::after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .networking_banner_sec {
+    padding: 1rem;
+  }
+}
+
+.section_sponsor {
+  margin: 50px 0;
+}

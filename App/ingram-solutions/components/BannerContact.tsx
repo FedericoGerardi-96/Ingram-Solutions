@@ -1,4 +1,4 @@
-import style from "../styles/component/BannerContact.module.css";
+import style from "../styles/component/BannerContact.module.css"
 
 interface Props {
   url: string;
@@ -37,7 +37,7 @@ export const BannerContact = ({ url, href_Button, url_Text }: Props) => {
                   </h5>
                 </div>
                 <div
-                  className={`col-md-6 ${style.border_left}`}
+                  className={`contactBanner col-md-6 ${style.border_left}`}
                 >
                   <h3 className="text-lg-white fs-5 text-center fw-bold">
                     Déjanos asesorarte y obtén una evaluación gratuita:
@@ -54,5 +54,5 @@ export const BannerContact = ({ url, href_Button, url_Text }: Props) => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
