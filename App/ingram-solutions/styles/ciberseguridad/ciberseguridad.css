@@ -1,0 +1,164 @@
+.bg-sec2-ciber {
+  background: url("../../public/images/ciberseguridad/sec-2-banner.jpg")
+    no-repeat;
+  background-size: auto;
+  background-size: cover;
+  height: auto;
+  padding: 40px;
+}
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.seccion-cajas {
+  margin-top: 10rem;
+}
+.fondo-gradient-icons {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 60%,
+    rgba(223, 235, 239, 1) 100%
+  );
+  margin-bottom: 8rem;
+}
+.bg-modal-serviciosadministrados {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(223, 235, 239, 1) 100%
+  );
+  box-shadow: 0px -20px 20px 1px rgb(0 0 0 / 10%);
+}
+.mostrar-caja {
+  height: 5rem;
+}
+.grantitular {
+  position: relative !important;
+  top: -6rem;
+}
+.identificar_Icons {
+  position: relative;
+  top: -4.25rem;
+}
+.btn-celeste {
+  background: transparent !important;
+  border: 2px solid #06baec !important;
+  color: #212529;
+}
+.btn-celeste:hover {
+  background: #06baec !important;
+  border: 2px solid #000 !important;
+  color: #fff !important;
+}
+.btn-violet {
+  background: transparent !important;
+  border: 2px solid #7359a2 !important;
+  color: #212529;
+}
+.btn-violet:hover {
+  background: #7359a2 !important;
+  border: 2px solid #000 !important;
+  color: #fff !important;
+}
+.btn-verde {
+  background: transparent !important;
+  border: 2px solid #24b115 !important;
+  color: #212529;
+}
+.btn-verde:hover {
+  background: #24b115 !important;
+  border: 2px solid #000 !important;
+  color: #fff !important;
+}
+.btn-naranja {
+  background: transparent !important;
+  border: 2px solid #ff8303 !important;
+  color: #212529;
+}
+.btn-naranja:hover {
+  background: #ff8303 !important;
+  border: 2px solid #000 !important;
+  color: #fff !important;
+}
+.btn-rojo {
+  background: transparent !important;
+  border: 2px solid #ec3d44 !important;
+  color: #212529;
+}
+.btn-rojo:hover {
+  background: #ec3d44 !important;
+  border: 2px solid #000 !important;
+  color: #fff !important;
+}
+.caja-borde-naranja-2 {
+  border: 2px solid #ff8303 !important;
+  border-radius: 2em !important;
+}
+.caja-borde-rojo {
+  border: 2px solid #ec3d44 !important;
+  border-radius: 2em !important;
+}
+.card {
+  color: #413a3e;
+  font-weight: bold;
+  height: auto;
+  min-height: 300px;
+}
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.vendor-line-card {
+  background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B70de2c4e-fa8f-4af2-9a99-e3c4539a4278%7D_banner_vendorlinecard.jpg")
+    no-repeat;
+  background-size: auto;
+  background-size: cover;
+  padding: 3rem;
+  margin: 3rem 0;
+  width: 100%;
+  min-height: 288px;
+  display: flex;
+  align-items: center;
+}
+.banner-ciber {
+  background: url("../../public/images/ciberseguridad/banner_ciber.jpg")
+    no-repeat;
+  background-size: auto;
+  background-size: cover;
+  min-height: 327px;
+  margin: 40px 0;
+  padding: 30px;
+}
+.borde-caja {
+  border-left: 2px solid;
+}
+@media screen and (max-width: 992px) {
+  .identificar_Icons {
+    top: -4.6rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner-ciber {
+    padding: 2rem !important;
+  }
+  .banner-ciber::after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .borde-caja {
+    border-left: none;
+  }
+}

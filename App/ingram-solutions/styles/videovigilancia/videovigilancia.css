@@ -1,0 +1,55 @@
+.bannerSec_videoVigilancia {
+  background-image: url("../../public/images/videovigilancia/banner-sec-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+.videoVigilancia_bubbles {
+  background: url("../../public/images/preventa/bubbbles_background.png")
+    no-repeat;
+  background-size: cover;
+  box-shadow: 0 -10px 20px 1px rgba(0, 0, 0, 0.2);
+  height: auto;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+.videoVigilancia_bubbles_card {
+  position: relative;
+  top: -4.8rem;
+}
+.videoVigilancia_bubble_text {
+  height: 10rem;
+}
+.wrapper {
+  margin: auto 5% !important;
+}
+@media screen and (max-width: 992px) {
+  .videoVigilancia_bubbles_card {
+    top: -6.3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bannerSec_videoVigilancia::after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .videoVigilancia .button_orange button {
+    color: #fff !important;
+  }
+  .videoVigilancia_bubbles {
+    height: auto;
+  }
+  .videoVigilancia_bubble_2 {
+    margin-top: 5rem !important;
+  }
+  .videoVigilancia_bubbles_card {
+    top: 0;
+  }
+}

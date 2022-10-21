@@ -97,8 +97,7 @@ const index = () => {
       <NuestrosServicios />
       <BeneficiosIngram />
       <SectionCatalogo />
-
-      <BannerContact />
+      <BannerFooter />
     </div>
   )
 }
@@ -142,7 +141,9 @@ const Portafolio = () => {
   return (
     <>
       <div className="bubbles row justify-content-center align-items-center py-lg-0 py-4 px-2 mt-4">
-        <div className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center">
+        <div
+          className={` bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center mt-3`}
+        >
           <Image
             src={burbuja_1}
             width="150"
@@ -158,7 +159,7 @@ const Portafolio = () => {
         </div>
 
         <div
-          className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center"
+          className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center mt-3"
           data-bs-toggle="modal"
           data-bs-target="#modal_impresion"
         >
@@ -175,7 +176,7 @@ const Portafolio = () => {
             </h2>
           </div>
         </div>
-        <div className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center">
+        <div className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center mt-3">
           <Image
             src={burbuja_3}
             width="150"
@@ -189,7 +190,7 @@ const Portafolio = () => {
             </h2>
           </div>
         </div>
-        <div className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center">
+        <div className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center mt-3">
           <Image
             src={burbuja_4}
             width="150"
@@ -210,8 +211,11 @@ const Portafolio = () => {
         </h4>
       </div>
 
-      <div className="bubbles row justify-content-center align-items-center py-lg-0 py-4 px-2 mt-4">
-        <div className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center">
+      <div
+        className="bubbles row justify-content-center align-items-center py-lg-0 py-4 px-2 mt-4"
+        mt-3
+      >
+        <div className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center mt-3">
           <Image
             src={burbuja_5}
             width="150"
@@ -223,7 +227,7 @@ const Portafolio = () => {
             <h2 className="fs-5 text-center fw-bold">Internet de las Cosas</h2>
           </div>
         </div>
-        <div className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center">
+        <div className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center mt-3">
           <Image
             src={burbuja_6}
             width="150"
@@ -351,11 +355,6 @@ const Title2 = () => {
         <div className="card-body fondo-gradient shadow">
           <div className="row px-5 py-4">
             <div className="col-sm-4">
-              {/* <img
-                src="https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B7a5501c5-71f5-4b78-832b-114bbf227c84%7D_logo-cybereye.jpg"
-                className="img-fluid"
-                alt=""
-              /> */}
               <Image
                 src={cibereye}
                 objectFit="contain"
@@ -395,11 +394,6 @@ const Title2 = () => {
               </p>
             </div>
             <div className="col-sm-5 p-0 text-end">
-              {/* <img
-                src="https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7Bb8f7274e-e170-48eb-9e0e-2aef65914902%7D_banner_cybereye_1.jpg"
-                className="img-fluid"
-                alt=""
-              /> */}
               <Image
                 src={cibereye2}
                 objectFit="contain"
@@ -411,11 +405,6 @@ const Title2 = () => {
 
           <div className="row pe-5 py-4 align-items-center">
             <div className="col-sm-5 p-0 text-start">
-              {/* <img
-                src="https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B5c776f87-39b7-4bac-8426-2d900eb7671f%7D_banner_cybereye_2.jpg"
-                className="img-fluid"
-                alt=""
-              /> */}
               <Image
                 src={cibereye3}
                 objectFit="contain"
@@ -466,7 +455,7 @@ const NuestrosServicios = () => {
   return (
     <>
       <div className="bubbles row justify-content-center align-items-center py-lg-0 py-4 px-2 mt-4">
-        <div className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center ">
+        <div className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center mt-2 ">
           <Image
             src={bubble_1}
             width="150"
@@ -482,7 +471,7 @@ const NuestrosServicios = () => {
           </div>
         </div>
 
-        <div className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center">
+        <div className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center mt-2">
           <Image
             src={bubble_2}
             width="150"
@@ -496,7 +485,7 @@ const NuestrosServicios = () => {
             </p>
           </div>
         </div>
-        <div className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center">
+        <div className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center mt-2">
           <Image
             src={bubble_3}
             width="150"
@@ -514,7 +503,7 @@ const NuestrosServicios = () => {
       </div>
 
       <div className="bubbles row justify-content-center align-items-center py-lg-0 py-4 px-2 mt-4">
-        <div className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center">
+        <div className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center mt-2">
           <Image
             src={bubble_4}
             width="150"
@@ -528,7 +517,7 @@ const NuestrosServicios = () => {
             </p>
           </div>
         </div>
-        <div className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center">
+        <div className="bubbles_card col-md-3 col-12 d-flex flex-column justify-content-center align-items-center mt-2">
           <Image
             src={bubble_5}
             width="150"
@@ -780,15 +769,57 @@ const SectionCatalogo = () => {
               </p>
             </div>
             <div className="col-sm-3 offset-sm-1">
-              <a href="#serviciosadministrador">
-                <button className="btn btn-outline-light fw-bold">
+              <button className="btn btn-outline-light fw-bold">
+                <a href="#serviciosadministrador">
                   Descargar Catálogo de Servicios Administrados
-                </button>
-              </a>
+                </a>
+              </button>
             </div>
           </div>
         </div>
       </div>
+    </section>
+  )
+}
+
+const BannerFooter = () => {
+  return (
+    <section className="shadow banner-ciber p-0 d-flex align-items-center">
+      <article className="container">
+        <div className="row text-center justify-content-center align-items-start">
+          <div className="col-md-8 offset-md-2">
+            <div className="row align-items-center mt-4 fw-bold celular">
+              <div className="col-md-6 mb-4">
+                <h5 className="fw-bold">
+                  Contáctanos para acordar <br /> el mejor plan para tu negocio:{" "}
+                  <br />
+                  <br />
+                  <a
+                    href="mailto:serviciosprofesionales.mx@ingrammicro.com"
+                    className="fs-6 azul text-break"
+                  >
+                    serviciosprofesionales.mx@ingrammicro.com
+                  </a>
+                </h5>
+              </div>
+              <div className="col-md-6 borde-caja">
+                <h5 className="fw-bold">
+                  Da click para saber más <br /> sobre nuestras soluciones de:
+                </h5>
+                <a
+                  href="https://latam.ingrammicro.com/soluciones-im_ciberseguridad?elqTrackId=a1db98685dde4c139d4dd8683793d71c&amp;elq=00000000000000000000000000000000&amp;elqaid=909&amp;elqat=2&amp;elqCampaignId="
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <button className="btn  px-4 fs-3 py-2 mt-3 border border-success">
+                    CIBERSEGURIDAD
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
     </section>
   )
 }

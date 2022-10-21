@@ -8,6 +8,9 @@
 @import "./SolutionCenter/SolutionCenter.css";
 @import "./Iot/Iot.css";
 @import "./serviciosProfecionales/serviciosProfecionales.css";
+@import "./nube/nube.css";
+@import "./videovigilancia/videovigilancia.css";
+@import "./ciberseguridad/ciberseguridad.css";
 :root {
   --bg-blue: #2276ba;
   --text-blue: #2276ba;
@@ -25,32 +28,45 @@ body {
   color: var(--text-blue) !important;
 }
 .text-white {
-  color: #fff;
+  color: #fff !important;
 }
 .text-orange {
-  color: #ff8303;
+  color: #ff8303 !important;
 }
 .text-lightBlue {
-  color: #06baec;
+  color: #06baec !important;
 }
 .text-green {
-  color: #24b115;
+  color: #24b115 !important;
 }
 .text-blue {
-  color: #2276ba;
+  color: #2276ba !important;
+}
+
+.text-violet {
+  color: #7359a2 !important;
+}
+.text-darkBlue {
+  color: #0e2e44 !important;
+}
+.bg-darkBlue {
+  background: #0e2e44 !important;
+}
+.bg-blue {
+  background: #2276ba !important;
 }
 .bg-violet {
-  background-color: #7359a2 !important;
+  background: #7359a2 !important;
 }
 .bg-celeste {
-  background: #06baec;
+  background: #06baec !important;
 }
 .bg-orange {
   background: #ff8303 !important;
   color: white !important;
 }
 .bg-green {
-  background: #24b115;
+  background: #24b115 !important;
 }
 .bg-blue {
   background: #291c46f3 !important;

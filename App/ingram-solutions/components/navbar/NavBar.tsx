@@ -81,29 +81,39 @@ export const NavBar = () => {
                     </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Infraestructura en la Nube
-                    </a>
+                    <Link href="/nube">
+                      <a className="dropdown-item">
+                        Infraestructura en la Nube
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Videovigilancia
-                    </a>
+                    <Link href="/videovigilancia">
+                      <a className="dropdown-item" href="#">
+                        Videovigilancia
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Ciberseguridad
-                    </a>
+                    <Link href="/ciberseguridad">
+                      <a className="dropdown-item" href="#">
+                        Ciberseguridad
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Datacenter
-                    </a>
+                    <Link href="/videovigilancia">
+                      <a className="dropdown-item" href="#">
+                        Datacenter
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Data Capture
-                    </a>
+                    <Link href="/videovigilancia">
+                      <a className="dropdown-item" href="#">
+                        Data Capture
+                      </a>
+                    </Link>
                   </li>
                   <li>
                     <Link href="/serviciosadministrados">

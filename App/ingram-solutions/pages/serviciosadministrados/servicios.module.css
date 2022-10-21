@@ -31,9 +31,14 @@
   background-size: cover;
 }
 
+.bubbles_position {
+  position: absolute;
+  top: 10;
+}
+
 @media screen and (max-width: 992px) {
   .servicios_banner_sec::after {
-    background-color: #000;
+    /* background-color: #000;
     content: "";
     height: 100%;
     left: 0;
@@ -41,7 +46,7 @@
     position: absolute;
     top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 1; */
   }
 
   .servicios_banner_sec {

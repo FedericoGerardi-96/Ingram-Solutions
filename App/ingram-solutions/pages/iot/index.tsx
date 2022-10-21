@@ -966,7 +966,11 @@ const Iot = () => {
           </div>
         </div>
       </section>
-      <BannerContact />
+      <BannerContact
+        href_Button="mailto:IoT.mx@ingrammicro.com"
+        url="mailto:IoT.mx@ingrammicro.com"
+        url_Text="IoT.mx@ingrammicro.com"
+      />
     </>
   );
 };

@@ -250,8 +250,11 @@ const Financiamiento = () => {
           </div>
         </div>
       </section>
-
-      <BannerContact />
+      <BannerContact
+        href_Button="mailto:serviciosfinancieros.mx@ingrammicro.com"
+        url="mailto:serviciosfinancieros.mx@ingrammicro.com"
+        url_Text="serviciosfinancieros.mx@ingrammicro.com"
+      />
     </>
   );
 };
