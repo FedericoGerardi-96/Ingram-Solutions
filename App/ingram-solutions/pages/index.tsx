@@ -16,6 +16,7 @@ const Home: NextPage = () => {
         <div className="container">
           <div className="d-flex flex-wrap align-items-center justify-content-around my-5">
             <a
+              style={{ cursor: "pointer" }}
               target="_blank"
               href="https://mx.ingrammicro.com/site/cms?page=2022/IM/IM-220318&elqTrackId=a697ce955fc440658ae22054b098fb97&elqaid=864&elqat=2"
             >

@@ -8,6 +8,14 @@
 @import "./SolutionCenter/SolutionCenter.css";
 @import "./Iot/Iot.css";
 @import "./serviciosProfecionales/serviciosProfecionales.css";
+@import "./nube/nube.css";
+@import "./videovigilancia/videovigilancia.css";
+@import "./ciberseguridad/ciberseguridad.css";
+@import "./dataCenter/dataCenter.css";
+@import "./dataCapture/dataCapture.css";
+@import "./directorio/directorio.css";
+@import "./demoAzure/demoAzure.css";
+
 :root {
   --bg-blue: #2276ba;
   --text-blue: #2276ba;
@@ -24,38 +32,68 @@ body {
 .text-blue {
   color: var(--text-blue) !important;
 }
-.text-white{
-  color: #fff;
+.text-white {
+  color: #fff !important;
 }
 .text-orange {
-  color: #ff8303;
+  color: #ff8303 !important;
 }
 .text-lightBlue {
-  color: #06baec;
+  color: #06baec !important;
 }
 .text-green {
-  color: #24b115;
+  color: #24b115 !important;
 }
 .text-blue {
-  color: #2276ba;
+  color: #2276ba !important;
 }
-.bg-violet{
-  background-color: #7359a2;
+
+.text-violet {
+  color: #7359a2 !important;
+}
+.text-darkBlue {
+  color: #0e2e44 !important;
+}
+.bg-darkBlue {
+  background: #0e2e44 !important;
+}
+.bg-blue {
+  background: #2276ba !important;
+}
+.bg-violet {
+  background: #7359a2 !important;
 }
 .bg-celeste {
-  background: #06baec;
+  background: #06baec !important;
 }
 .bg-orange {
-  background: #ff8303;
+  background: #ff8303 !important ;
+  color: white !important;
 }
 .bg-green {
-  background: #24b115;
+  background: #24b115 !important;
 }
-.bg-lightBlue{
-  background: #06baec;
+.bg-blue {
+  background: #291c46f3 !important;
+  color: white !important;
+}
+.bg-verde {
+  background: #edf7f0 !important;
+  /* color: white !important; */
+}
+
+.bg-lightBlue {
+  background: #06baec !important;
+  color: white !important;
 }
 @media screen and (max-width: 992px) {
   .text-lg-white {
+    color: #fff !important;
+  }
+  .text-lg-black {
+    color: #000 !important;
+  }
+  .contactBanner .button-green {
     color: #fff !important;
   }
 }
@@ -87,4 +125,77 @@ a {
     color: black;
     background: white;
   }
+}
+
+.card-bordo {
+  background-color: #f7ebf2 !important;
+}
+
+.borde-caja-bordo {
+  border: 2px solid #c82154;
+}
+
+.card-celeste {
+  background-color: #f0f9fc !important;
+}
+
+.borde-caja-azul {
+  border: 2px solid #2276ba;
+}
+.borde-caja-verde {
+  border: 2px solid #44995d;
+}
+.button-lightblue {
+  background: transparent !important;
+  border: 2px solid #06baec !important;
+  color: #212529 !important;
+}
+.button-lightblue:hover {
+  background: #06baec !important;
+  border: 2px solid #000 !important;
+  color: #fff !important;
+}
+.button-orange {
+  background: transparent !important;
+  color: #212529;
+  border: 2px solid #ff8303 !important;
+}
+.button-orange:hover {
+  background: #ff8303 !important;
+  border: 2px solid #000 !important;
+  color: #fff !important;
+}
+.button-green {
+  background: transparent !important;
+  border: 2px solid #33b083 !important;
+  color: #212529 !important;
+}
+.button-green:hover {
+  background: #33b083 !important;
+  border: 2px solid #000 !important;
+  color: #fff !important;
+}
+.button-violet {
+  background: transparent !important;
+  border: 2px solid #7359a2 !important;
+  color: #212529 !important;
+}
+.button-violet:hover {
+  background: #7359a2 !important;
+  border: 2px solid #000 !important;
+  color: #fff !important;
+}
+.button-blue {
+  background: transparent !important;
+  border: 2px solid #2276ba !important;
+  color: #212529 !important;
+}
+.button-blue:hover {
+  background: #2276ba !important;
+  border: 2px solid #000 !important;
+  color: #fff !important;
+}
+
+.videoCol .button_orange button {
+  color: #fff !important;
 }

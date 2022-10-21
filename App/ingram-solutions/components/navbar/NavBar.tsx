@@ -1,10 +1,10 @@
-import { useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
-import ingramLogo from "../../public/images/logo_soluciones.png";
+import { useState } from "react"
+import Link from "next/link"
+import Image from "next/image"
+import ingramLogo from "../../public/images/logo_soluciones.png"
 
 export const NavBar = () => {
-  const [burgerBtn, setburgerBtn] = useState(true);
+  const [burgerBtn, setburgerBtn] = useState(true)
 
   return (
     <header>
@@ -77,60 +77,78 @@ export const NavBar = () => {
                   </li>
                   <li>
                     <Link href="/serviciosProfecionales">
+                      <a className="dropdown-item">Servicios Profesionales</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/nube">
                       <a className="dropdown-item">
-                        Servicios Profesionales
+                        Infraestructura en la Nube
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Infraestructura en la Nube
-                    </a>
+                    <Link href="/videovigilancia">
+                      <a className="dropdown-item" href="#">
+                        Videovigilancia
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Videovigilancia
-                    </a>
+                    <Link href="/ciberseguridad">
+                      <a className="dropdown-item" href="#">
+                        Ciberseguridad
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Ciberseguridad
-                    </a>
+                    <Link href="/datacenter">
+                      <a className="dropdown-item" href="#">
+                        Datacenter
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Datacenter
-                    </a>
+                    <Link href="/datacapture">
+                      <a className="dropdown-item" href="#">
+                        Data Capture
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Data Capture
-                    </a>
+                    <Link href="/serviciosadministrados">
+                      <a className="dropdown-item" href="#">
+                        Servicios Administrados
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Servicios Administrados
-                    </a>
+                    <Link href="/digitalsignage">
+                      <a className="dropdown-item" href="#">
+                        Digital Signage
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Digital Signage
-                    </a>
+                    <Link href="/workfromanywhere">
+                      <a className="dropdown-item" href="#">
+                        Work from Anywhere
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Work from Anywhere
-                    </a>
+                    <Link href="/videocolaboracion">
+                      <a className="dropdown-item" href="#">
+                        Video Colaboración
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Video Colaboración
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Networking
-                    </a>
+                    <Link href="/networking">
+                      <a className="dropdown-item" href="#">
+                        Networking
+                      </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -177,6 +195,7 @@ export const NavBar = () => {
               <li className="nav-item">
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://mx.ingrammicro.com/site/cms?page=2022/IM/IM-220318&elqTrackId=f1d4b170dd87444692722c9b8be63d09&elqaid=910&elqat=2"
                   className="nav-link active text-light px-lg-4"
                   aria-current="page"
@@ -187,6 +206,7 @@ export const NavBar = () => {
               <li className="nav-item">
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://mx.ingrammicro.com/site/cms?page=DirectorioSolucionesAvanzadas&elqTrackId=877781be3c5a432583b8c40ac61c37d5&elqaid=910&elqat=2"
                   style={{ border: "none" }}
                   className="nav-link active text-light px-lg-4"
@@ -200,5 +220,5 @@ export const NavBar = () => {
         </div>
       </nav>
     </header>
-  );
-};
+  )
+}
