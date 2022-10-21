@@ -81,6 +81,62 @@ import {
 } from "../../services/Image-serviciosProfecionales/Image";
 
 const ServiciosProfesionales = () => {
+  const Sponsors = [
+    sponsor_1,
+    sponsor_2,
+    sponsor_3,
+    sponsor_4,
+    sponsor_5,
+    sponsor_6,
+    sponsor_7,
+    sponsor_8,
+    sponsor_9,
+    sponsor_10,
+    sponsor_11,
+    sponsor_12,
+    sponsor_13,
+    sponsor_14,
+    sponsor_15,
+    sponsor_16,
+    sponsor_17,
+    sponsor_18,
+    sponsor_19,
+    sponsor_20,
+    sponsor_21,
+    sponsor_22,
+    sponsor_23,
+    sponsor_24,
+    sponsor_25,
+    sponsor_26,
+    sponsor_27,
+    sponsor_28,
+    sponsor_29,
+    sponsor_30,
+    sponsor_31,
+    sponsor_32,
+    sponsor_33,
+    sponsor_34,
+    sponsor_35,
+    sponsor_36,
+    sponsor_37,
+    sponsor_38,
+    sponsor_39,
+    sponsor_40,
+    sponsor_41,
+    sponsor_42,
+    sponsor_43,
+    sponsor_44,
+    sponsor_45,
+    sponsor_46,
+    sponsor_47,
+    sponsor_48,
+    sponsor_49,
+    sponsor_51,
+    sponsor_52,
+    sponsor_53,
+    sponsor_54,
+    sponsor_55,
+  ];
   const herochildren = () => {
     return (
       <>
@@ -264,9 +320,7 @@ const ServiciosProfesionales = () => {
         <div
           className="modal fade"
           id="modal_1"
-          data-bs-backdrop="static"
-          data-bs-keyboard="false"
-          aria-labelledby="staticBackdropLabel"
+          aria-labelledby="exampleModalLabel"
           aria-hidden="true"
         >
           <div className="modal-dialog  ">
@@ -809,8 +863,239 @@ const ServiciosProfesionales = () => {
             </div>
           </div>
         </div>
+        <div
+          className="modal fade"
+          id="modal_11"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog  ">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div className="modal-body text-center">
+                <span className="text-violet fw-bold">Ciberseguridad</span>
+                <br />
+                <b>•</b>Configuración &nbsp; <b>•</b>Protección perimetral UTM's
+                / firewall &nbsp; <b>•</b>Consolas de gestión central &nbsp;{" "}
+                <b>•</b>End Point &nbsp; <b>•</b>Creación de políticas y reglas
+                &nbsp; <b>•</b>Análisis de vulnerabilidades &nbsp; <b>•</b>
+                Assesment &nbsp; <b>•</b>Servicios administrados
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="modal fade"
+          id="modal_12"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog  ">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div className="modal-body text-center">
+                <span className="text-darkBlue fw-bold">Seguridad física</span>
+                <br />
+                Para implementación de:
+                <br />
+                <b>•</b>Cámaras &nbsp; <b>•</b>Controles de acceso &nbsp;{" "}
+                <b>•</b>Circuito cerrado / CCTV
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="modal fade"
+          id="modal_13"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog  ">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div className="modal-body text-center">
+                <span className="text-violet fw-bold">Colaboración</span>
+                <br />
+                Configuración
+                <br />
+                <b>•</b>Video colaboración &nbsp; <b>•</b>Aplicaciones de
+                conferencia web y videoconferencia &nbsp; <b>•</b>
+                Aprovisionamiento y adopción de herramientas
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="modal fade"
+          id="modal_14"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog  ">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div className="modal-body text-center">
+                <span className="text-blue fw-bold">Digital Signage</span>
+                <br />
+                <b>•</b>Desarrollo de contenido digital &nbsp; <b>•</b>
+                Administración de contenido digital &nbsp; <b>•</b>Instalación y
+                configuración de videowall y quioscos digitales
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="modal fade"
+          id="modal_15"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog  ">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div className="modal-body text-center">
+                <span className="text-lightBlue fw-bold">DC POS</span>
+                <br />
+                <b>•</b>Implementación &nbsp; <b>•</b>Mantenimiento preventivo y
+                correctivo &nbsp; <b>•</b>Creación de aplicativos móviles &nbsp;{" "}
+                <b>•</b>Consultoría &nbsp; <b>•</b>Servicios Administrados
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="modal fade"
+          id="modal_16"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog  ">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div className="modal-body text-center">
+                <span className="text-orange fw-bold">
+                  Servicios administrativos
+                </span>
+                <br />
+                <b>•</b>Impresión &nbsp; <b>•</b>Lógica (SOC) &nbsp; <b>•</b>
+                Redes (NOC) &nbsp; <b>•</b>DC POS &nbsp; <b>•</b>Migración
+                &nbsp; <b>•</b>Cómputo
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="modal fade"
+          id="modal_17"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog  ">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div className="modal-body text-center">
+                <span className="text-green fw-bold">Work from anywhere</span>
+                <br />
+                a) Dispositivo de cómputo <b>•</b>Impresión &nbsp; <b>•</b>Soho
+                &nbsp; <b>•</b>Microsoft accesorios &nbsp; <b>•</b>Accesorios de
+                colaboración &nbsp; <b>•</b>Ergonomía
+                <br />
+                b) Conectividad &nbsp; <b>•</b>Seguridad de negocio &nbsp;{" "}
+                <b>•</b>Módulo omnicanal
+                <br />
+                c) Infraestructura &nbsp; <b>•</b>Dispositivos Móviles &nbsp;{" "}
+                <b>•</b>Ergonomía
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-      <BannerContact />
+      <section id="ProfesionalServices__sponsors">
+        <div className="container my-5">
+          <h3 className="text-blue text-center fw-bold">Aliados de Negocio</h3>
+          <div className="d-flex flex-wrap align-items-center justify-content-center">
+            {Sponsors.map((e, i) => (
+              <Image
+                key={i}
+                src={e.src}
+                width="130"
+                height="90"
+                objectFit="contain"
+                className="img-fluid p-3"
+                alt="sponsor"
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+      <BannerContact
+        href_Button="mailto:serviciosprofesionales.mx@ingrammicro.com"
+        url="mailto:serviciosprofesionales.mx@ingrammicro.com"
+        url_Text="serviciosprofesionales.mx@ingrammicro.com"
+      />
     </>
   );
 };

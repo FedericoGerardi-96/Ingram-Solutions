@@ -178,7 +178,6 @@ const Preventa = () => {
           </div>
         </div>
       </section>
-
       <section id="preventa_sponsors">
         <div className="container my-5">
           <h3 className="text-blue fw-bold fs-2 text-center">
@@ -367,9 +366,12 @@ const Preventa = () => {
             </div>
           </div>
         </div>
-      </section>
-      
-      <BannerContact />
+      </section>      
+      <BannerContact
+        href_Button="mailto:coe.latam@ingrammicro.com"
+        url="mailto:coe.latam@ingrammicro.com"
+        url_Text="coe.latam@ingrammicro.com"
+      />
     </>
   );
 };

@@ -12,7 +12,7 @@ export const Hero = ({ backgroundUrl, logo, children }: Props) => {
     <section id="heroWithButton">
       <div
         style={{ backgroundImage: `url('${backgroundUrl.src}')` }}
-        className={`${style.hero} position-relative`}
+        className={`${style.hero} position-relative py-5`}
       >
         <div className="container p-3">
           <div className="row">

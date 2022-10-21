@@ -1,0 +1,37 @@
+.bannerSec_Nube {
+  background-image: url("../../public/images/nube/nube-slider.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+.fondo-gradient {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 60%,
+    rgba(223, 235, 239, 1) 100%
+  );
+}
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.card-nube {
+  min-height: 370px;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .bannerSec_Nube::after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .nube .button_orange button {
+    color: #fff !important;
+  }
+}

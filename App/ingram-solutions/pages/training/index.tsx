@@ -676,7 +676,11 @@ const index = () => {
           </div>
         </div>
       </section>
-      <BannerContact />
+      <BannerContact
+        href_Button="mailto:coe.latam@ingrammicro.com"
+        url="mailto:coe.latam@ingrammicro.com"
+        url_Text="coe.latam@ingrammicro.com"
+      />
       <section id="product_info">
         <div className="container my-5">
           <ul>

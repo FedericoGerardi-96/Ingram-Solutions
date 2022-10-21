@@ -77,50 +77,64 @@ export const NavBar = () => {
                   </li>
                   <li>
                     <Link href="/serviciosProfecionales">
+                      <a className="dropdown-item">Servicios Profesionales</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/nube">
                       <a className="dropdown-item">
-                        Servicios Profesionales
+                        Infraestructura en la Nube
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Infraestructura en la Nube
-                    </a>
+                    <Link href="/videovigilancia">
+                      <a className="dropdown-item" href="#">
+                        Videovigilancia
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Videovigilancia
-                    </a>
+                    <Link href="/ciberseguridad">
+                      <a className="dropdown-item" href="#">
+                        Ciberseguridad
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Ciberseguridad
-                    </a>
+                    <Link href="/videovigilancia">
+                      <a className="dropdown-item" href="#">
+                        Datacenter
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Datacenter
-                    </a>
+                    <Link href="/videovigilancia">
+                      <a className="dropdown-item" href="#">
+                        Data Capture
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Data Capture
-                    </a>
+                    <Link href="/videovigilancia">
+                      <a className="dropdown-item" href="#">
+                        Servicios Administrados
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Servicios Administrados
-                    </a>
+                    <Link href="/videovigilancia">
+                      <a className="dropdown-item" href="#">
+                        Digital Signage
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Digital Signage
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Work from Anywhere
-                    </a>
+                    <Link href="/videovigilancia">
+                      <a className="dropdown-item" href="#">
+                        Work from Anywhere
+                      </a>
+                    </Link>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
