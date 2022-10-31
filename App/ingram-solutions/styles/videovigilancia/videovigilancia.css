@@ -4,8 +4,11 @@
   background-size: cover;
   background-position: left;
 }
+.shadow-vd {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
 .videoVigilancia_bubbles {
-  background: url("../../public/images/preventa/bubbbles_background.png")
+  background: url("../../public/images/videovigilancia/bubbbles_background.png")
     no-repeat;
   background-size: cover;
   box-shadow: 0 -10px 20px 1px rgba(0, 0, 0, 0.2);

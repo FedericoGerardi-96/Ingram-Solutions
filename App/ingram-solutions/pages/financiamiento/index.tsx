@@ -1,6 +1,9 @@
 import Image from "next/image";
 import { BannerContact } from "../../components/BannerContact";
-import { ButtonOrange } from "../../components/buttons/ButtonOrange";
+import {
+  ButtonOrange,
+  ButtonOrangeBlank,
+} from "../../components/buttons/ButtonOrange";
 import { Hero } from "../../components/Hero";
 import {
   banner_sec,
@@ -19,6 +22,10 @@ const Financiamiento = () => {
       <>
         <h1 className="text-blue fs-3 fw-bold"> Soluciones financieras</h1>
         <h1 className="fs-3 fw-bold pb-5">para hacer crecer tu empresa</h1>
+        <ButtonOrangeBlank
+          text="Contáctanos"
+          href="mailto:serviciosfinancieros.mx@ingrammicro.com"
+        />
       </>
     );
   };
@@ -30,14 +37,13 @@ const Financiamiento = () => {
       </Hero>
       <section id="financiamiento_ingramMicro_solutions_banner">
         <div className="container my-5">
-          <div className="financiamiento_banner_Sec py-4 position-relative">
+          <div className="financiamiento_banner_Sec p-5 position-relative">
             <div className="row">
-              <div className="col-0 col-md-7"></div>
               <div
                 style={{ zIndex: "99" }}
-                className="financiamiento col-12 col-md-5 d-flex flex-column align-items-md-start align-items-center justify-content-md-start justify-content-center"
+                className="financiamiento offset-md-5 col-12 col-md-7 d-flex flex-column align-items-md-start align-items-center justify-content-md-start justify-content-center"
               >
-                <p className=" fw-5 text-md-white fw-bold">
+                <p className="fs-5 fw-5 text-md-white fw-bold">
                   El objetivo del área de Soluciones financieras de Ingram Micro
                   es apoyar a nuestros canales, distribuidores y clientes con
                   opciones de financiamiento, con base a las necesidades de cada
@@ -47,7 +53,7 @@ const Financiamiento = () => {
                   no es un problema, acércate a Soluciones Financiera.
                 </p>
                 <ButtonOrange
-                  href="mailto:serviciosprofesionales.mx@ingrammicro.com"
+                  href="mailto:serviciosfinancieros.mx@ingrammicro.com"
                   text="Contáctanos"
                 />
               </div>
@@ -78,7 +84,9 @@ const Financiamiento = () => {
                 <p className="fs-5 mt-2">
                   IM Financial
                   <br />
-                  <span className="fw-bold verde">Express</span>
+                  <span style={{ color: "#24b115" }} className="fw-bold">
+                    Express
+                  </span>
                 </p>
               </div>
               <div className="col-lg-2">
@@ -92,7 +100,9 @@ const Financiamiento = () => {
                 <p className="fs-5 mt-2">
                   IM Financial
                   <br />
-                  <span className="fw-bold naranja">Pyme</span>
+                  <span style={{ color: "#ff8303" }} className="fw-bold">
+                    Pyme
+                  </span>
                 </p>
               </div>
               <div className="col-lg-2">
@@ -106,7 +116,9 @@ const Financiamiento = () => {
                 <p className="fs-5 mt-2">
                   IM Financial
                   <br />
-                  <span className="fw-bold celeste">Advance</span>
+                  <span style={{ color: "#06baec" }} className="fw-bold">
+                    Advance
+                  </span>
                 </p>
               </div>
               <div className="col-lg-2">
@@ -120,7 +132,9 @@ const Financiamiento = () => {
                 <p className="fs-5 mt-2">
                   IM Financial
                   <br />
-                  <span className="fw-bold violeta">Goverment</span>
+                  <span style={{ color: "#7359a2" }} className="fw-bold">
+                    Goverment
+                  </span>
                 </p>
               </div>
             </div>
@@ -221,9 +235,8 @@ const Financiamiento = () => {
           </div>
         </article>
       </section>
-      <section id="financiamiento_ingramMicro_fundary_banner">
-        <div className="container my-5">
-          <div className="financiamiento_banner_Sec4 py-4 position-relative">
+      <section className="my-5" id="financiamiento_ingramMicro_fundary_banner">
+          <div className="financiamiento_banner_Sec4 p-4 position-relative">
             <div className="row">
               <div
                 style={{ zIndex: "99" }}
@@ -247,7 +260,6 @@ const Financiamiento = () => {
               <div className="col-0 col-md-5"></div>
             </div>
           </div>
-        </div>
       </section>
       <BannerContact
         text="Expande tus oportunidades

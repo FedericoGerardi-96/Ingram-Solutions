@@ -21,6 +21,8 @@ import sponsor_8 from "../../public/images/iot/sponsor_8.png";
 import sponsor_9 from "../../public/images/iot/sponsor_9.png";
 import sponsor_10 from "../../public/images/iot/sponsor_10.png";
 import sponsor_11 from "../../public/images/iot/sponsor_11.png";
+import sponsor_12 from "../../public/images/iot/sponsor_12.png";
+import sponsor_13 from "../../public/images/iot/sponsor_13.png";
 import titulo_1 from "../../public/images/iot/titulo_1.png";
 import titulo_2 from "../../public/images/iot/titulo_2.png";
 import titulo_3 from "../../public/images/iot/titulo_3.png";
@@ -59,6 +61,8 @@ export {
   sponsor_9,
   sponsor_10,
   sponsor_11,
+  sponsor_12,
+  sponsor_13,
   titulo_1,
   titulo_2,
   titulo_3,

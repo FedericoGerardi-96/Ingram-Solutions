@@ -6,7 +6,7 @@
   margin-bottom: 10rem;
 }
 .iot_bubbles {
-  background: url("../../public/images/solution_center/bg_modal_solutioncenter.png")
+  background: url("../../public/images/iot/bg_modal.png")
     no-repeat;
   background-size: cover;
   box-shadow: 0 -10px 20px 1px rgba(0, 0, 0, 0.2);
@@ -32,13 +32,13 @@
 }
 .boton-celeste {
   background: transparent !important;
-  border: 2px solid #0d6efd !important;
+  border: 2px solid #06baec !important;
 }
 .boton-celeste a{
   color: #212529;
 }
 .boton-celeste:hover {
-  background: #0d6efd !important;
+  background: #06baec !important;
   border: 2px solid #000 !important;
 }
 .boton-celeste:hover a{
@@ -68,6 +68,12 @@
   background: #33b083 !important;
   border: 2px solid #000 !important;
   color: #fff !important;
+}
+
+.bg-sponsor{
+  background: url("../../public/images/iot/bg_sponsors.png")
+  no-repeat;
+background-size: cover;
 }
 
 

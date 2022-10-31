@@ -167,7 +167,7 @@ const DataCapture = () => {
 
             <div className="text-center mb-4 mt-3 ">
               <a href="mailto:dcpos.mx@ingrammicro.com">
-                <button className="btn button-lightblue fs-4">
+                <button className="btn button-lightblue fw-bold fs-4">
                   Contáctanos
                 </button>
               </a>
@@ -212,54 +212,54 @@ const DataCapture = () => {
                         <tbody>
                           <tr>
                             <th scope="row">705007Z</th>
-                            <td className="text-start">EC-VP-1100-I3-128</td>
-                            <td className="text-start">
+                            <td className="text-start fw-normal">EC-VP-1100-I3-128</td>
+                            <td className="text-start fw-normal">
                               TERMINAL TS 15`&quot;` CI3 4GB HD128 SSD BEEZEL FREE WIN
                               IOT ENT 64
                             </td>
-                            <td className="text-start">Ec Line</td>
-                            <td>90-100 días</td>
+                            <td className="text-start fw-normal">Ec Line</td>
+                            <td className="fw-normal">90-100 días</td>
                           </tr>
                           <tr>
                             <th scope="row">7050064</th>
-                            <td className="text-start">EC-PM-80360</td>
-                            <td className="text-start">
+                            <td className="text-start fw-normal">EC-PM-80360</td>
+                            <td className="text-start fw-normal">
                               MINIPRINTER TERMICA USB/SERIAL ETHERNET300MM/ 80MM
                               CORTADOR AUT
                             </td>
-                            <td className="text-start">Ec Line</td>
-                            <td>Consultar Stock</td>
+                            <td className="text-start fw-normal">Ec Line</td>
+                            <td  className="fw-normal">Consultar Stock</td>
                           </tr>
                           <tr>
                             <th scope="row">705005Y</th>
-                            <td className="text-start">EC-CD-100P</td>
-                            <td className="text-start">
+                            <td className="text-start fw-normal">EC-CD-100P</td>
+                            <td className="text-start fw-normal">
                               CAJON DINERO 5 BILLETES/8 MONEDAS/RJ11 3
                               POSICIONES DE SEGURIDAD CON LLAVE
                             </td>
-                            <td className="text-start">Ec Line</td>
-                            <td>8-10 Ssemanas</td>
+                            <td className="text-start fw-normal">Ec Line</td>
+                            <td  className="fw-normal">8-10 Ssemanas</td>
                           </tr>
                           <tr>
                             <th scope="row">705003K</th>
-                            <td className="text-start">EC-CD-8100</td>
-                            <td className="text-start">
+                            <td className="text-start fw-normal">EC-CD-8100</td>
+                            <td className="text-start fw-normal">
                               LECTOR CODIGO BARRAS 8100 CCD USB NEGRO
                             </td>
-                            <td className="text-start">Ec Line</td>
-                            <td>8-10 Ssemanas</td>
+                            <td className="text-start fw-normal">Ec Line</td>
+                            <td  className="fw-normal">8-10 Ssemanas</td>
                           </tr>
                           <tr>
                             <th scope="row">Nuevo</th>
-                            <td className="text-start">MYB20</td>
-                            <td className="text-start">
+                            <td className="text-start fw-normal">MYB20</td>
+                            <td className="text-start fw-normal">
                               SW POS Control Administrativo, incluye Módulos de
                               retail, fast food, compras, inventarios, clientes,
                               CxC, Proveedores, CxP, CFDI 3.3, Ambiente de
                               desarrollo y Servicios en la nube
                             </td>
-                            <td className="text-start">My Business POS</td>
-                            <td>Sobre pedido</td>
+                            <td className="text-start fw-normal">My Business POS</td>
+                            <td  className="fw-normal">Sobre pedido</td>
                           </tr>
                         </tbody>
                       </table>
@@ -267,7 +267,7 @@ const DataCapture = () => {
                   </div>
 
                   <div className="text-center mb-4 ">
-                    <button className="btn button-blue fs-4">Conoce más</button>
+                    <button className="btn button-blue fw-bold fs-4">Conoce más</button>
                   </div>
                 </div>
               </div>
@@ -302,14 +302,14 @@ const DataCapture = () => {
                         <tbody>
                           <tr>
                             <th scope="row">Nuevo</th>
-                            <td className="text-start">E931524</td>
-                            <td className="text-start">
+                            <td className="text-start fw-normal">E931524</td>
+                            <td className="text-start fw-normal">
                               EloPOS System, 15-inch 4:3, Win 10, Celeron, 4GB
                               RAM, 128SSD, Projected Capacitive 10-touch,
                               Zero-Bezel, Antiglare, Black, with I/O Hub Stand
                             </td>
-                            <td className="text-start">Elo</td>
-                            <td>
+                            <td className="text-start fw-normal">Elo</td>
+                            <td  className="fw-normal">
                               8-10 semanas
                               <br />
                               sobre pedido
@@ -317,33 +317,33 @@ const DataCapture = () => {
                           </tr>
                           <tr>
                             <th scope="row">70802DC</th>
-                            <td className="text-start">C31CH51001</td>
-                            <td className="text-start">
+                            <td className="text-start fw-normal">C31CH51001</td>
+                            <td className="text-start fw-normal">
                               EPSON MINIPRINTER TM-T20III-001 NEGRA/
                               USB/SERIAL/TERMICA
                             </td>
-                            <td className="text-start">Epson</td>
-                            <td>450 pzas stock</td>
+                            <td className="text-start fw-normal">Epson</td>
+                            <td  className="fw-normal">450 pzas stock</td>
                           </tr>
                           <tr>
                             <th scope="row">A000196</th>
-                            <td className="text-start">1950GSR-2USB-N</td>
-                            <td className="text-start">
+                            <td className="text-start fw-normal">1950GSR-2USB-N</td>
+                            <td className="text-start fw-normal">
                               LECTOR XENON XP NEGRO, KIT USB, 1D,2D, SR, SIN
                               BASE{" "}
                             </td>
-                            <td className="text-start">Honeywell</td>
-                            <td>49 pzas stock</td>
+                            <td className="text-start fw-normal">Honeywell</td>
+                            <td  className="fw-normal">49 pzas stock</td>
                           </tr>
                           <tr>
                             <th scope="row">B430071</th>
-                            <td className="text-start">37969520</td>
-                            <td className="text-start">
+                            <td className="text-start fw-normal">37969520</td>
+                            <td className="text-start fw-normal">
                               STAR MICRONICS CAJON DE DINERO 16 X 16 PROF
                               CONTROL POR IMPRESORA
                             </td>
-                            <td className="text-start">Starmicronics</td>
-                            <td>
+                            <td className="text-start fw-normal">Starmicronics</td>
+                            <td  className="fw-normal">
                               Llegan 1400
                               <br />
                               Mes y medio
@@ -351,15 +351,15 @@ const DataCapture = () => {
                           </tr>
                           <tr>
                             <th scope="row">Nuevo</th>
-                            <td className="text-start">MYB20</td>
-                            <td className="text-start">
+                            <td className="text-start fw-normal">MYB20</td>
+                            <td className="text-start fw-normal">
                               SW POS Control Administrativo, incluye Módulos de
                               retail, fast food, compras, inventarios, clientes,
                               CxC, Proveedores, CxP, CFDI 3.3, Ambiente de
                               desarrollo y Servicios en la nube
                             </td>
-                            <td className="text-start">My Business POS</td>
-                            <td>Sobre pedido</td>
+                            <td className="text-start fw-normal">My Business POS</td>
+                            <td  className="fw-normal">Sobre pedido</td>
                           </tr>
                         </tbody>
                       </table>
@@ -367,7 +367,7 @@ const DataCapture = () => {
                   </div>
 
                   <div className="text-center mb-4 ">
-                    <button className="btn button-green fs-4">
+                    <button className="btn button-green fw-bold fs-4">
                       Conoce más
                     </button>
                   </div>
@@ -404,14 +404,14 @@ const DataCapture = () => {
                         <tbody>
                           <tr>
                             <th scope="row">Nuevo</th>
-                            <td className="text-start">E931524</td>
-                            <td className="text-start">
+                            <td className="text-start fw-normal">E931524</td>
+                            <td className="text-start fw-normal">
                               EloPOS System, 15-inch 4:3, Win 10, Celeron, 4GB
                               RAM, 128SSD, Projected Capacitive 10-touch,
                               Zero-Bezel, Antiglare, Black, with I/O Hub Stand
                             </td>
-                            <td className="text-start">Elo</td>
-                            <td>
+                            <td className="text-start fw-normal">Elo</td>
+                            <td  className="fw-normal">
                               8-10 semanas
                               <br />
                               sobre pedido
@@ -419,13 +419,13 @@ const DataCapture = () => {
                           </tr>
                           <tr>
                             <th scope="row">B430046</th>
-                            <td className="text-start">39465031</td>
-                            <td className="text-start">
+                            <td className="text-start fw-normal">39465031</td>
+                            <td className="text-start fw-normal">
                               STAR MICRONICS BSC10UD-24 TERMICA INTERFACE
                               USB/SERIAL/PALLET
                             </td>
-                            <td className="text-start">Starmicronics</td>
-                            <td>
+                            <td className="text-start fw-normal">Starmicronics</td>
+                            <td  className="fw-normal">
                               Llegan 300 pzas
                               <br />
                               Mes y medio
@@ -433,23 +433,23 @@ const DataCapture = () => {
                           </tr>
                           <tr>
                             <th scope="row">93901YS</th>
-                            <td className="text-start">DS2208-SR7U2100SG</td>
-                            <td className="text-start">
+                            <td className="text-start fw-normal">DS2208-SR7U2100SG</td>
+                            <td className="text-start fw-normal">
                               ZEBRA KIT DS2208 IMAGER, 2D, ALAMB STD RANGE
                               C/CBLE USB,BASE NGR
                             </td>
-                            <td className="text-start">Zebra</td>
-                            <td>39 pzas stock</td>
+                            <td className="text-start fw-normal">Zebra</td>
+                            <td  className="fw-normal">39 pzas stock</td>
                           </tr>
                           <tr>
                             <th scope="row">B430071</th>
-                            <td className="text-start">37969520</td>
-                            <td className="text-start">
+                            <td className="text-start fw-normal">37969520</td>
+                            <td className="text-start fw-normal">
                               STAR MICRONICS CAJON DE DINERO 16 X 16 PROF
                               CONTROL POR IMPRESORA
                             </td>
-                            <td className="text-start">Starmicronics</td>
-                            <td>
+                            <td className="text-start fw-normal">Starmicronics</td>
+                            <td  className="fw-normal">
                               Llegan 1400
                               <br />
                               Mes y medio
@@ -457,15 +457,15 @@ const DataCapture = () => {
                           </tr>
                           <tr>
                             <th scope="row">Nuevo</th>
-                            <td className="text-start">MYB20</td>
-                            <td className="text-start">
+                            <td className="text-start fw-normal">MYB20</td>
+                            <td className="text-start fw-normal">
                               SW POS Control Administrativo, incluye Módulos de
                               retail, fast food, compras, inventarios, clientes,
                               CxC, Proveedores, CxP, CFDI 3.3, Ambiente de
                               desarrollo y Servicios en la nube
                             </td>
-                            <td className="text-start">My Business POS</td>
-                            <td>Sobre pedido</td>
+                            <td className="text-start fw-normal">My Business POS</td>
+                            <td  className="fw-normal">Sobre pedido</td>
                           </tr>
                         </tbody>
                       </table>
@@ -473,7 +473,7 @@ const DataCapture = () => {
                   </div>
 
                   <div className="text-center mb-4 ">
-                    <button className="btn button-orange fs-4">
+                    <button className="btn button-orange fw-bold fs-4">
                       Conoce más
                     </button>
                   </div>
@@ -510,14 +510,14 @@ const DataCapture = () => {
                         <tbody>
                           <tr>
                             <th scope="row">Nuevo</th>
-                            <td className="text-start">E931524</td>
-                            <td className="text-start">
+                            <td className="text-start fw-normal">E931524</td>
+                            <td className="text-start fw-normal">
                               EloPOS System, 15-inch 4:3, Win 10, Celeron, 4GB
                               RAM, 128SSD, Projected Capacitive 10-touch,
                               Zero-Bezel, Antiglare, Black, with I/O Hub Stand
                             </td>
-                            <td className="text-start">Elo</td>
-                            <td>
+                            <td className="text-start fw-normal">Elo</td>
+                            <td  className="fw-normal">
                               8-10 semanas
                               <br />
                               sobre pedido
@@ -525,22 +525,22 @@ const DataCapture = () => {
                           </tr>
                           <tr>
                             <th scope="row">D30003O</th>
-                            <td className="text-start">SRP-F310IICOK</td>
-                            <td className="text-start">
+                            <td className="text-start fw-normal">SRP-F310IICOK</td>
+                            <td className="text-start fw-normal">
                               IMP.SRP-F310II TERMICA 3 PULGAD USB RED NEGRO
                             </td>
-                            <td className="text-start">Bixolon</td>
-                            <td>30 pzas stock</td>
+                            <td className="text-start fw-normal">Bixolon</td>
+                            <td  className="fw-normal">30 pzas stock</td>
                           </tr>
                           <tr>
                             <th scope="row">B430071</th>
-                            <td className="text-start">37969520</td>
-                            <td className="text-start">
+                            <td className="text-start fw-normal">37969520</td>
+                            <td className="text-start fw-normal">
                               STAR MICRONICS CAJON DE DINERO 16 X 16 PROF
                               CONTROL POR IMPRESORA
                             </td>
-                            <td className="text-start">Starmicronics</td>
-                            <td>
+                            <td className="text-start fw-normal">Starmicronics</td>
+                            <td  className="fw-normal">
                               Llegan 1400
                               <br />
                               Mes y medio
@@ -548,24 +548,24 @@ const DataCapture = () => {
                           </tr>
                           <tr>
                             <th scope="row">B08002G</th>
-                            <td className="text-start">TD1120-BK-65K1</td>
-                            <td className="text-start">
+                            <td className="text-start fw-normal">TD1120-BK-65K1</td>
+                            <td className="text-start fw-normal">
                               LECTOR DE CODIGO DE BARRAS TD1100 65 USB NEGRO
                             </td>
-                            <td className="text-start">Datalogic</td>
-                            <td>90 pzas stock</td>
+                            <td className="text-start fw-normal">Datalogic</td>
+                            <td  className="fw-normal">90 pzas stock</td>
                           </tr>
                           <tr>
                             <th scope="row">Nuevo</th>
-                            <td className="text-start">MYB20</td>
-                            <td className="text-start">
+                            <td className="text-start fw-normal">MYB20</td>
+                            <td className="text-start fw-normal">
                               SW POS Control Administrativo, incluye Módulos de
                               retail, fast food, compras, inventarios, clientes,
                               CxC, Proveedores, CxP, CFDI 3.3, Ambiente de
                               desarrollo y Servicios en la nube
                             </td>
-                            <td className="text-start">My Business POS</td>
-                            <td>Sobre pedido</td>
+                            <td className="text-start fw-normal">My Business POS</td>
+                            <td  className="fw-normal">Sobre pedido</td>
                           </tr>
                         </tbody>
                       </table>
@@ -573,7 +573,7 @@ const DataCapture = () => {
                   </div>
 
                   <div className="text-center mb-4 ">
-                    <button className="btn button-green fs-4">
+                    <button className="btn button-green fw-bold fs-4">
                       Conoce más
                     </button>
                   </div>

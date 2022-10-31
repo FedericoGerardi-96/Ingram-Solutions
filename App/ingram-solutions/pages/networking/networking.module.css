@@ -3,25 +3,81 @@
   background-repeat: no-repeat;
   /* background-position: center; */
   background-size: cover;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
 }
 
 .text_bannersec {
   z-index: 99;
   position: relative;
 }
-
-.bg_violet {
-  background-color: #7359a2;
-  color: white;
+.card_celeste {
+  border: none;
+  background: #f0f9fc;
 }
-
+.button_pink {
+  background-color: #c82154 !important;
+  color: white !important;
+}
+.button_pink:hover {
+  border: 1px solid #c82154 !important;
+  background: transparent !important;
+  color: #000 !important;
+}
+.button_naranja {
+  background: #ff8303 !important;
+  color: #fff !important;
+}
+.button_naranja:hover {
+  border: 1px solid #ff8303 !important;
+  background: transparent !important;
+  color: #212529 !important;
+}
+.button_lightBlue {
+  background: #2276ba !important;
+  color: #fff !important;
+}
+.button_lightBlue:hover {
+  background: transparent !important;
+  color: #000 !important;
+  border: 1px solid #2276ba !important;
+}
+.button_green {
+  background: #33b083 !important;
+  color: #fff !important;
+}
+.button_green:hover {
+  background: transparent !important;
+  color: #000 !important;
+  border: 1px solid #33b083 !important;
+}
+.borde_caja_verde {
+  border: 2px solid #33b083;
+  max-width: 500px;
+  text-align: start;
+  padding: 10px;
+  margin: auto;
+}
+.borde_caja_azul {
+  border: 2px solid #2276ba;
+  max-width: 500px;
+  text-align: start;
+  padding: 10px;
+  margin: auto;
+}
+.borde_caja_bordo {
+  border: 2px solid #c82154;
+  max-width: 500px;
+  text-align: start;
+  padding: 10px;
+  margin: auto;
+}
 @media screen and (max-width: 992px) {
   .networking_banner_sec::after {
     background-color: #000;
     content: "";
     height: 100%;
     left: 0;
-    opacity: 0.3;
+    opacity: 0.5;
     position: absolute;
     top: 0;
     width: 100%;

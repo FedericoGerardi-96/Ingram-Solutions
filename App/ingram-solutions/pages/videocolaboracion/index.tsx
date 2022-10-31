@@ -32,7 +32,7 @@ import sponsor_15 from "../../public/images/Ultimas/video-colaboracion/sponsor-1
 
 import banner_top from "../../public/images/video-colaboracion/banner-top.jpg";
 import styles from "./videocolab.module.css";
-import { ButtonOrange } from "../../components/buttons/ButtonOrange";
+import { ButtonOrange, ButtonOrangeBlank } from "../../components/buttons/ButtonOrange";
 import { BannerContact } from "../../components/BannerContact";
 
 const Videocolaboracion = () => {
@@ -99,16 +99,15 @@ const SectionBannerContact = () => {
     <section id="section_banner_contact">
       <article className="container my-5">
         <div
-          className={`${styles.videocolab_banner_sec} py-4 position-relative justify-content-center`}
+          className={`${styles.videocolab_banner_sec} py-4 position-relative justify-content-center p-4`}
         >
           <div className="row">
-            <div className="col-0 col-lg-7"></div>
             <div
               style={{ zIndex: "99" }}
-              className="training position-relative col-12 col-lg-5 d-flex flex-column align-items-lg-start align-items-center justify-content-lg-start justify-content-center"
+              className="training position-relative offset-lg-5 col-lg-7 d-flex flex-column align-items-lg-start align-items-center justify-content-lg-start justify-content-center"
             >
               <p
-                className={`${styles.text_bannersec} fw-bold text-bold text-lg-white`}
+                className={`fs-5 fw-bold text-bold text-lg-white`}
               >
                 Con los recientes cambios laborales, conectar personas en
                 ubicaciones diversas para mejorar el trabajo en equipo, la
@@ -128,10 +127,10 @@ const SectionBannerContact = () => {
                 desde cualquier lugar.
               </p>
               <div className="videoCol text-center mb-4 ">
-                <ButtonOrange
+                <ButtonOrangeBlank
                   text={"Contáctanos"}
                   href={
-                    "https://outlook.live.com/mail/0/deeplink/compose?mailtouri=mailto%3Acolaboracion.mx%40ingrammicro.com"
+                    "mailto:colaboracion.mx@ingrammicro.com"
                   }
                 />
               </div>
@@ -155,7 +154,7 @@ const RoomSolutions = () => {
         />
         <div className="card-body fondo-gradient shadow">
           <div className="px-5 py-4">
-            <p className="fs-4">
+            <p className="fs-4 fw-normal">
               Logitech Tap está diseñada para un desempeño confiable en el
               espacio de trabajo, con características pensadas para entregar una
               excelente experiencia de usuario. Las diversas opciones de montaje
@@ -223,7 +222,7 @@ const LicenciaMicrosoft = () => {
         />
         <div className="card-body fondo-gradient shadow">
           <div className="px-5 py-4">
-            <p className="fs-4">
+            <p className="fs-4 fw-normal">
               Hacer que las reuniones sean inclusivas e interactivas
               satisfaciendo las necesidades en cualquier espacio de colaboración
               con un portafolio amplio de dispositivos certificados.
@@ -264,14 +263,14 @@ const Solucionclaseshibridas = () => {
     <div className="col-12 ">
       <div className="card border-light">
         <Image
-          src={titulo_4}
+          src={titulo_3}
           objectFit="contain"
           className="img-fluid"
           alt="sponsor"
         />
         <div className="card-body fondo-gradient shadow">
           <div className="px-5 py-4">
-            <p className="fs-4">
+            <p className="fs-4 fw-normal">
               -Descripción corta: Crea las clases hibridas sin interrupciones.
               Con esta solución, el profesor podrá impartir su clase sin
               interrumpir la visibilidad del texto escrito en una pizarra
@@ -308,14 +307,14 @@ const SolucionInalambrica = () => {
     <div className="col-12 ">
       <div className="card border-light">
         <Image
-          src={titulo_3}
+          src={titulo_4}
           objectFit="contain"
           className="img-fluid"
           alt="sponsor"
         />
         <div className="card-body fondo-gradient shadow">
           <div className="px-5 py-4">
-            <p className="fs-4">
+            <p className="fs-4 fw-normal">
               -ScreenBeam: Las galardonadas soluciones de ScreenBeam transforman
               los espacios de reunión y aprendizaje con soporte agnóstico a
               herramientas de videoconferencia y presentación inalámbrica sin
@@ -353,8 +352,8 @@ const SolucionInalambrica = () => {
 
 const SectionSponsor = () => {
   return (
-    <section className="seccion-sponsor-iot">
-      <div className="container shadow bg-sponsor my-5">
+    <section id="seccion-sponsor-iot">
+      <div className="container my-5">
         <div className="row text-center py-4">
           <div className="col-md-12">
             <h3 className="text-blue fw-bold">Aliados de Negocio</h3>

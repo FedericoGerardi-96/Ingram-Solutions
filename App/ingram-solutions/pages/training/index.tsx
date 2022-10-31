@@ -60,7 +60,7 @@ const index = () => {
       </Hero>
       <section id="training_ingramMicro_services_banner">
         <div className="container my-5">
-          <div className="banner_Sec py-4 position-relative">
+          <div className="banner_Sec p-5 position-relative">
             <div className="row">
               <div className="col-0 col-md-7"></div>
               <div
@@ -677,9 +677,9 @@ const index = () => {
       <BannerContact
         text="Expande tus oportunidades
       de Servicios de Entrenamiento con Ingram Micro:"
-        href_Button="mailto:coe.latam@ingrammicro.com"
-        url="mailto:coe.latam@ingrammicro.com"
-        url_Text="coe.latam@ingrammicro.com"
+        href_Button="mailto:serviciosprofesionales.mx@ingrammicro.com"
+        url="mailto:serviciosprofesionales.mx@ingrammicro.com"
+        url_Text="serviciosprofesionales.mx@ingrammicro.com"
       />
       <section id="product_info">
         <div className="container my-5">

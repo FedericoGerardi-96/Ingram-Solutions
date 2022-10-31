@@ -88,7 +88,7 @@ const DataCenter = () => {
           <div className="row">
             <div
               style={{ zIndex: "99" }}
-              className="col-md-7 text-center text-md-white dataCenter offset-md-5"
+              className="col-lg-7 text-center text-lg-white dataCenter offset-lg-5"
             >
               <p className="fs-5 fw-bold">
                 Un data center o “centro de procesamiento de datos” es el lugar
@@ -150,7 +150,7 @@ const DataCenter = () => {
                   </div>
 
                   <div className="text-center mt-5 ">
-                    <button className="btn button-lightblue">Conoce más</button>
+                    <button className="btn button-lightblue fw-bold">Conoce más</button>
                   </div>
                 </div>
               </div>
@@ -200,7 +200,7 @@ const DataCenter = () => {
                     />{" "}
                   </div>
                   <div className="text-center mt-5 ">
-                    <button className="btn button-green">Conoce más</button>
+                    <button className="btn button-green fw-bold">Conoce más</button>
                   </div>
                 </div>
               </div>
@@ -260,7 +260,7 @@ const DataCenter = () => {
                     />{" "}
                   </div>
                   <div className="text-center mt-5 ">
-                    <button className="btn button-orange">Conoce más</button>
+                    <button className="btn button-orange fw-bold">Conoce más</button>
                   </div>
                 </div>
               </div>
@@ -344,7 +344,7 @@ const DataCenter = () => {
                   <div className="row justify-content-center text-center">
                     <div className="col-md-4">
                       <button
-                        className="btn button-lightblue fs-3"
+                        className="btn button-lightblue fw-bold fs-3"
                         data-bs-toggle="modal"
                         data-bs-target="#modal_4_hardware"
                         style={{ cursor: "pointer" }}
@@ -354,7 +354,7 @@ const DataCenter = () => {
                     </div>
                     <div className="col-md-4">
                       <button
-                        className="btn button-green fs-3"
+                        className="btn button-green fw-bold fs-3"
                         data-bs-toggle="modal"
                         data-bs-target="#modal-4-geografia"
                         style={{ cursor: "pointer" }}
@@ -364,7 +364,7 @@ const DataCenter = () => {
                     </div>
                     <div className="col-md-4">
                       <button
-                        className="btn button-violet fs-3"
+                        className="btn button-violet fw-bold fs-3"
                         data-bs-toggle="modal"
                         data-bs-target="#modal-4-software"
                         style={{ cursor: "pointer" }}
@@ -425,7 +425,7 @@ const DataCenter = () => {
                   </p>
 
                   <div className="text-center mt-5 ">
-                    <button className="btn button-lightblue">Conoce más</button>
+                    <button className="btn button-lightblue fw-bold">Conoce más</button>
                   </div>
                 </div>
               </div>
@@ -468,7 +468,7 @@ const DataCenter = () => {
                   </p>
 
                   <div className="text-center mt-5 ">
-                    <button className="btn button-green">Conoce más</button>
+                    <button className="btn button-green fw-bold">Conoce más</button>
                   </div>
                 </div>
               </div>
@@ -514,7 +514,7 @@ const DataCenter = () => {
                     />{" "}
                   </div>
                   <div className="text-center mt-4 ">
-                    <button className="btn button-orange">Conoce más</button>
+                    <button className="btn button-orange fw-bold">Conoce más</button>
                   </div>
                 </div>
               </div>
@@ -571,7 +571,7 @@ const DataCenter = () => {
                     </h2>
                   </div>
                   <div className="text-center mt-4 ">
-                    <button className="btn button-blue">Conoce más</button>
+                    <button className="btn button-blue fw-bold">Conoce más</button>
                   </div>
                 </div>
               </div>
@@ -900,9 +900,9 @@ const DataCenter = () => {
       <BannerContact
         text="Expande tus oportunidades de
       Datacenter con Ingram Micro:"
-        href_Button="mailto:serviciosfinancieros.mx@ingrammicro.com"
-        url="mailto:serviciosfinancieros.mx@ingrammicro.com"
-        url_Text="serviciosfinancieros.mx@ingrammicro.com"
+        href_Button="mailto:datacenter.mx@ingrammicro.com"
+        url="mailto:datacenter.mx@ingrammicro.com"
+        url_Text="datacenter.mx@ingrammicro.com"
       />
       <section id="product_info">
         <div className="container my-5">

@@ -153,7 +153,7 @@ const ServiciosProfesionales = () => {
         </h5>
         <div className="mt-3">
           <ButtonOrange
-            href="mailto:IoT.mx@ingrammicro.com"
+            href="mailto:serviciosprofesionales.mx@ingrammicro.com"
             text="Contáctanos"
           />
         </div>
@@ -190,9 +190,9 @@ const ServiciosProfesionales = () => {
           </div>
         </div>
       </section>
-      <section id="consultative_process">
+      <section className="consultative_process shadow_ps" id="consultative_process">
         <div className="container my-5">
-          <div className="consultative_process position-relative p-4">
+          <div className=" position-relative p-4">
             <h3 className="text-blue text-center fw-bold mb-3">
               Nuestro proceso consultivo
             </h3>
@@ -218,7 +218,7 @@ const ServiciosProfesionales = () => {
       </section>
       <section id="capacity_realize">
         <div className="container">
-          <h3 className="azul fw-bold">
+          <h3 className="text-blue text-center fw-bold">
             Contamos con las capacidades para realizar:
           </h3>
           <div className="row my-5">

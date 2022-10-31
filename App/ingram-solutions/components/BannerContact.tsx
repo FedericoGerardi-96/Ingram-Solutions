@@ -16,15 +16,15 @@ export const BannerContact = ({ url, href_Button, url_Text, text }: Props) => {
             style={{ zIndex: "99" }}
             className="row text-center position-relative"
           >
-            <div className="col-md-10 col-lg-8 col-xxl-10 offset-md-2 offset-lg-4 offset-xxl-2">
-              <h1 className="fw-normal text-lg-white text-break">
+            <div className="col-md-8 offset-md-4 col-lg-7 offset-lg-5">
+              <h2
+                className={`${style.text_dark} text-lg-white display-6 fw-normal`}
+              >
                 Acércate a nuestros{" "}
-              </h1>
-              <h1 className="text-center fw-bold text-blue mb-4 text-break">
-                especialistas
-              </h1>
+                <span className="text-blue fw-bold">especialistas</span>
+              </h2>
               <div className="row align-items-center mt-3">
-                <div className="col-md-6">
+                <div className="col-md-5 col-lg-6">
                   <h5
                     className={`text-lg-white fw-bold ${style.text_contact} text-break`}
                   >
@@ -41,7 +41,9 @@ export const BannerContact = ({ url, href_Button, url_Text, text }: Props) => {
                     </a>
                   </h5>
                 </div>
-                <div className={`contactBanner col-md-6 ${style.border_left}`}>
+                <div
+                  className={`contactBanner col-md-7 col-lg-6 ${style.border_left}`}
+                >
                   <h3 className="text-lg-white fs-5 text-center fw-bold">
                     Déjanos asesorarte y obtén una evaluación gratuita:
                   </h3>

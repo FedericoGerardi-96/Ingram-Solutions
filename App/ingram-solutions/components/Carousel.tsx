@@ -163,7 +163,7 @@ export const Carousel = () => {
           </div>
           <div
             style={{ cursor: "pointer" }}
-            className="carousel-item w-100 active"
+            className="carousel-item w-100"
           >
             <Link href="/financiamiento">
               <Image

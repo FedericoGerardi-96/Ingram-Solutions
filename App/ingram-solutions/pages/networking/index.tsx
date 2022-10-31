@@ -34,16 +34,15 @@ const index = () => {
       <section id="networking">
         <div className="container my-5">
           <div
-            className={`${styles.networking_banner_sec} py-4 position-relative justify-content-center`}
+            className={`${styles.networking_banner_sec} p-5 position-relative justify-content-center`}
           >
             <div className="row">
-              <div className="col-0 col-lg-7"></div>
               <div
                 style={{ zIndex: "99" }}
-                className="training col-12 col-lg-5 d-flex flex-column align-items-lg-start align-items-center justify-content-lg-start justify-content-center"
+                className="training offset-lg-5 col-12 col-lg-7 d-flex flex-column align-items-lg-start align-items-center justify-content-lg-start justify-content-center"
               >
                 <p
-                  className={`${styles.text_bannersec} text-bold text-lg-white`}
+                  className={`${styles.text_bannersec} fs-5 fw-bold text-lg-white`}
                 >
                   Para responder a los nuevos retos de la conectividad,
                   especialmente ante el crecimiento del home office, tras la
@@ -151,7 +150,7 @@ const TrabajoRemoto = () => {
           <div className="px-5 py-4">
             <div className="row">
               <div className="col-12">
-                <p className="fs-5">
+                <p className="fs-5 fw-normal">
                   <b>Equipo Bundle 2 RV340- Routing</b>
                   <br />
                   Es una solución ideal para pequeñas empresas en crecimiento y
@@ -166,9 +165,9 @@ const TrabajoRemoto = () => {
                 </p>
               </div>
               <div className="col-md-6 col-12 d-flex flex-wrap justify-content-center">
-                <div className="card card-celeste">
+                <div className={`card ${styles.card_celeste}`}>
                   <div className="card-body">
-                    <p className="fs-5">
+                    <p className="fs-5 fw-normal">
                       <b>Para aumentar la seguridad puedes integrar:</b>
                       <br />
                       <br />
@@ -186,9 +185,9 @@ const TrabajoRemoto = () => {
                 </div>
               </div>
               <div className="col-md-6 col-12 d-flex flex-wrap justify-content-center">
-                <div className="card card-celeste">
+                <div className={`card ${styles.card_celeste}`}>
                   <div className="card-body">
-                    <p className="fs-5">
+                    <p className="fs-5 fw-normal">
                       <b>
                         Con licencia de Seguridad para RV340, convierte tu Home
                         Office en tu oficina móvil, preguntando por los Add-on
@@ -233,7 +232,7 @@ const RegresoSeguro = () => {
           <div className="px-5 py-4">
             <div className="row">
               <div className="col-12">
-                <p className="fs-5">
+                <p className="fs-5 fw-normal">
                   Cisco DNA Spaces es la plataforma de localización que nos
                   permite evolucionar las redes Wi-fi en poderosos sensores con
                   base en el comportamiento de las personas y dispositivos
@@ -272,7 +271,7 @@ const MyPyme = () => {
             <div className="px-5 py-4">
               <div className="row">
                 <div className="col-12">
-                  <p className="fs-5">
+                  <p className="fs-5 fw-normal">
                     Cisco DNA Spaces es la plataforma de localización que nos
                     permite evolucionar las redes Wi-fi en poderosos sensores
                     con base en el comportamiento de las personas y dispositivos
@@ -286,7 +285,7 @@ const MyPyme = () => {
                 <button
                   data-bs-toggle="modal"
                   data-bs-target="#modal_mipyme"
-                  className={`${styles.boton_naranja} btn bg-orange fs-5`}
+                  className={`${styles.button_naranja} btn bg-orange fs-5`}
                 >
                   Conoce más
                 </button>
@@ -350,7 +349,7 @@ const WifiHogar = () => {
 
           <div className="card-body fondo-gradient shadow">
             <div className="px-5 py-4">
-              <p className="fs-5">
+              <p className="fs-5 fw-normal">
                 El paquete Hogar es la perfecta forma de comenzar con una red de
                 grado empresarial en tu hogar y gestionada desde la nube.
                 <br />
@@ -370,7 +369,7 @@ const WifiHogar = () => {
                 <button
                   data-bs-toggle="modal"
                   data-bs-target="#modal_wifihogar"
-                  className={`${styles.bg_violet} btn fs-5`}
+                  className={`${styles.button_pink} btn fs-5`}
                 >
                   Conoce más
                 </button>
@@ -428,15 +427,15 @@ const RedNubeHogar = () => {
           <h2>
             <b>Mi red en la nube Hogar</b>
           </h2>
-          <p className="fs-5">
+          <p className="fs-5 fw-normal">
             Aruba Instant On le ofrece una red cableada e inalámbrica de alto
             rendimiento, segura y con una fácil configuración, todo garantizado.
           </p>
-          <div className="row flex-column align-items-center borde-caja-bordo">
+          <div className={`row align-items-center ${styles.borde_caja_bordo}`}>
             <div className="col-auto fs-5">
               <b>Beneficios</b>
             </div>
-            <div className="col-auto">
+            <div className="col-auto fw-normal">
               •Simple de instalar
               <br />
               •Fácil de administrar e implementar
@@ -462,7 +461,7 @@ const WifiNegocios = () => {
 
           <div className="card-body fondo-gradient shadow">
             <div className="px-5 py-4">
-              <p className="fs-5">
+              <p className="fs-5 fw-normal">
                 Comienza tu negocio con la mejor red en la nube y centraliza los
                 procesos de gestión desde cualquier parte del mundo.
               </p>
@@ -470,7 +469,7 @@ const WifiNegocios = () => {
                 <button
                   data-bs-toggle="modal"
                   data-bs-target="#modal_WifiNegocios"
-                  className="bg-lightBlue btn fs-5"
+                  className={`${styles.button_lightBlue} btn fs-5`}
                 >
                   Conoce más
                 </button>
@@ -529,16 +528,16 @@ const RedNubeNegocios = () => {
             <h2>
               <b>Mi red en la nube Negocio</b>
             </h2>
-            <p className="fs-5">
+            <p className="fs-5 fw-normal">
               Aruba Central ofrece una red de grado enterprise centralizada en
               la nube, diseñada para simplificar la implementación,
               administración y optimización de WLAN, LAN, VPN y SD-WAN.
             </p>
-            <div className="row align-items-center borde-caja-azul">
+            <div className={`row align-items-center ${styles.borde_caja_azul}`}>
               <div className="col-4 fs-5">
                 <b>Beneficios</b>
               </div>
-              <div className="col">
+              <div className="col fw-normal">
                 <ul>
                   <li>Red robusta</li>
                   <li>Gestión unificada en la nube</li>
@@ -571,7 +570,7 @@ const WifiEnterprise = () => {
 
           <div className="card-body fondo-gradient shadow">
             <div className="px-5 py-4">
-              <p className="fs-5">
+              <p className="fs-5 fw-normal">
                 Aruba Central es una poderosa solución de administración de
                 redes basada en nube, que ofrece analíticos integrados para
                 obtener perspectivas de red y de negocios con las cuales se
@@ -581,7 +580,7 @@ const WifiEnterprise = () => {
                 <button
                   data-bs-toggle="modal"
                   data-bs-target="#modal_WifiEnterprise"
-                  className="bg-blue btn fs-5"
+                  className={`${styles.button_green} btn fs-5`}
                 >
                   Conoce más
                 </button>
@@ -639,15 +638,15 @@ const RedNubeHogarBlue = () => {
           <h2>
             <b>Mi red en la nube Hogar</b>
           </h2>
-          <p className="fs-5">
+          <p className="fs-5 fw-normal">
             Aruba Instant On le ofrece una red cableada e inalámbrica de alto
             rendimiento, segura y con una fácil configuración, todo garantizado.
           </p>
-          <div className="row align-items-center borde-caja-verde">
+          <div className={`row align-items-center ${styles.borde_caja_verde}`}>
             <div className="col-4 fs-5">
               <b>Beneficios</b>
             </div>
-            <div className="col">
+            <div className="col fw-normal">
               <ul>
                 <li>Red centralizada en la nube</li>
                 <li>Equipos de grado Enterprise</li>

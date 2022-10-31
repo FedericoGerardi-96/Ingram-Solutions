@@ -1,8 +1,9 @@
 .videocolab_banner_sec {
   background-image: url("../../public//images/video-colaboracion/banner-sec.jpg");
-  background-position: center;
+  background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
 }
 
 @media screen and (max-width: 992px){

@@ -77,15 +77,12 @@ const Videovigilancia = () => {
   };
   return (
     <>
-      <Hero
-        logo={logo_video}
-        backgroundUrl={banner_top}
-      >
-        <Herochildren/>
+      <Hero logo={logo_video} backgroundUrl={banner_top}>
+        <Herochildren />
       </Hero>
       <section id="videoVigilancia_bannerSec">
         <div className="container my-5">
-          <div className="row bannerSec_videoVigilancia position-relative p-4">
+          <div className="row shadow-vd bannerSec_videoVigilancia position-relative p-4">
             <div
               style={{ zIndex: "99" }}
               className="videoVigilancia position-relative col-md-7 offset-md-5"
@@ -120,7 +117,7 @@ const Videovigilancia = () => {
                   style={{ color: "#24b115" }}
                   className="fs-5 text-center fw-bold"
                 >
-                  Resolución de dudas técnicas
+                  Video Vigilancia
                 </h2>
                 <p className="text-center">
                   Vigilancia visual diseñada para supervisar una diversidad de
@@ -141,7 +138,7 @@ const Videovigilancia = () => {
                   style={{ color: "#ff8303" }}
                   className="fs-5 text-center fw-bold"
                 >
-                  Dimensionamiento
+                  Control de Acceso
                 </h2>
                 <p className="text-center">
                   Verificación de la identidad de una persona para acceder a un
@@ -163,7 +160,7 @@ const Videovigilancia = () => {
                   style={{ color: "#06baec" }}
                   className="fs-5 text-center fw-bold"
                 >
-                  Arquitectura de Soluciones
+                  Detección de Intrusos
                 </h2>
                 <p className="text-center">
                   Detección de accesos no autorizados mediante dispositivos que

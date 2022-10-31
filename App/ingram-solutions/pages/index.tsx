@@ -48,7 +48,7 @@ const Home: NextPage = () => {
           <div className="row">
             <div className="col-lg-7 col-md-5 col-0"></div>
             <div className="col-lg-5 col-md-7 col-12 d-flex flex-column align-items-center justify-content-center">
-              <h1 className="specialist_solutions text-md-white position-relative display-6 fw-normal">
+              <h1 className="specialist_solutions text-center text-md-white position-relative display-6 fw-normal">
                 ¡Acércate a nuestros
                 <span className="specialist_orange fw-bold">
                   {" "}

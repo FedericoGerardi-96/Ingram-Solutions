@@ -29,6 +29,8 @@ import {
   sponsor_9,
   sponsor_10,
   sponsor_11,
+  sponsor_12,
+  sponsor_13,
   titulo_1,
   titulo_2,
   titulo_3,
@@ -45,6 +47,21 @@ import {
 } from "../../services/Image-Iot/Image";
 
 const Iot = () => {
+  const sponsorsList = [
+    sponsor_1,
+    sponsor_2,
+    sponsor_3,
+    sponsor_4,
+    sponsor_5,
+    sponsor_6,
+    sponsor_7,
+    sponsor_8,
+    sponsor_9,
+    sponsor_10,
+    sponsor_11,
+    sponsor_12,
+    sponsor_13,
+  ];
   const Herochildren = () => {
     return (
       <>
@@ -88,10 +105,10 @@ const Iot = () => {
         <div className="mt-5">
           <div className="iot_bubble_tittle">
             <h3 className="text-blue text-center fw-bold">
-              Contamos con tecnologías y soluciones como:{" "}
+              Conoce algunas de nuestras soluciones:
             </h3>
           </div>
-          <div className="iot_bubbles row justify-content-center align-items-center py-lg-0 py-4 px-2">
+          <div className="iot_bubbles row justify-content-center align-items-center py-lg-0 py-4 px-5">
             <div
               data-bs-toggle="modal"
               data-bs-target="#modal_1"
@@ -491,7 +508,7 @@ const Iot = () => {
                   <div className="px-5 py-4">
                     <div className="row">
                       <div className="col-lg-7 col-12">
-                        <p className="fs-5">
+                        <p className="fs-5 fw-normal">
                           <b>Producto. HMT-1 y HMT-1z1</b>
                           <br />
                           Dispositivo “wearable” que ayuda a la productividad de
@@ -516,7 +533,7 @@ const Iot = () => {
                   <div className="text-center mb-4 ">
                     <button className="btn boton-celeste fs-4">
                       <a
-                        className="text-decoration-none"
+                        className="text-decoration-none fw-bold"
                         href="https://images.LatAm.ingrammicro.com/Web/IngramMicroLATAM/{7716094e-bae9-4d41-bd20-2d4634dcde24}_RealWear_Solutions_Summary.pdf?elqTrackId=5d7d394b474d4bf59ad2da93ad045aeb&amp;elqaid=866&amp;elqat=2"
                         target="_blank"
                         rel="noreferrer"
@@ -540,7 +557,7 @@ const Iot = () => {
                   <div className="px-5 py-4">
                     <div className="row">
                       <div className="col-lg-7 col-12">
-                        <p className="fs-5">
+                        <p className="fs-5 fw-normal">
                           <b> Zipatile Zipatobox</b>
                           <br />
                           Productos para domótica que nos permiten la
@@ -581,7 +598,7 @@ const Iot = () => {
                   <div className="px-5 py-4">
                     <div className="row">
                       <div className="col-12">
-                        <p className="fs-5">
+                        <p className="fs-5 fw-normal">
                           Mediante la tecnología Wireless WAN de Cradlepoint y
                           conectividad vía redes celulares LTE y 5G es posible
                           brindar conectividad a internet una oficina remota,
@@ -619,7 +636,7 @@ const Iot = () => {
                   <div className="text-center mb-4 ">
                     <button className="btn boton-naranja fs-4">
                       <a
-                        className="text-decoration-none"
+                        className="text-decoration-none fw-bold"
                         href="https://images.LatAm.ingrammicro.com/Web/IngramMicroLATAM/{bcf3b4d8-324c-4e41-ba87-e5b0336b1160}_Why_Partner_with_Cradlepoint.pdf?elqTrackId=872b438c2395489281e6a33de6d08519&elqaid=866&elqat=2"
                         target="_blank"
                         rel="noreferrer"
@@ -643,7 +660,7 @@ const Iot = () => {
                   <div className="px-5 py-4">
                     <div className="row">
                       <div className="col-lg-7 col-12">
-                        <p className="fs-5">
+                        <p className="fs-5 fw-normal">
                           <b> Tecnología RPA</b>
                           <br />
                           Es un concepto complementario a las soluciones de IoT
@@ -680,7 +697,7 @@ const Iot = () => {
                   <div className="px-5 py-4">
                     <div className="row">
                       <div className="col-lg-7 col-12">
-                        <p className="fs-5">
+                        <p className="fs-5 fw-normal">
                           Resuelve problemas operativos para hacer más
                           eficientes los procesos con la aplicación de
                           tecnología de punta, mediante monitoreo, transmisión y
@@ -707,7 +724,7 @@ const Iot = () => {
                   <div className="text-center mb-4 ">
                     <button className="btn boton-celeste fs-4">
                       <a
-                        className="text-decoration-none"
+                        className="text-decoration-none fw-bold"
                         href="https://images.LatAm.ingrammicro.com/Web/IngramMicroLATAM/{2b7b3176-b257-44d7-81c8-6f89e000327a}_Titan_Digital.pdf?elqTrackId=8d873c7ad9a547569f1174124d0c5d1c&elqaid=866&elqat=2"
                         target="_blank"
                         rel="noreferrer"
@@ -730,26 +747,33 @@ const Iot = () => {
                 <div className="card-body fondo-gradient shadow">
                   <div className="px-5 py-4">
                     <div className="row">
-                      <div className="col-lg-7 col-12">
-                        <p className="fs-5">
-                          <b>Producto. HMT-1 y HMT-1z1</b>
-                          <br />
-                          Dispositivo “wearable” que ayuda a la productividad de
-                          un trabajo colaborativo conectado y remoto para el
-                          trabajador de primera línea en ambientes industriales.
-                          Cuenta con una cámara, micrófonos y pantalla donde se
-                          muestra la información y aplicativos controlado con
-                          comandos de voz y 100% manos libres.
+                      <div className="col-12">
+                        <p className="fs-5 fw-normal">
+                          Las empresas tienen el reto de aprovechar los datos
+                          mejorar las gestiones y control de sus negocios
+                          sacando ventaja de los datos que se generan día a día
+                          par a brindar un mejor servicio a los clientes. El
+                          computo den el Borde o mejor conocido como Edge
+                          Computing, son microcentros de datos que permiten a
+                          las empresas: • Evitar la transmisión de datos
+                          directamente a los servidores centrales o nube privada
+                          del negocio. • Optimizar la transmisión cuando se
+                          produce desde el borde (EDGE) • Latencia reducida
+                          mediante el procesamiento en el perímetro • Operación
+                          continua durante interrupciones de la red o
+                          conectividad limitada • Adherirse a los requisitos
+                          regulatorios y de seguridad de la geografía y la
+                          industria mediante el almacenamiento y análisis de
+                          datos en el borde • Automatización de tareas
+                          repetitivas o altamente complejas no adecuadas para
+                          humanos. • Los clientes que buscan soluciones
+                          informáticas en el borde (EDGE) de sus redes que a
+                          menudo tienen que comprometen la infraestructura
+                          debido a que deben de utilizar equipos para el centro
+                          de datos que son demasiado grandes y requieren mucha
+                          energía, o equipos basados ​​en PC que no pueden
+                          ejecutar sus aplicaciones de nivel empresarial.
                         </p>
-                      </div>
-                      <div className="col-lg col-12">
-                        <Image
-                          src={imagen_card_1}
-                          width="450"
-                          objectFit="contain"
-                          className="img-fluid"
-                          alt="sponsor"
-                        />
                       </div>
                     </div>
                   </div>
@@ -757,7 +781,7 @@ const Iot = () => {
                     <button
                       data-bs-toggle="modal"
                       data-bs-target="#modal_8"
-                      className="btn boton-verde fs-4"
+                      className="btn boton-verde fw-bold fs-4"
                     >
                       Conoce más
                     </button>
@@ -890,86 +914,18 @@ const Iot = () => {
               <h3 className="text-blue fw-bold">Aliados de Negocio</h3>
             </div>
           </div>
-          <div className="row wrapper pb-5">
-            <div className="col-md-12 text-center">
+          <div className="d-flex flex-wrap align-items-center justify-content-center">
+            {sponsorsList.map((e, i) => (
               <Image
-                src={sponsor_1}
+                key={i}
+                src={e.src}
                 width="150"
-                height="150"
+                height="110"
                 objectFit="contain"
+                className="img-fluid p-3"
                 alt="sponsor"
               />
-              <Image
-                src={sponsor_2}
-                width="150"
-                height="150"
-                objectFit="contain"
-                alt="sponsor"
-              />
-              <Image
-                src={sponsor_3}
-                width="150"
-                height="150"
-                objectFit="contain"
-                alt="sponsor"
-              />
-              <Image
-                src={sponsor_4}
-                width="150"
-                height="150"
-                objectFit="contain"
-                alt="sponsor"
-              />
-              <Image
-                src={sponsor_5}
-                width="150"
-                height="150"
-                objectFit="contain"
-                alt="sponsor"
-              />
-              <Image
-                src={sponsor_6}
-                width="150"
-                height="150"
-                objectFit="contain"
-                alt="sponsor"
-              />
-              <Image
-                src={sponsor_7}
-                width="150"
-                height="150"
-                objectFit="contain"
-                alt="sponsor"
-              />
-              <Image
-                src={sponsor_8}
-                width="150"
-                height="150"
-                objectFit="contain"
-                alt="sponsor"
-              />
-              <Image
-                src={sponsor_9}
-                width="150"
-                height="150"
-                objectFit="contain"
-                alt="sponsor"
-              />
-              <Image
-                src={sponsor_10}
-                width="150"
-                height="150"
-                objectFit="contain"
-                alt="sponsor"
-              />
-              <Image
-                src={sponsor_11}
-                width="150"
-                height="150"
-                objectFit="contain"
-                alt="sponsor"
-              />
-            </div>
+            ))}
           </div>
         </div>
       </section>

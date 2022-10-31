@@ -3,6 +3,7 @@
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
 }
 
 .bubbles_Work {
@@ -13,9 +14,24 @@
   height: auto;
   margin-top: 10rem;
 }
-.bubble_work_Card{
+.bubble_work_Card {
   position: relative;
   top: -4.1rem;
+}
+.fondo_gradient {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 60%,
+    rgba(223, 235, 239, 1) 100%
+  );
+}
+.bg_verde_suave {
+  background: #eef9ed;
+}
+
+.total_balance{
+  color: #24b115 !important;
 }
 @media screen and (max-width: 992px) {
   .wfa_banner_sec {

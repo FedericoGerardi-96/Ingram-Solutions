@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Hero } from "../../components/Hero";
 import logodigitalsignage from "../../public/images/digitalsignage/logo-digitalsignage.png";
 import banner_top from "../../public/images/digitalsignage/banner-top.jpg";
-import { ButtonOrange } from "../../components/buttons/ButtonOrange";
+import { ButtonOrange, ButtonOrangeBlank } from "../../components/buttons/ButtonOrange";
 
 import tecno1 from "../../public/images/digitalsignage/tecno-1.png";
 import tecno2 from "../../public/images/digitalsignage/tecno-2.png";
@@ -40,7 +40,7 @@ const DigitalSignage = () => {
             interactividad, en diversos espacios físicos.
           </h5>
 
-          <ButtonOrange
+          <ButtonOrangeBlank
             text={"Conoce más"}
             href={
               "https://images.latam.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B140ab117-3ed7-4a8c-af25-2f4e570dfb34%7D_PDF_Digital_Signage-min.png?elqTrackId=f12defcb3cec45f58ac283add3dcfa66&elqaid=905&elqat=2"
@@ -167,30 +167,30 @@ const Title1 = () => {
                 <tbody>
                   <tr>
                     <th scope="row">LH55UDEBLBB/GO</th>
-                    <td className="text-start">
+                    <td className="text-start fw-normal">
                       Monitor profesional 55 pulgadas videowall bisel 3.5mm
                     </td>
-                    <td>$31,155.00</td>
+                    <td className="fw-normal">$31,155.00</td>
                   </tr>
                   <tr>
                     <th scope="row">SBB-SS08NL1/ZA</th>
-                    <td className="text-start">Player SBB samsung</td>
-                    <td>$4,010.00</td>
+                    <td className="text-start fw-normal">Player SBB samsung</td>
+                    <td className="fw-normal">$4,010.00</td>
                   </tr>
                   <tr>
                     <th scope="row">BW-MIP70PA</th>
-                    <td className="text-start">
+                    <td className="text-start fw-normal">
                       Licencia Magic Info (software de adminitración de
                       contenido)
                     </td>
-                    <td>$1,600.00</td>
+                    <td className="fw-normal">$1,600.00</td>
                   </tr>
                   <tr>
                     <th scope="row">461719</th>
-                    <td className="text-start">
+                    <td className="text-start fw-normal">
                       Soporte para videowall Manhattan
                     </td>
-                    <td>$4,699.00 </td>
+                    <td className="fw-normal">$4,699.00 </td>
                   </tr>
                 </tbody>
               </table>
@@ -229,26 +229,26 @@ const Title2 = () => {
                 <tbody>
                   <tr>
                     <th scope="row">960-001054</th>
-                    <td className="text-start">
+                    <td className="text-start fw-normal">
                       Sistema de videoconferencia modelo GROUP para salas de
                       hasta 14 personas,
                       <br /> escalable a 20 participantes
                     </td>
-                    <td>$32,000.00 </td>
+                    <td className="fw-normal">$32,000.00 </td>
                   </tr>
                   <tr>
                     <th scope="row">LH55WMRWBGCXZA</th>
-                    <td className="text-start">
+                    <td className="text-start fw-normal">
                       Samsung Flip 55 pulgadas, pizarron interactivo
                     </td>
-                    <td>$35,900.00</td>
+                    <td className="fw-normal">$35,900.00</td>
                   </tr>
                   <tr>
                     <th scope="row">STN-WM55RXZA</th>
-                    <td className="text-start">
+                    <td className="text-start fw-normal">
                       Base para Samsung flip 55 pulgadas
                     </td>
-                    <td> $10,500.00</td>
+                    <td className="fw-normal"> $10,500.00</td>
                   </tr>
                 </tbody>
               </table>
@@ -286,21 +286,21 @@ const Title3 = () => {
                 <tbody>
                   <tr>
                     <th scope="row">LH32QMREBGCXZA</th>
-                    <td className="text-start">
+                    <td className="text-start fw-normal">
                       Monitor profesional 24/7 samsung 32 pulgadas
                     </td>
-                    <td>$10,500.00</td>
+                    <td className="fw-normal">$10,500.00</td>
                   </tr>
                   <tr>
                     <th scope="row">PRO44AHDKIT</th>
-                    <td className="text-start text-wrap">
+                    <td className="text-start text-wrap fw-normal">
                       KIT DVR 4CH 2MP CAPACIDAD PARA 1DD (UP TO 8TB)
                       PENTAHIBRIDO
                       <br /> + 4 CAMARA AHD BALA 2MP 3.6MM IR 15M IP66 (PARA
                       INTERIOR O EXTERIOR) 4IN1 + 4 CABLES COAXIAL SIAMES DE 20M
                       PRE-ENSAMBLADOS + FUENTE DC 12V 5A + 1 PULPO DE 4 SALIDAS
                     </td>
-                    <td> $130.38 usd</td>
+                    <td className="fw-normal"> $130.38 usd</td>
                   </tr>
                 </tbody>
               </table>
@@ -339,15 +339,15 @@ const Title4 = () => {
                 <tbody>
                   <tr>
                     <th scope="row">LH55QMRTBGCXZA</th>
-                    <td className="text-start">
+                    <td className="text-start fw-normal">
                       Monitor interactivo Samsung 55 pulgadas
                     </td>
-                    <td>$48,500.00</td>
+                    <td className="fw-normal">$48,500.00</td>
                   </tr>
                   <tr>
                     <th scope="row">BW-MIP70PA</th>
-                    <td className="text-start">Samsung magic info</td>
-                    <td>$1,600.00</td>
+                    <td className="text-start fw-normal">Samsung magic info</td>
+                    <td className="fw-normal">$1,600.00</td>
                   </tr>
                 </tbody>
               </table>
@@ -362,7 +362,7 @@ const Title4 = () => {
 const SectionSponsor = () => {
   return (
     <section className="seccion-sponsor-iot">
-      <div className="container shadow bg-sponsor my-5">
+      <div className="my-5">
         <div className="row text-center py-4">
           <div className="col-md-12">
             <h3 className="text-blue fw-bold">Aliados de Negocio</h3>

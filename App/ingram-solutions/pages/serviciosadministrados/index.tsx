@@ -73,7 +73,7 @@ const index = () => {
           <ButtonOrange
             text={"Contáctanos"}
             href={
-              "https://outlook.live.com/mail/0/deeplink/compose?mailtouri=mailto%3Aserviciosprofesionales.mx%40ingrammicro.com"
+              "mailto:serviciosprofesionales.mx@ingrammicro.com"
             }
           />
         </div>
@@ -110,25 +110,20 @@ const Seccion2 = () => {
     <section id="networking">
       <div className="container my-5">
         <div
-          className={`${styles.servicios_banner_sec} py-4 position-relative justify-content-center`}
+          className={`${styles.servicios_banner_sec} py-4 position-relative justify-content-center p-5`}
         >
           <div className="row">
-            <div className="col-0 col-lg-7"></div>
             <div
               style={{ zIndex: "99" }}
-              className="training col-12 col-lg-5 d-flex flex-column align-items-lg-start align-items-center justify-content-lg-start justify-content-center"
+              className="training col-12 col-lg-7 offset-lg-5 d-flex flex-column align-items-lg-start align-items-center justify-content-lg-start justify-content-center"
             >
               <p
-                className={`${styles.text_bannersec} text-bold fs-6 fw-bold text-lg-white`}
+                className={`${styles.text_bannersec} text-bold fs-5 fw-bold text-lg-white`}
               >
-                Para responder a los nuevos retos de la conectividad,
-                especialmente ante el crecimiento del home office, tras la
-                pandemia de Covid-19, Ingram Micro ofrece a las empresas un
-                amplio portafolio de soluciones de Networking como redes
-                inalámbricas y cableadas, junto con un completo portafolio de
-                software para tener una visibilidad completa de la red,
-                simplificar sus redes, de sucursal o de acceso por cable o
-                inalámbrico, con la capacidad de ser gestionadas desde la nube.
+                Conocidos como Managed Services, los servicios administrados son
+                soluciones personalizadas, que se encargan de gestionar sistemas
+                y funciones de TI de tus clientes, permitiendo de esta forma
+                reducir los gastos operativos.
               </p>
             </div>
           </div>
@@ -289,7 +284,7 @@ const Title1 = () => {
         />
         <div className="card-body fondo-gradient shadow">
           <div className="px-5 py-4">
-            <p className="fs-4">
+            <p className="fs-4 fw-normal">
               Se le denomina Network as a Service (NaaS) al despliegue,
               administración y consumo de los recursos de una red bajo demanda
               que forma parte de los servicios de networking alojados en la
@@ -301,7 +296,7 @@ const Title1 = () => {
               <br />
               <br />
             </p>
-            <p className="fs-4">
+            <p className="fs-4 fw-normal">
               <b> Beneficios:</b>
               <br />
               •Pago de una suscripción mensual por el servicio entregado
@@ -335,7 +330,7 @@ const Title1 = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="btn boton-celeste fs-4">
+              <button className={`btn ${styles.boton_celeste_sa} fw-bold fs-4`}>
                 Descargar Ingram Handbook
               </button>
             </a>
@@ -366,7 +361,7 @@ const Title2 = () => {
               />
             </div>
             <div className="col-sm-8">
-              <p className="fs-4">
+              <p className="fs-4 fw-normal">
                 <b>CyberEye</b>
                 <br />
                 Es un soporte que Ingram Micro provee para ayudar con las
@@ -385,7 +380,7 @@ const Title2 = () => {
 
           <div className="row ms-5 py-4 align-items-center">
             <div className="col-sm-7">
-              <p className="fs-4">
+              <p className="fs-4 fw-normal">
                 <b> ¿Cómo funciona? </b>
                 <br />
                 Por medio de un Centro de Operaciones de Seguridad (SOC) que
@@ -416,7 +411,7 @@ const Title2 = () => {
               />
             </div>
             <div className="col-sm-7">
-              <p className="fs-4">
+              <p className="fs-4 fw-normal">
                 <b>¿Qué es un SOC?</b> <br />
                 Un Centro de Operaciones de Seguridad (SOC) es una plataforma
                 que permite la supervisión y administración de la seguridad de
@@ -440,7 +435,7 @@ const Title2 = () => {
                 />
               </div>
               <div className="col-sm-6">
-                <p className="fs-4">
+                <p className="fs-4 fw-normal">
                   <b>Nuestro SOC</b> está Certificado con <b>ISO 27001</b> para
                   poder brindarte un servicio especializado de ciberseguridad y
                   la mejor calidad con <b>soporte 24/7</b>.

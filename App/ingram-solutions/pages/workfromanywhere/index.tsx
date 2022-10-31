@@ -82,7 +82,7 @@ const Waf = () => {
       <PrincipalesBeneficiosBurbujas />
 
       <section className="d-flex flex-column  align-items-center">
-        <h3 className="text-blue fw-bold">Una Solución a tu medida</h3>
+        <h3 className="text-blue fw-bold mt-5">Una Solución a tu medida</h3>
         <div className="container my-5 d-grid gap-5 ">
           {/* titles */}
 
@@ -143,16 +143,15 @@ const SectionBannerContact = () => {
     <section id="section_banner_contact">
       <article className="container my-5">
         <div
-          className={`${styles.wfa_banner_sec} py-4 position-relative justify-content-center`}
+          className={`${styles.wfa_banner_sec} py-4 position-relative justify-content-center p-5`}
         >
           <div className="row">
-            <div className="col-0 col-lg-7"></div>
             <div
               style={{ zIndex: "99" }}
-              className="training col-12 col-lg-5 d-flex flex-column align-items-lg-start align-items-center justify-content-lg-start justify-content-center"
+              className="training col-12 offset-lg-5 col-lg-7 d-flex flex-column align-items-lg-start align-items-center justify-content-lg-start justify-content-center p-2"
             >
               <p
-                className={`${styles.text_bannersec} fw-bold text-bold text-lg-white`}
+                className={`fs-5 fw-bold text-bold text-lg-white`}
               >
                 El futuro laboral, tras la pandemia de Covid-19, contempla un
                 mayor número de personas trabajando desde casa y en esquemas
@@ -184,50 +183,69 @@ const SectionBannerContact = () => {
 const SolutionsRows = () => {
   return (
     <>
-      <div className="row text-center">
+      <div className="row text-center mb-4">
         <div className="col-md-3 mb-4">
           <Image
             src={solution1}
-            className="mb-4 img-fluid"
+            className="img-fluid"
+            object-fit="contain"
             alt="equipo de computo"
           />
         </div>
         <div className="col-md-3 mb-4">
           <Image
             src={solution2}
-            className="mb-4 img-fluid"
+            className="img-fluid"
+            object-fit="contain"
             alt="firma electronica"
           />
         </div>
         <div className="col-md-3 mb-4">
           <Image
             src={solution3}
-            className="mb-4 img-fluid"
+            className="img-fluid"
+            object-fit="contain"
             alt="almacenamiento"
           />
         </div>
         <div className="col-md-3 mb-4">
           <Image
             src={solution4}
-            className="mb-4 img-fluid"
+            className="img-fluid"
+            object-fit="contain"
             alt="colaboracion"
           />
         </div>
       </div>
       <div className="row text-center">
         <div className="col-md-3 mb-4">
-          <Image src={solution5} className="mb-4 img-fluid" alt="seguridad" />
+          <Image
+            src={solution5}
+            object-fit="contain"
+            className="img-fluid"
+            alt="seguridad"
+          />
         </div>
         <div className="col-md-3 mb-4">
-          <Image src={solution6} className="mb-4 img-fluid" alt="identity" />
+          <Image
+            src={solution6}
+            object-fit="contain"
+            className="img-fluid"
+            alt="identity"
+          />
         </div>
         <div className="col-md-3 mb-4">
-          <Image src={solution7} className="mb-4 img-fluid" alt="protect" />
+          <Image
+            src={solution7}
+            object-fit="contain"
+            className="img-fluid"
+            alt="protect"
+          />
         </div>
         <div className="col-md-3 mb-4">
           <Image
             src={solution8}
-            className="mb-4 img-fluid"
+            className="img-fluid"
             alt="gestion de dispositivos moviles basados en la nube"
           />
         </div>
@@ -308,8 +326,8 @@ const PrincipalesBeneficiosBurbujas = () => {
         </div>
       </div>
       <div className="text-center mb-4 mt-5">
-        <a href="mailto:wfa.mx@ingrammicro.com">
-          <button className="btn boton-naranja fs-4">Contáctanos</button>
+        <a className="text-decoration-none " href="mailto:wfa.mx@ingrammicro.com">
+          <button className="btn button-orange fw-bold fs-4">Contáctanos</button>
         </a>
       </div>
     </article>
@@ -449,8 +467,8 @@ const Title1 = () => {
                 <tbody>
                   <tr>
                     <th scope="row">SKU A490074</th>
-                    <td className="text-start">VPN 20RV002CLM</td>
-                    <td className="text-start">
+                    <td className="text-start fw-normal">VPN 20RV002CLM</td>
+                    <td className="text-start fw-normal">
                       Thinkbook 14-IML CI7 10510U 16GB 512GB SSD M.2 1WY W10P
                       Ideal para pequeñas y medianas empresas, que te permite
                       trabajar desde cualquier lugar – incluye Kasperky Endpoint
@@ -459,8 +477,8 @@ const Title1 = () => {
                   </tr>
                   <tr>
                     <th scope="row">SKU A490075</th>
-                    <td className="text-start">VPN 20VJS02400</td>
-                    <td className="text-start">
+                    <td className="text-start fw-normal">VPN 20VJS02400</td>
+                    <td className="text-start fw-normal">
                       Thinkpad L13 13” HD CORE I5_113 5G7 8GB 256GB M.2 2280
                       W10P 1YW Alto rendimiento a un precio accesible gracias a
                       su procesador Intel Core de 11va generación, incluye
@@ -469,8 +487,8 @@ const Title1 = () => {
                   </tr>
                   <tr>
                     <th scope="row">SKU A490076</th>
-                    <td className="text-start">VPN 20VJS02C00</td>
-                    <td className="text-start">
+                    <td className="text-start fw-normal">VPN 20VJS02C00</td>
+                    <td className="text-start fw-normal">
                       Thinkpad L13 13” HD CORE I7_116 5G7 8GB 256GB M.2 2280
                       W10P 1YW El equipo ideal para trabajar desde cualquier
                       lugar, incluye Kasperky Endpoint Security por un año.
@@ -499,7 +517,7 @@ const Title2 = () => {
           />
           <div className="card-body fondo-gradient shadow">
             <div className="px-5 py-4">
-              <p className="fs-5">
+              <p className="fs-5 fw-normal">
                 <b>a) Solución: Adobe Sign</b>
                 <br />
                 Es un servicio para firmar electrónicamente, basado en la nube,
@@ -518,7 +536,7 @@ const Title2 = () => {
                 <button
                   data-bs-toggle="modal"
                   data-bs-target="#modal_firma"
-                  className={`${styles.boton_naranja} btn bg-orange fs-5`}
+                  className={`button-orange fw-bold btn bg-orange fs-5`}
                 >
                   Conoce más
                 </button>
@@ -580,7 +598,7 @@ const Title3 = () => {
         />
         <div className="card-body fondo-gradient shadow">
           <div className="px-5 py-4">
-            <p className="fs-5">
+            <p className="fs-5 fw-normal">
               <b>Solución Dropbox Business</b>
               <br />
               Ofrece potentes herramientas de almacenamiento, uso compartido y
@@ -607,7 +625,7 @@ const Title4 = () => {
         />
         <div className="card-body fondo-gradient shadow">
           <div className="px-5 py-4">
-            <p className="fs-5">
+            <p className="fs-5 fw-normal">
               <b>LastPass</b> <br />
               Es un gestor de contraseñas seguro que almacena todos sus nombres
               de usuario y contraseñas en un lugar seguro al que denominamos
@@ -634,12 +652,12 @@ const Title5 = () => {
         <div className="card-body fondo-gradient shadow">
           <div className="px-5 py-4 fs-5">
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-md-6 fw-normal">
                 <b> a) Mobility Management </b>
                 <br />
                 Cisco DUO (Secure Access) Meraki Systems Manager
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 fw-normal">
                 <b>b) Vulnerability management and analytics</b>
                 <br />
                 Cisco Umbrella
@@ -663,7 +681,7 @@ const Title6 = () => {
         />
         <div className="card-body fondo-gradient shadow">
           <div className="px-5 py-4">
-            <p className="fs-5">
+            <p className="fs-5 fw-normal">
               <b>a) Umbrella</b> prevención de phishing, malware &amp; ataques
               de ransomware. <br />
               <b>b) Secure Endpoints</b> AMP Secure end point. <br />
@@ -693,7 +711,7 @@ const Title7 = () => {
           />
           <div className="card-body fondo-gradient shadow">
             <div className="px-5 py-4">
-              <p className="fs-5">
+              <p className="fs-5 fw-normal">
                 Es una solución de video colaboración que permite que todos sean
                 vistos, escuchados y participen plenamente desde cualquier
                 lugar. Asegura y amplía tus salas de reuniones sin esfuerzo con
@@ -704,7 +722,7 @@ const Title7 = () => {
                 <button
                   data-bs-toggle="modal"
                   data-bs-target="#modal_colab"
-                  className={`${styles.boton_naranja} btn bg-orange fs-5`}
+                  className={`button-orange fw-bold btn bg-orange fs-5`}
                 >
                   Conoce más
                 </button>
@@ -765,7 +783,7 @@ const Title8 = () => {
           alt="sponsor"
         />
         <div className="card-body fondo-gradient shadow">
-          <div className="row bg-verde-suave mb-3">
+          <div className={`row ${styles.bg_verde_suave} mb-3`}>
             <div className="px-5 py-3 ">
               <div className="table-responsive ">
                 <table className="table table-borderless align-middle ">
@@ -784,18 +802,18 @@ const Title8 = () => {
                   <tbody>
                     <tr>
                       <th scope="row">91400XO</th>
-                      <td className="text-start">939-001796</td>
-                      <td rowSpan={2}>
+                      <td className="text-start fw-normal">939-001796</td>
+                      <td className="fw-normal" rowSpan="2">
                         Logitech TAP para Zoom Room con Lenovo Tiny M920Q
                         <br /> INTELCI7-9700T 8GB 128GB SSD W10 IOT 3YR PREMIER
                       </td>
-                      <td rowSpan={2} className="verde fs-5 fw-bold">
+                      <td rowSpan="2" className={`${styles.total_balance} fs-5 fw-bold`}>
                         $41,698.00{" "}
                       </td>
                     </tr>
                     <tr>
                       <th scope="row">942029H</th>
-                      <td className="text-start">10T10006LS</td>
+                      <td className="text-start fw-normal">10T10006LS</td>
                     </tr>
                   </tbody>
                 </table>
@@ -803,7 +821,7 @@ const Title8 = () => {
             </div>
           </div>
 
-          <div className="row bg-verde-suave mb-3">
+          <div className={`row ${styles.bg_verde_suave} mb-3`}>
             <div className="px-5 py-3 ">
               <div className="table-responsive ">
                 <table className="table table-borderless align-middle ">
@@ -822,19 +840,19 @@ const Title8 = () => {
                   <tbody>
                     <tr>
                       <th scope="row">942028E</th>
-                      <td className="text-start">10V50002LS</td>
-                      <td rowSpan={2}>
+                      <td className="text-start fw-normal">10V50002LS</td>
+                      <td className="fw-normal" rowSpan="2">
                         Solución para sala Lenovo ThinkSmart Hub 500
                         <br /> I5-4GB-128G, Windows 10 LOT enterprise 3WY y
                         cámara 4K brio Logitech
                       </td>
-                      <td rowSpan={2} className="verde fs-5 fw-bold">
+                      <td rowSpan="2" className={`${styles.total_balance} fs-5 fw-bold`}>
                         $35,423.60
                       </td>
                     </tr>
                     <tr>
                       <th scope="row">91400LT</th>
-                      <td className="text-start">960-001105</td>
+                      <td className="text-start fw-normal">960-001105</td>
                     </tr>
                   </tbody>
                 </table>
@@ -842,7 +860,7 @@ const Title8 = () => {
             </div>
           </div>
 
-          <div className="row bg-verde-suave mb-3">
+          <div className={`row ${styles.bg_verde_suave} mb-3`}>
             <div className="px-5 py-3 ">
               <div className="table-responsive ">
                 <table className="table table-borderless align-middle ">
@@ -861,20 +879,20 @@ const Title8 = () => {
                   <tbody>
                     <tr>
                       <th scope="row">942028E</th>
-                      <td className="text-start">10V50002LS</td>
-                      <td rowSpan={2} className="text-break">
+                      <td className="text-start fw-normal">10V50002LS</td>
+                      <td rowSpan={"2"} className="text-break fw-normal">
                         Solución para sala de 10 personas con Lenovo ThinkSmart
                         Hub 500 I5-4GB-128G, Windows 10 LOT enterprise 3WY y
                         Logitech Rally Solution 1 cámara 4K, 1 bocina, 1
                         micrófono y 2 hubs de conexión.
                       </td>
-                      <td rowSpan={2} className="verde fs-5 fw-bold">
+                      <td rowSpan="2" className={`${styles.total_balance} fs-5 fw-bold`}>
                         $68,763.60
                       </td>
                     </tr>
                     <tr>
                       <th scope="row">91400V7</th>
-                      <td className="text-start">960-001217</td>
+                      <td className="text-start fw-normal">960-001217</td>
                     </tr>
                   </tbody>
                 </table>
@@ -882,7 +900,7 @@ const Title8 = () => {
             </div>
           </div>
 
-          <div className="row bg-verde-suave ">
+          <div className={`row ${styles.bg_verde_suave}`}>
             <div className="px-5 py-3 ">
               <div className="table-responsive ">
                 <table className="table table-borderless align-middle ">
@@ -901,14 +919,14 @@ const Title8 = () => {
                   <tbody>
                     <tr>
                       <th scope="row">942028E</th>
-                      <td className="text-start">10V50002LS</td>
-                      <td rowSpan={2} className="text-break">
+                      <td className="text-start fw-normal">10V50002LS</td>
+                      <td rowSpan="2" className="text-break fw-normal">
                         Solución para sala de 16 personas con Lenovo ThinkSmart
                         Hub 500 I5-4GB-128G, Windows 10 LOT enterprise 3WY y
                         Logitech Rally Solution 1 cámara 4K, 2 bocinas, 2
                         micrófono y 2 hubs de conexión.
                       </td>
-                      <td rowSpan={2} className="verde fs-5 fw-bold">
+                      <td rowSpan="2" className={`${styles.total_balance} fs-5 fw-bold`}>
                         $79,755.60
                       </td>
                     </tr>
@@ -934,9 +952,9 @@ const Title9 = () => {
             className="img-fluid"
             alt="sponsor"
           />
-          <div className="card-body fondo-gradient shadow">
+          <div className={`card-body ${styles.fondo_gradient} shadow`}>
             <div className="px-5 py-4">
-              <p className="fs-5 text-center">
+              <p className="fs-5 text-center fw-normal">
                 <b>Cisco Secure Workforce Basic</b> <br />
                 <br />
                 <b>Solución:</b> Umbrella Essential -&gt; 10 Licencias + DUO
@@ -946,7 +964,7 @@ const Title9 = () => {
                 <button
                   data-bs-toggle="modal"
                   data-bs-target="#modal_identify"
-                  className={`${styles.boton_naranja} btn bg-orange fs-5`}
+                  className={`button-blue fw-bold btn bg-orange fs-5`}
                 >
                   Conoce más
                 </button>
@@ -1017,7 +1035,7 @@ const Title10 = () => {
               <br />
               <br />
             </p>
-            <p className="fs-5">
+            <p className="fs-5 fw-normal">
               Protege hasta 50 usuarios <br />
               Aprovisiona, monitorea y asegura de forma centralizada todos los
               dispositivos móviles dentro de tu organización, mientras tu red se
@@ -1044,7 +1062,7 @@ const Title11 = () => {
           />
           <div className="card-body fondo-gradient shadow">
             <div className="px-5 py-4">
-              <p className="fs-5 text-center">
+              <p className="fs-5 text-center fw-normal">
                 <b>Cisco Secure remote Workforce Office 365 </b> <br />
                 <br />
                 <b>Solución:</b> Umbrella Advantage -Cloud Mail Defense (Office
@@ -1056,7 +1074,7 @@ const Title11 = () => {
                 <button
                   data-bs-toggle="modal"
                   data-bs-target="#modal_protect1"
-                  className={`${styles.boton_naranja} btn bg-orange fs-5`}
+                  className={`button-lightblue fw-bold btn bg-orange fs-5`}
                 >
                   Conoce más
                 </button>
@@ -1118,7 +1136,7 @@ const Title12 = () => {
           />
           <div className="card-body fondo-gradient shadow">
             <div className="px-5 py-4">
-              <p className="fs-5 text-center">
+              <p className="fs-5 text-center fw-normal">
                 <b>Cisco Secure Workforce Perimetral</b> <br />
                 <br />
                 <b>Solución:</b> FPR 1120/MX + Umbrella Advantage + Cloud Mail
@@ -1130,7 +1148,7 @@ const Title12 = () => {
                 <button
                   data-bs-toggle="modal"
                   data-bs-target="#modal_protect2"
-                  className={`${styles.boton_naranja} btn bg-orange fs-5`}
+                  className={`button-orange fw-bold btn bg-orange fs-5`}
                 >
                   Conoce más
                 </button>
@@ -1179,7 +1197,6 @@ const Title12 = () => {
     </>
   );
 };
-
 //
 const Title13 = () => {
   return (
@@ -1196,7 +1213,7 @@ const Title13 = () => {
             <b>Soluciones para salas de video colaboración</b> <br />
             <br />
           </p>
-          <div className="row bg-verde-suave mb-3">
+          <div className={`row ${styles.bg_verde_suave} mb-3`}>
             <div className="px-5 py-3 ">
               <div className="table-responsive ">
                 <table className="table table-borderless align-middle ">
@@ -1212,8 +1229,8 @@ const Title13 = () => {
                   <tbody>
                     <tr>
                       <th scope="row">A5200QJ</th>
-                      <td className="text-start">MYFM2LZ/A</td>
-                      <td rowSpan={2}>
+                      <td className="text-start fw-normal">MYFM2LZ/A</td>
+                      <td className="fw-normal" rowSpan={2}>
                         iPad Air Wi‑Fi de 10,9 pulgadas 4a Generación y 64 GB -
                         Gris espacial
                       </td>
@@ -1241,7 +1258,7 @@ const Title14 = () => {
         />
         <div className="card-body fondo-gradient shadow">
           <div className="px-5 py-4">
-            <p className="fs-5">
+            <p className="fs-5 fw-normal">
               Jamf es la única solución escalable de administración empresarial
               de Apple que conecta, administra y protege a distancia a los
               usuarios, servicios y dispositivos Apple. Conecta usuarios,
@@ -1273,7 +1290,7 @@ const Title15 = () => {
               <br />
               <br />
             </p>
-            <p className="fs-5">
+            <p className="fs-5 fw-normal">
               Comunicaciones Unificadas con un sistema telefónico PBX que
               combina equipos físicos PBX tradicionales y el servicio
               correspondiente en una solución alojada. Esta solución ofrece las
@@ -1306,7 +1323,7 @@ const Title16 = () => {
               <b>Cisco Secure remote Workforce Office 365 </b> <br />
               <br />
             </p>
-            <p className="fs-5">
+            <p className="fs-5 fw-normal">
               Tome las riendas de su infraestructura de TI con las potentes
               prestaciones de Central, que ponen en sus manos un mejor control,
               mayor productividad y un ahorro de tiempo y recursos, gracias a la
@@ -1334,7 +1351,7 @@ const Title17 = () => {
         />
         <div className="card-body fondo-gradient shadow">
           <div className="px-5 py-4">
-            <p className="fs-5">
+            <p className="fs-5 fw-normal">
               Tome las riendas de su infraestructura de TI con las potentes
               prestaciones de Central, que ponen en sus manos un mejor control,
               mayor productividad y un ahorro de tiempo y recursos, gracias a la

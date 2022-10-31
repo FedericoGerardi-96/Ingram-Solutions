@@ -3,6 +3,7 @@
   background-repeat: no-repeat;
   /* background-position: center; */
   background-size: cover;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
 .text_bannersec {
@@ -49,14 +50,24 @@
   box-shadow: 0 -10px 20px 1px rgba(0, 0, 0, 0.2);
   height: auto;
 }
-.bubbles_SerAdm_2{
+.bubbles_SerAdm_2 {
   margin-top: 8rem;
+}
+.boton_celeste_sa{
+  background: transparent !important;
+  border: 2px solid #0d6efd !important;
+  color: #212529;
+}
+.boton_celeste_sa:hover{
+  background: #0d6efd !important;
+  border: 2px solid #000 !important;
+  color: #fff !important;
 }
 @media screen and (max-width: 768px) {
   .button_contact {
     margin-bottom: 20px;
   }
-  .bubbles_SerAdm_2{
+  .bubbles_SerAdm_2 {
     margin-top: 4rem;
     margin-bottom: 4rem;
   }

@@ -105,7 +105,7 @@ const Solution_Center = () => {
                   socios de negocio, donde a través de nuestros ingenieros
                   especializados podrás contar con:
                 </p>
-                <ul>
+                <ul className="p-0">
                   <li className="list-group-item text-md-white fw-bold fs-6">
                     •Demostraciones en vivo
                   </li>
@@ -117,7 +117,7 @@ const Solution_Center = () => {
                   </li>
                 </ul>
                 <ButtonOrange
-                  href="mailto:serviciosprofesionales.mx@ingrammicro.com"
+                  href="mailto:coe.latam@ingrammicro.com"
                   text="Contáctanos"
                 />
               </div>
