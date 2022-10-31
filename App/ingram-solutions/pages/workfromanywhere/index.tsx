@@ -803,11 +803,11 @@ const Title8 = () => {
                     <tr>
                       <th scope="row">91400XO</th>
                       <td className="text-start fw-normal">939-001796</td>
-                      <td className="fw-normal" rowSpan="2">
+                      <td className="fw-normal" rowSpan={2}>
                         Logitech TAP para Zoom Room con Lenovo Tiny M920Q
                         <br /> INTELCI7-9700T 8GB 128GB SSD W10 IOT 3YR PREMIER
                       </td>
-                      <td rowSpan="2" className={`${styles.total_balance} fs-5 fw-bold`}>
+                      <td rowSpan={2} className={`${styles.total_balance} fs-5 fw-bold`}>
                         $41,698.00{" "}
                       </td>
                     </tr>
@@ -841,12 +841,12 @@ const Title8 = () => {
                     <tr>
                       <th scope="row">942028E</th>
                       <td className="text-start fw-normal">10V50002LS</td>
-                      <td className="fw-normal" rowSpan="2">
+                      <td className="fw-normal" rowSpan={2}>
                         Solución para sala Lenovo ThinkSmart Hub 500
                         <br /> I5-4GB-128G, Windows 10 LOT enterprise 3WY y
                         cámara 4K brio Logitech
                       </td>
-                      <td rowSpan="2" className={`${styles.total_balance} fs-5 fw-bold`}>
+                      <td rowSpan={2} className={`${styles.total_balance} fs-5 fw-bold`}>
                         $35,423.60
                       </td>
                     </tr>
@@ -880,13 +880,13 @@ const Title8 = () => {
                     <tr>
                       <th scope="row">942028E</th>
                       <td className="text-start fw-normal">10V50002LS</td>
-                      <td rowSpan={"2"} className="text-break fw-normal">
+                      <td rowSpan={2} className="text-break fw-normal">
                         Solución para sala de 10 personas con Lenovo ThinkSmart
                         Hub 500 I5-4GB-128G, Windows 10 LOT enterprise 3WY y
                         Logitech Rally Solution 1 cámara 4K, 1 bocina, 1
                         micrófono y 2 hubs de conexión.
                       </td>
-                      <td rowSpan="2" className={`${styles.total_balance} fs-5 fw-bold`}>
+                      <td rowSpan={2} className={`${styles.total_balance} fs-5 fw-bold`}>
                         $68,763.60
                       </td>
                     </tr>
@@ -920,13 +920,13 @@ const Title8 = () => {
                     <tr>
                       <th scope="row">942028E</th>
                       <td className="text-start fw-normal">10V50002LS</td>
-                      <td rowSpan="2" className="text-break fw-normal">
+                      <td rowSpan={2} className="text-break fw-normal">
                         Solución para sala de 16 personas con Lenovo ThinkSmart
                         Hub 500 I5-4GB-128G, Windows 10 LOT enterprise 3WY y
                         Logitech Rally Solution 1 cámara 4K, 2 bocinas, 2
                         micrófono y 2 hubs de conexión.
                       </td>
-                      <td rowSpan="2" className={`${styles.total_balance} fs-5 fw-bold`}>
+                      <td rowSpan={2} className={`${styles.total_balance} fs-5 fw-bold`}>
                         $79,755.60
                       </td>
                     </tr>
