@@ -4,11 +4,11 @@ import { logo_ingram_new } from "../../services/Image-Home/Image";
 export const Footer = () => {
   return (
     <footer>
-      <div className="footer_tecnology py-3 px-5 mt-5">
-        <div className="container">
+      <div className="footer_tecnology py-3 mt-5">
+        <div className="container-fluid">
           <div className="row justify-content-center align-items-center">
-            <div className="col-md-8 col-12">
-              <h1 className="display-5 text-light text-center">
+            <div className="col">
+              <h1 className="display-6 text-light text-center">
                 Cumpliendo con la promesa Tecnológica™
               </h1>
             </div>

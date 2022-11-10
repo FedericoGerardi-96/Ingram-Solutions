@@ -7,7 +7,7 @@
 @import "./financiamiento/financiamiento.css";
 @import "./SolutionCenter/SolutionCenter.css";
 @import "./Iot/Iot.css";
-@import "./serviciosProfecionales/serviciosProfecionales.css";
+@import "./serviciosProfesionales/serviciosProfesionales.css";
 @import "./nube/nube.css";
 @import "./videovigilancia/videovigilancia.css";
 @import "./ciberseguridad/ciberseguridad.css";
@@ -42,6 +42,10 @@ body {
   font-size: 30px;
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
+}
+
+.mi-flotante {
+  margin-top: 13px;
 }
 
 .text-blue {

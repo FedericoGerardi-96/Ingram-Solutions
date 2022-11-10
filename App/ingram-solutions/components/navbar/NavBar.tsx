@@ -76,7 +76,7 @@ export const NavBar = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/serviciosProfecionales">
+                    <Link href="/serviciosProfesionales">
                       <a className="dropdown-item">Servicios Profesionales</a>
                     </Link>
                   </li>
